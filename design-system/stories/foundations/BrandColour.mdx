@@ -1,0 +1,53 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { BrandHero, Ramp, SemanticTable, BrandInUse } from '../components/Tokens.jsx';
+
+<Meta title="Foundations/Colours/Brand colour" />
+
+# Brand colour
+
+Brand blue carries every primary action in the product: main buttons, links, selected states and the focus ring. It comes from `color/blue/600` in Figma.
+
+<BrandHero />
+
+## The blue ramp
+
+Brand sits at step 600. Hover and pressed states step down the ramp to 700 and 800. Soft surfaces use 100 and 200.
+
+<Ramp name="blue" highlight="600" />
+
+## Brand tokens to use in code
+
+Components never use `--color-blue-600` directly. They use the semantic tokens below, so if the brand blue changes in Figma, every component follows without edits.
+
+<SemanticTable match={/brand/} showContrast />
+
+`--focus-ring` also points at brand blue:
+
+<SemanticTable match={/^focus-ring$/} />
+
+## In use
+
+These samples are built only from the tokens above. Hover, click and focus to see each state.
+
+<BrandInUse />
+
+```css
+.button-primary {
+  background: var(--bg-brand);
+  color: var(--text-on-brand);
+}
+.button-primary:hover  { background: var(--bg-brand-hover); }
+.button-primary:active { background: var(--bg-brand-pressed); }
+.button-primary:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+```
+
+## Do and don't
+
+| Do | Don't |
+|---|---|
+| Use `--bg-brand` for the single most important action in a view | Put two brand-filled buttons side by side |
+| Use `--text-brand` for links and inline actions | Use brand blue for decorative text or headings |
+| Use `--bg-brand-soft` for secondary emphasis | Type a hex like `#014DC5` into a component |

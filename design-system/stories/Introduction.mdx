@@ -1,0 +1,54 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Introduction" />
+
+# Scalenut Design System
+
+This is the coded version of the Scalenut design system in Figma. Every colour, and in time every component, is written as CSS that any project can use. This site is generated from that same code, so what you see here is what ships.
+
+## Use it in a project
+
+Add one line to your HTML:
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Letsdesign04/AB_Experiment-@main/design-system/dist/css/colors.css" />
+```
+
+Then style with the tokens:
+
+```css
+.card {
+  background: var(--bg-primary);
+  border: 1px solid var(--border-default);
+  color: var(--text-primary);
+}
+```
+
+## The rules
+
+1. **Only use semantic tokens in components:** `--text-*`, `--bg-*`, `--border-*`, `--icon-*`, `--focus-*`, `--chart-*`.
+2. **Never type a hex value or use `--color-*` primitives** in component CSS.
+3. **If no token fits, don't invent one in code.** Add it in Figma, then sync.
+
+The full rules for people and AI coding tools are in [`DESIGN.md`](https://github.com/Letsdesign04/AB_Experiment-/blob/main/design-system/DESIGN.md).
+
+## How a change gets here
+
+```
+Figma variables  →  tokens/figma-export/colors.json   (sync from Figma)
+                 →  tokens/color/*.json               (npm run tokens)
+                 →  dist/css/colors.css               (npm run build:tokens)
+                 →  this site                         (rebuilt on every push to main)
+```
+
+Change a colour in Figma, sync, push, and the CSS and these docs update together.
+
+## What's in so far
+
+| Area | Status |
+|---|---|
+| Colours | ✅ Live: 90 primitives, 85 semantic tokens |
+| Typography | Next |
+| Spacing, radius, sizes | Planned |
+| Effects (shadows, focus) | Planned |
+| Components | Planned, starting with Button |

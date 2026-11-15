@@ -1,0 +1,1577 @@
+[
+  {
+    "name": "color-base-white",
+    "cssVar": "--color-base-white",
+    "value": "#ffffff",
+    "group": "primitive/base",
+    "tier": "primitive",
+    "ref": null,
+    "description": "Base white"
+  },
+  {
+    "name": "color-base-black",
+    "cssVar": "--color-base-black",
+    "value": "#000000",
+    "group": "primitive/base",
+    "tier": "primitive",
+    "ref": null,
+    "description": "Base black"
+  },
+  {
+    "name": "color-gray-25",
+    "cssVar": "--color-gray-25",
+    "value": "#f6f8fb",
+    "group": "primitive/gray",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-gray-50",
+    "cssVar": "--color-gray-50",
+    "value": "#f1f4f7",
+    "group": "primitive/gray",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-gray-100",
+    "cssVar": "--color-gray-100",
+    "value": "#eceff3",
+    "group": "primitive/gray",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-gray-200",
+    "cssVar": "--color-gray-200",
+    "value": "#dfe5eb",
+    "group": "primitive/gray",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-gray-300",
+    "cssVar": "--color-gray-300",
+    "value": "#cfd1dc",
+    "group": "primitive/gray",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-gray-400",
+    "cssVar": "--color-gray-400",
+    "value": "#acafc4",
+    "group": "primitive/gray",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-gray-500",
+    "cssVar": "--color-gray-500",
+    "value": "#868aa5",
+    "group": "primitive/gray",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-gray-600",
+    "cssVar": "--color-gray-600",
+    "value": "#595d70",
+    "group": "primitive/gray",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-gray-700",
+    "cssVar": "--color-gray-700",
+    "value": "#464a61",
+    "group": "primitive/gray",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-gray-800",
+    "cssVar": "--color-gray-800",
+    "value": "#333853",
+    "group": "primitive/gray",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-gray-900",
+    "cssVar": "--color-gray-900",
+    "value": "#151f3b",
+    "group": "primitive/gray",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-gray-950",
+    "cssVar": "--color-gray-950",
+    "value": "#000624",
+    "group": "primitive/gray",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-blue-50",
+    "cssVar": "--color-blue-50",
+    "value": "#f3f6fc",
+    "group": "primitive/blue",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-blue-100",
+    "cssVar": "--color-blue-100",
+    "value": "#d5e1f5",
+    "group": "primitive/blue",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-blue-200",
+    "cssVar": "--color-blue-200",
+    "value": "#aac4ec",
+    "group": "primitive/blue",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-blue-300",
+    "cssVar": "--color-blue-300",
+    "value": "#8fb1e8",
+    "group": "primitive/blue",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-blue-400",
+    "cssVar": "--color-blue-400",
+    "value": "#5688d8",
+    "group": "primitive/blue",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-blue-500",
+    "cssVar": "--color-blue-500",
+    "value": "#2b6bcf",
+    "group": "primitive/blue",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-blue-600",
+    "cssVar": "--color-blue-600",
+    "value": "#014dc5",
+    "group": "primitive/blue",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-blue-700",
+    "cssVar": "--color-blue-700",
+    "value": "#013e9e",
+    "group": "primitive/blue",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-blue-800",
+    "cssVar": "--color-blue-800",
+    "value": "#023088",
+    "group": "primitive/blue",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-blue-900",
+    "cssVar": "--color-blue-900",
+    "value": "#032177",
+    "group": "primitive/blue",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-blue-950",
+    "cssVar": "--color-blue-950",
+    "value": "#001159",
+    "group": "primitive/blue",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-purple-50",
+    "cssVar": "--color-purple-50",
+    "value": "#f7edfc",
+    "group": "primitive/purple",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-purple-100",
+    "cssVar": "--color-purple-100",
+    "value": "#f1e0f9",
+    "group": "primitive/purple",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-purple-200",
+    "cssVar": "--color-purple-200",
+    "value": "#e3c3f4",
+    "group": "primitive/purple",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-purple-300",
+    "cssVar": "--color-purple-300",
+    "value": "#cf8cf1",
+    "group": "primitive/purple",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-purple-400",
+    "cssVar": "--color-purple-400",
+    "value": "#c161f0",
+    "group": "primitive/purple",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-purple-500",
+    "cssVar": "--color-purple-500",
+    "value": "#9a27d5",
+    "group": "primitive/purple",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-purple-600",
+    "cssVar": "--color-purple-600",
+    "value": "#8e1dd1",
+    "group": "primitive/purple",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-purple-700",
+    "cssVar": "--color-purple-700",
+    "value": "#7416a5",
+    "group": "primitive/purple",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-purple-800",
+    "cssVar": "--color-purple-800",
+    "value": "#54007b",
+    "group": "primitive/purple",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-purple-900",
+    "cssVar": "--color-purple-900",
+    "value": "#3c005b",
+    "group": "primitive/purple",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-purple-950",
+    "cssVar": "--color-purple-950",
+    "value": "#2a0043",
+    "group": "primitive/purple",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-cyan-50",
+    "cssVar": "--color-cyan-50",
+    "value": "#ebfaff",
+    "group": "primitive/cyan",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-cyan-100",
+    "cssVar": "--color-cyan-100",
+    "value": "#dbf4ff",
+    "group": "primitive/cyan",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-cyan-200",
+    "cssVar": "--color-cyan-200",
+    "value": "#b7e8ff",
+    "group": "primitive/cyan",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-cyan-300",
+    "cssVar": "--color-cyan-300",
+    "value": "#8dd8fc",
+    "group": "primitive/cyan",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-cyan-400",
+    "cssVar": "--color-cyan-400",
+    "value": "#57c2f1",
+    "group": "primitive/cyan",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-cyan-500",
+    "cssVar": "--color-cyan-500",
+    "value": "#0fa5d9",
+    "group": "primitive/cyan",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-cyan-600",
+    "cssVar": "--color-cyan-600",
+    "value": "#0076a0",
+    "group": "primitive/cyan",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-cyan-700",
+    "cssVar": "--color-cyan-700",
+    "value": "#005375",
+    "group": "primitive/cyan",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-cyan-800",
+    "cssVar": "--color-cyan-800",
+    "value": "#003955",
+    "group": "primitive/cyan",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-cyan-900",
+    "cssVar": "--color-cyan-900",
+    "value": "#00273d",
+    "group": "primitive/cyan",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-cyan-950",
+    "cssVar": "--color-cyan-950",
+    "value": "#00192b",
+    "group": "primitive/cyan",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-red-50",
+    "cssVar": "--color-red-50",
+    "value": "#fdeceb",
+    "group": "primitive/red",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-red-100",
+    "cssVar": "--color-red-100",
+    "value": "#fde3e1",
+    "group": "primitive/red",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-red-200",
+    "cssVar": "--color-red-200",
+    "value": "#fbd0cd",
+    "group": "primitive/red",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-red-300",
+    "cssVar": "--color-red-300",
+    "value": "#f69891",
+    "group": "primitive/red",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-red-400",
+    "cssVar": "--color-red-400",
+    "value": "#ff6d63",
+    "group": "primitive/red",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-red-500",
+    "cssVar": "--color-red-500",
+    "value": "#e62214",
+    "group": "primitive/red",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-red-600",
+    "cssVar": "--color-red-600",
+    "value": "#d0180b",
+    "group": "primitive/red",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-red-700",
+    "cssVar": "--color-red-700",
+    "value": "#b81206",
+    "group": "primitive/red",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-red-800",
+    "cssVar": "--color-red-800",
+    "value": "#880000",
+    "group": "primitive/red",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-red-900",
+    "cssVar": "--color-red-900",
+    "value": "#640000",
+    "group": "primitive/red",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-red-950",
+    "cssVar": "--color-red-950",
+    "value": "#490000",
+    "group": "primitive/red",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-yellow-50",
+    "cssVar": "--color-yellow-50",
+    "value": "#fff6e5",
+    "group": "primitive/yellow",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-yellow-100",
+    "cssVar": "--color-yellow-100",
+    "value": "#fff0d1",
+    "group": "primitive/yellow",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-yellow-200",
+    "cssVar": "--color-yellow-200",
+    "value": "#ffe2a5",
+    "group": "primitive/yellow",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-yellow-300",
+    "cssVar": "--color-yellow-300",
+    "value": "#ffd16e",
+    "group": "primitive/yellow",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-yellow-400",
+    "cssVar": "--color-yellow-400",
+    "value": "#ffc23d",
+    "group": "primitive/yellow",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-yellow-500",
+    "cssVar": "--color-yellow-500",
+    "value": "#ffb700",
+    "group": "primitive/yellow",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-yellow-600",
+    "cssVar": "--color-yellow-600",
+    "value": "#e7a600",
+    "group": "primitive/yellow",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-yellow-700",
+    "cssVar": "--color-yellow-700",
+    "value": "#d59900",
+    "group": "primitive/yellow",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-yellow-800",
+    "cssVar": "--color-yellow-800",
+    "value": "#9c6b00",
+    "group": "primitive/yellow",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-yellow-900",
+    "cssVar": "--color-yellow-900",
+    "value": "#714900",
+    "group": "primitive/yellow",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-yellow-950",
+    "cssVar": "--color-yellow-950",
+    "value": "#513100",
+    "group": "primitive/yellow",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-green-50",
+    "cssVar": "--color-green-50",
+    "value": "#e9f6ee",
+    "group": "primitive/green",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-green-100",
+    "cssVar": "--color-green-100",
+    "value": "#e1f4eb",
+    "group": "primitive/green",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-green-200",
+    "cssVar": "--color-green-200",
+    "value": "#c8e8d6",
+    "group": "primitive/green",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-green-300",
+    "cssVar": "--color-green-300",
+    "value": "#87cea5",
+    "group": "primitive/green",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-green-400",
+    "cssVar": "--color-green-400",
+    "value": "#51b77b",
+    "group": "primitive/green",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-green-500",
+    "cssVar": "--color-green-500",
+    "value": "#25a55a",
+    "group": "primitive/green",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-green-600",
+    "cssVar": "--color-green-600",
+    "value": "#229954",
+    "group": "primitive/green",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-green-700",
+    "cssVar": "--color-green-700",
+    "value": "#1d8649",
+    "group": "primitive/green",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-green-800",
+    "cssVar": "--color-green-800",
+    "value": "#00602e",
+    "group": "primitive/green",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-green-900",
+    "cssVar": "--color-green-900",
+    "value": "#00441b",
+    "group": "primitive/green",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-green-950",
+    "cssVar": "--color-green-950",
+    "value": "#002f0d",
+    "group": "primitive/green",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-alpha-black-10",
+    "cssVar": "--color-alpha-black-10",
+    "value": "rgba(0, 6, 36, 0.1)",
+    "group": "primitive/alpha",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-alpha-black-20",
+    "cssVar": "--color-alpha-black-20",
+    "value": "rgba(0, 6, 36, 0.2)",
+    "group": "primitive/alpha",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-alpha-black-40",
+    "cssVar": "--color-alpha-black-40",
+    "value": "rgba(0, 6, 36, 0.4)",
+    "group": "primitive/alpha",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-alpha-black-60",
+    "cssVar": "--color-alpha-black-60",
+    "value": "rgba(0, 6, 36, 0.6)",
+    "group": "primitive/alpha",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-alpha-black-80",
+    "cssVar": "--color-alpha-black-80",
+    "value": "rgba(0, 6, 36, 0.8)",
+    "group": "primitive/alpha",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-alpha-white-10",
+    "cssVar": "--color-alpha-white-10",
+    "value": "rgba(255, 255, 255, 0.1)",
+    "group": "primitive/alpha",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-alpha-white-20",
+    "cssVar": "--color-alpha-white-20",
+    "value": "rgba(255, 255, 255, 0.2)",
+    "group": "primitive/alpha",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-alpha-white-40",
+    "cssVar": "--color-alpha-white-40",
+    "value": "rgba(255, 255, 255, 0.4)",
+    "group": "primitive/alpha",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-alpha-white-60",
+    "cssVar": "--color-alpha-white-60",
+    "value": "rgba(255, 255, 255, 0.6)",
+    "group": "primitive/alpha",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "color-alpha-white-80",
+    "cssVar": "--color-alpha-white-80",
+    "value": "rgba(255, 255, 255, 0.8)",
+    "group": "primitive/alpha",
+    "tier": "primitive",
+    "ref": null,
+    "description": ""
+  },
+  {
+    "name": "text-primary",
+    "cssVar": "--text-primary",
+    "value": "#000624",
+    "group": "text",
+    "tier": "semantic",
+    "ref": "--color-gray-950",
+    "description": ""
+  },
+  {
+    "name": "text-secondary",
+    "cssVar": "--text-secondary",
+    "value": "#333853",
+    "group": "text",
+    "tier": "semantic",
+    "ref": "--color-gray-800",
+    "description": ""
+  },
+  {
+    "name": "text-tertiary",
+    "cssVar": "--text-tertiary",
+    "value": "#595d70",
+    "group": "text",
+    "tier": "semantic",
+    "ref": "--color-gray-600",
+    "description": ""
+  },
+  {
+    "name": "text-placeholder",
+    "cssVar": "--text-placeholder",
+    "value": "#595d70",
+    "group": "text",
+    "tier": "semantic",
+    "ref": "--color-gray-600",
+    "description": ""
+  },
+  {
+    "name": "text-disabled",
+    "cssVar": "--text-disabled",
+    "value": "#acafc4",
+    "group": "text",
+    "tier": "semantic",
+    "ref": "--color-gray-400",
+    "description": ""
+  },
+  {
+    "name": "text-brand",
+    "cssVar": "--text-brand",
+    "value": "#014dc5",
+    "group": "text",
+    "tier": "semantic",
+    "ref": "--color-blue-600",
+    "description": ""
+  },
+  {
+    "name": "text-brand-hover",
+    "cssVar": "--text-brand-hover",
+    "value": "#013e9e",
+    "group": "text",
+    "tier": "semantic",
+    "ref": "--color-blue-700",
+    "description": ""
+  },
+  {
+    "name": "text-brand-pressed",
+    "cssVar": "--text-brand-pressed",
+    "value": "#023088",
+    "group": "text",
+    "tier": "semantic",
+    "ref": "--color-blue-800",
+    "description": ""
+  },
+  {
+    "name": "text-error",
+    "cssVar": "--text-error",
+    "value": "#d0180b",
+    "group": "text",
+    "tier": "semantic",
+    "ref": "--color-red-600",
+    "description": ""
+  },
+  {
+    "name": "text-success",
+    "cssVar": "--text-success",
+    "value": "#00602e",
+    "group": "text",
+    "tier": "semantic",
+    "ref": "--color-green-800",
+    "description": "green-800 — 6.96:1 on success-soft, 4.5+ on white"
+  },
+  {
+    "name": "text-warning",
+    "cssVar": "--text-warning",
+    "value": "#714900",
+    "group": "text",
+    "tier": "semantic",
+    "ref": "--color-yellow-900",
+    "description": "yellow-900 — 7.37:1 on warning-soft"
+  },
+  {
+    "name": "text-ai",
+    "cssVar": "--text-ai",
+    "value": "#7416a5",
+    "group": "text",
+    "tier": "semantic",
+    "ref": "--color-purple-700",
+    "description": ""
+  },
+  {
+    "name": "text-on-brand",
+    "cssVar": "--text-on-brand",
+    "value": "#ffffff",
+    "group": "text",
+    "tier": "semantic",
+    "ref": "--color-base-white",
+    "description": ""
+  },
+  {
+    "name": "text-on-dark",
+    "cssVar": "--text-on-dark",
+    "value": "#ffffff",
+    "group": "text",
+    "tier": "semantic",
+    "ref": "--color-base-white",
+    "description": ""
+  },
+  {
+    "name": "text-on-dark-secondary",
+    "cssVar": "--text-on-dark-secondary",
+    "value": "#cfd1dc",
+    "group": "text",
+    "tier": "semantic",
+    "ref": "--color-gray-300",
+    "description": ""
+  },
+  {
+    "name": "bg-primary",
+    "cssVar": "--bg-primary",
+    "value": "#ffffff",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-base-white",
+    "description": ""
+  },
+  {
+    "name": "bg-subtle",
+    "cssVar": "--bg-subtle",
+    "value": "#f6f8fb",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-gray-25",
+    "description": ""
+  },
+  {
+    "name": "bg-secondary",
+    "cssVar": "--bg-secondary",
+    "value": "#f1f4f7",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-gray-50",
+    "description": ""
+  },
+  {
+    "name": "bg-tertiary",
+    "cssVar": "--bg-tertiary",
+    "value": "#eceff3",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-gray-100",
+    "description": ""
+  },
+  {
+    "name": "bg-canvas",
+    "cssVar": "--bg-canvas",
+    "value": "#eceff3",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-gray-100",
+    "description": ""
+  },
+  {
+    "name": "bg-hover",
+    "cssVar": "--bg-hover",
+    "value": "#f3f6fc",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-blue-50",
+    "description": ""
+  },
+  {
+    "name": "bg-pressed",
+    "cssVar": "--bg-pressed",
+    "value": "#eceff3",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-gray-100",
+    "description": ""
+  },
+  {
+    "name": "bg-disabled",
+    "cssVar": "--bg-disabled",
+    "value": "#eceff3",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-gray-100",
+    "description": ""
+  },
+  {
+    "name": "bg-strong",
+    "cssVar": "--bg-strong",
+    "value": "#464a61",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-gray-700",
+    "description": ""
+  },
+  {
+    "name": "bg-inverse",
+    "cssVar": "--bg-inverse",
+    "value": "#333853",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-gray-800",
+    "description": ""
+  },
+  {
+    "name": "bg-overlay",
+    "cssVar": "--bg-overlay",
+    "value": "rgba(0, 6, 36, 0.6)",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-alpha-black-60",
+    "description": ""
+  },
+  {
+    "name": "bg-brand",
+    "cssVar": "--bg-brand",
+    "value": "#014dc5",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-blue-600",
+    "description": ""
+  },
+  {
+    "name": "bg-brand-hover",
+    "cssVar": "--bg-brand-hover",
+    "value": "#013e9e",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-blue-700",
+    "description": ""
+  },
+  {
+    "name": "bg-brand-pressed",
+    "cssVar": "--bg-brand-pressed",
+    "value": "#023088",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-blue-800",
+    "description": ""
+  },
+  {
+    "name": "bg-brand-soft",
+    "cssVar": "--bg-brand-soft",
+    "value": "#d5e1f5",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-blue-100",
+    "description": ""
+  },
+  {
+    "name": "bg-brand-soft-hover",
+    "cssVar": "--bg-brand-soft-hover",
+    "value": "#aac4ec",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-blue-200",
+    "description": ""
+  },
+  {
+    "name": "bg-brand-soft-pressed",
+    "cssVar": "--bg-brand-soft-pressed",
+    "value": "#aac4ec",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-blue-200",
+    "description": ""
+  },
+  {
+    "name": "bg-brand-selected",
+    "cssVar": "--bg-brand-selected",
+    "value": "#d5e1f5",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-blue-100",
+    "description": ""
+  },
+  {
+    "name": "bg-error",
+    "cssVar": "--bg-error",
+    "value": "#d0180b",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-red-600",
+    "description": ""
+  },
+  {
+    "name": "bg-error-hover",
+    "cssVar": "--bg-error-hover",
+    "value": "#b81206",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-red-700",
+    "description": ""
+  },
+  {
+    "name": "bg-error-pressed",
+    "cssVar": "--bg-error-pressed",
+    "value": "#880000",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-red-800",
+    "description": ""
+  },
+  {
+    "name": "bg-error-soft",
+    "cssVar": "--bg-error-soft",
+    "value": "#fdeceb",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-red-50",
+    "description": ""
+  },
+  {
+    "name": "bg-success",
+    "cssVar": "--bg-success",
+    "value": "#1d8649",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-green-700",
+    "description": ""
+  },
+  {
+    "name": "bg-success-soft",
+    "cssVar": "--bg-success-soft",
+    "value": "#e9f6ee",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-green-50",
+    "description": ""
+  },
+  {
+    "name": "bg-warning",
+    "cssVar": "--bg-warning",
+    "value": "#ffb700",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-yellow-500",
+    "description": ""
+  },
+  {
+    "name": "bg-warning-soft",
+    "cssVar": "--bg-warning-soft",
+    "value": "#fff6e5",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-yellow-50",
+    "description": ""
+  },
+  {
+    "name": "bg-ai",
+    "cssVar": "--bg-ai",
+    "value": "#7416a5",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-purple-700",
+    "description": ""
+  },
+  {
+    "name": "bg-ai-soft",
+    "cssVar": "--bg-ai-soft",
+    "value": "#f7edfc",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-purple-50",
+    "description": ""
+  },
+  {
+    "name": "bg-dark",
+    "cssVar": "--bg-dark",
+    "value": "#000624",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-gray-950",
+    "description": ""
+  },
+  {
+    "name": "bg-dark-raised",
+    "cssVar": "--bg-dark-raised",
+    "value": "#151f3b",
+    "group": "bg",
+    "tier": "semantic",
+    "ref": "--color-gray-900",
+    "description": ""
+  },
+  {
+    "name": "border-default",
+    "cssVar": "--border-default",
+    "value": "#dfe5eb",
+    "group": "border",
+    "tier": "semantic",
+    "ref": "--color-gray-200",
+    "description": ""
+  },
+  {
+    "name": "border-subtle",
+    "cssVar": "--border-subtle",
+    "value": "#eceff3",
+    "group": "border",
+    "tier": "semantic",
+    "ref": "--color-gray-100",
+    "description": ""
+  },
+  {
+    "name": "border-input",
+    "cssVar": "--border-input",
+    "value": "#868aa5",
+    "group": "border",
+    "tier": "semantic",
+    "ref": "--color-gray-500",
+    "description": ""
+  },
+  {
+    "name": "border-strong",
+    "cssVar": "--border-strong",
+    "value": "#595d70",
+    "group": "border",
+    "tier": "semantic",
+    "ref": "--color-gray-600",
+    "description": ""
+  },
+  {
+    "name": "border-disabled",
+    "cssVar": "--border-disabled",
+    "value": "#eceff3",
+    "group": "border",
+    "tier": "semantic",
+    "ref": "--color-gray-100",
+    "description": ""
+  },
+  {
+    "name": "border-brand",
+    "cssVar": "--border-brand",
+    "value": "#014dc5",
+    "group": "border",
+    "tier": "semantic",
+    "ref": "--color-blue-600",
+    "description": ""
+  },
+  {
+    "name": "border-brand-selected",
+    "cssVar": "--border-brand-selected",
+    "value": "#5688d8",
+    "group": "border",
+    "tier": "semantic",
+    "ref": "--color-blue-400",
+    "description": ""
+  },
+  {
+    "name": "border-error",
+    "cssVar": "--border-error",
+    "value": "#b81206",
+    "group": "border",
+    "tier": "semantic",
+    "ref": "--color-red-700",
+    "description": ""
+  },
+  {
+    "name": "border-success",
+    "cssVar": "--border-success",
+    "value": "#229954",
+    "group": "border",
+    "tier": "semantic",
+    "ref": "--color-green-600",
+    "description": ""
+  },
+  {
+    "name": "border-warning",
+    "cssVar": "--border-warning",
+    "value": "#9c6b00",
+    "group": "border",
+    "tier": "semantic",
+    "ref": "--color-yellow-800",
+    "description": ""
+  },
+  {
+    "name": "icon-primary",
+    "cssVar": "--icon-primary",
+    "value": "#333853",
+    "group": "icon",
+    "tier": "semantic",
+    "ref": "--color-gray-800",
+    "description": ""
+  },
+  {
+    "name": "icon-secondary",
+    "cssVar": "--icon-secondary",
+    "value": "#595d70",
+    "group": "icon",
+    "tier": "semantic",
+    "ref": "--color-gray-600",
+    "description": ""
+  },
+  {
+    "name": "icon-brand",
+    "cssVar": "--icon-brand",
+    "value": "#014dc5",
+    "group": "icon",
+    "tier": "semantic",
+    "ref": "--color-blue-600",
+    "description": ""
+  },
+  {
+    "name": "icon-on-brand",
+    "cssVar": "--icon-on-brand",
+    "value": "#ffffff",
+    "group": "icon",
+    "tier": "semantic",
+    "ref": "--color-base-white",
+    "description": ""
+  },
+  {
+    "name": "icon-disabled",
+    "cssVar": "--icon-disabled",
+    "value": "#acafc4",
+    "group": "icon",
+    "tier": "semantic",
+    "ref": "--color-gray-400",
+    "description": ""
+  },
+  {
+    "name": "icon-error",
+    "cssVar": "--icon-error",
+    "value": "#d0180b",
+    "group": "icon",
+    "tier": "semantic",
+    "ref": "--color-red-600",
+    "description": ""
+  },
+  {
+    "name": "icon-success",
+    "cssVar": "--icon-success",
+    "value": "#229954",
+    "group": "icon",
+    "tier": "semantic",
+    "ref": "--color-green-600",
+    "description": ""
+  },
+  {
+    "name": "icon-warning",
+    "cssVar": "--icon-warning",
+    "value": "#9c6b00",
+    "group": "icon",
+    "tier": "semantic",
+    "ref": "--color-yellow-800",
+    "description": ""
+  },
+  {
+    "name": "icon-ai",
+    "cssVar": "--icon-ai",
+    "value": "#7416a5",
+    "group": "icon",
+    "tier": "semantic",
+    "ref": "--color-purple-700",
+    "description": ""
+  },
+  {
+    "name": "focus-ring",
+    "cssVar": "--focus-ring",
+    "value": "#014dc5",
+    "group": "focus",
+    "tier": "semantic",
+    "ref": "--color-blue-600",
+    "description": ""
+  },
+  {
+    "name": "focus-ring-error",
+    "cssVar": "--focus-ring-error",
+    "value": "#b81206",
+    "group": "focus",
+    "tier": "semantic",
+    "ref": "--color-red-700",
+    "description": ""
+  },
+  {
+    "name": "focus-offset",
+    "cssVar": "--focus-offset",
+    "value": "#ffffff",
+    "group": "focus",
+    "tier": "semantic",
+    "ref": "--color-base-white",
+    "description": ""
+  },
+  {
+    "name": "focus-halo",
+    "cssVar": "--focus-halo",
+    "value": "#aac4ec",
+    "group": "focus",
+    "tier": "semantic",
+    "ref": "--color-blue-200",
+    "description": ""
+  },
+  {
+    "name": "focus-halo-error",
+    "cssVar": "--focus-halo-error",
+    "value": "#fbd0cd",
+    "group": "focus",
+    "tier": "semantic",
+    "ref": "--color-red-200",
+    "description": ""
+  },
+  {
+    "name": "chart-1",
+    "cssVar": "--chart-1",
+    "value": "#014dc5",
+    "group": "chart",
+    "tier": "semantic",
+    "ref": "--color-blue-600",
+    "description": ""
+  },
+  {
+    "name": "chart-2",
+    "cssVar": "--chart-2",
+    "value": "#8e1dd1",
+    "group": "chart",
+    "tier": "semantic",
+    "ref": "--color-purple-600",
+    "description": ""
+  },
+  {
+    "name": "chart-3",
+    "cssVar": "--chart-3",
+    "value": "#0076a0",
+    "group": "chart",
+    "tier": "semantic",
+    "ref": "--color-cyan-600",
+    "description": ""
+  },
+  {
+    "name": "chart-4",
+    "cssVar": "--chart-4",
+    "value": "#9c6b00",
+    "group": "chart",
+    "tier": "semantic",
+    "ref": "--color-yellow-800",
+    "description": ""
+  },
+  {
+    "name": "chart-5",
+    "cssVar": "--chart-5",
+    "value": "#229954",
+    "group": "chart",
+    "tier": "semantic",
+    "ref": "--color-green-600",
+    "description": ""
+  },
+  {
+    "name": "chart-6",
+    "cssVar": "--chart-6",
+    "value": "#e62214",
+    "group": "chart",
+    "tier": "semantic",
+    "ref": "--color-red-500",
+    "description": ""
+  },
+  {
+    "name": "chart-7",
+    "cssVar": "--chart-7",
+    "value": "#5688d8",
+    "group": "chart",
+    "tier": "semantic",
+    "ref": "--color-blue-400",
+    "description": ""
+  },
+  {
+    "name": "chart-8",
+    "cssVar": "--chart-8",
+    "value": "#595d70",
+    "group": "chart",
+    "tier": "semantic",
+    "ref": "--color-gray-600",
+    "description": ""
+  },
+  {
+    "name": "chart-seq-1",
+    "cssVar": "--chart-seq-1",
+    "value": "#f3f6fc",
+    "group": "chart",
+    "tier": "semantic",
+    "ref": "--color-blue-50",
+    "description": ""
+  },
+  {
+    "name": "chart-seq-2",
+    "cssVar": "--chart-seq-2",
+    "value": "#d5e1f5",
+    "group": "chart",
+    "tier": "semantic",
+    "ref": "--color-blue-100",
+    "description": ""
+  },
+  {
+    "name": "chart-seq-3",
+    "cssVar": "--chart-seq-3",
+    "value": "#aac4ec",
+    "group": "chart",
+    "tier": "semantic",
+    "ref": "--color-blue-200",
+    "description": ""
+  },
+  {
+    "name": "chart-seq-4",
+    "cssVar": "--chart-seq-4",
+    "value": "#5688d8",
+    "group": "chart",
+    "tier": "semantic",
+    "ref": "--color-blue-400",
+    "description": ""
+  },
+  {
+    "name": "chart-seq-5",
+    "cssVar": "--chart-seq-5",
+    "value": "#014dc5",
+    "group": "chart",
+    "tier": "semantic",
+    "ref": "--color-blue-600",
+    "description": ""
+  },
+  {
+    "name": "chart-seq-6",
+    "cssVar": "--chart-seq-6",
+    "value": "#023088",
+    "group": "chart",
+    "tier": "semantic",
+    "ref": "--color-blue-800",
+    "description": ""
+  },
+  {
+    "name": "chart-grid",
+    "cssVar": "--chart-grid",
+    "value": "#dfe5eb",
+    "group": "chart",
+    "tier": "semantic",
+    "ref": "--color-gray-200",
+    "description": ""
+  },
+  {
+    "name": "chart-axis",
+    "cssVar": "--chart-axis",
+    "value": "#acafc4",
+    "group": "chart",
+    "tier": "semantic",
+    "ref": "--color-gray-400",
+    "description": ""
+  }
+]
