@@ -89,7 +89,8 @@ out('dist/logos/scalenut-logo.svg', svg(logo.width, logo.height, vb, fullLogo(lo
 out('dist/logos/scalenut-logo-on-dark.svg', svg(logo.width, logo.height, vb, fullLogo(logo.wordmark.fillDark), 'Scalenut'));
 
 // ─── Bundle ─────────────────────────────────────────────────────────────────
-const parts = ['colors', 'typography', 'spacing', 'effects', 'gradients', 'icons', 'button'];
+const parts = ['colors', 'typography', 'spacing', 'effects', 'gradients', 'icons', 'button',
+  'badge', 'checkbox', 'toggle', 'input', 'radio', 'avatar', 'tag', 'tooltip', 'spinner', 'divider', 'select'];
 out(
   'dist/css/scalenut.css',
   `/**

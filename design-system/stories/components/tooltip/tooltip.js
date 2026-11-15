@@ -13,9 +13,9 @@ export function tooltipHTML({
     multiline && 'tooltip--multiline',
   ].filter(Boolean).join(' ');
 
-  return `<span class="tooltip-wrapper"${visible ? ' data-state="visible"' : ''}>
+  return `<span class="tooltip-wrapper">
   <button type="button" class="btn btn--secondary btn--sm">${triggerLabel}</button>
-  <span class="${tooltipCls}" role="tooltip">${content}</span>
+  <span class="${tooltipCls}" role="tooltip"${visible ? ' data-state="visible"' : ''}>${content}</span>
 </span>`;
 }
 

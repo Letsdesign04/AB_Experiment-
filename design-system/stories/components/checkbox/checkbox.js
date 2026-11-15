@@ -22,7 +22,7 @@ export function checkboxHTML({
     'class="checkbox__input"',
     checked ? 'checked' : '',
     disabled ? 'disabled' : '',
-    indeterminate ? 'data-indeterminate="true"' : '',
+    indeterminate ? 'data-state="indeterminate"' : '',
   ].filter(Boolean).join(' ');
 
   const hintHtml = hint ? `<span class="checkbox__hint">${hint}</span>` : '';

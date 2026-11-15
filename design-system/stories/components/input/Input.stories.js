@@ -26,7 +26,7 @@ export const States = {
   render: () => col([
     inputHTML({ label: 'Default', placeholder: 'Enter value' }),
     inputHTML({ label: 'With value', value: 'hello@scalenut.com' }),
-    inputHTML({ label: 'With hint', hint: 'We'll never share your email', placeholder: 'you@example.com' }),
+    inputHTML({ label: 'With hint', hint: "We'll never share your email", placeholder: 'you@example.com' }),
     inputHTML({ label: 'Error', errorMessage: 'Please enter a valid email', value: 'bad-email', placeholder: 'you@example.com' }),
     inputHTML({ label: 'Success', trailingIcon: true, value: 'valid@scalenut.com' }),
     inputHTML({ label: 'Disabled', disabled: true, value: 'readonly@scalenut.com' }),
