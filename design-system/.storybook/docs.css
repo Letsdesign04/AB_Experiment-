@@ -1,0 +1,59 @@
+/* Styles for the documentation blocks only. Built from the system's own tokens. */
+
+.sbdocs, .sbdocs-content { font-family: 'Inter', system-ui, sans-serif; }
+
+.ds-muted { color: var(--text-tertiary); }
+.ds-note { margin-top: 4px; font-size: 12px; color: var(--text-tertiary); }
+
+.ds-table { width: 100%; border-collapse: collapse; font-size: 14px; margin: 16px 0 32px; }
+.ds-table th { text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--text-tertiary); padding: 8px 12px; border-bottom: 1px solid var(--border-default); background: var(--bg-subtle); }
+.ds-table td { padding: 10px 12px; border-bottom: 1px solid var(--border-subtle); vertical-align: middle; color: var(--text-primary); }
+.ds-table code { font-size: 13px; background: none; border: 0; padding: 0; }
+
+.ds-swatch { display: block; width: 44px; height: 32px; border-radius: 6px; border: 1px solid var(--color-alpha-black-10); }
+
+.ds-copy { display: inline-flex; align-items: center; gap: 8px; border: 1px solid transparent; background: none; padding: 4px 6px; margin: -4px -6px; border-radius: 6px; cursor: pointer; font: inherit; color: var(--text-primary); }
+.ds-copy:hover { background: var(--bg-hover); border-color: var(--border-brand-selected); }
+.ds-copy:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+.ds-copy__hint { font-size: 11px; color: var(--text-brand); opacity: 0; }
+.ds-copy:hover .ds-copy__hint, .ds-copy:focus-visible .ds-copy__hint { opacity: 1; }
+
+.ds-badge { display: inline-block; font-size: 12px; font-weight: 500; padding: 2px 8px; border-radius: 9999px; white-space: nowrap; }
+.ds-badge--pass { background: var(--bg-success-soft); color: var(--text-success); }
+.ds-badge--partial { background: var(--bg-warning-soft); color: var(--text-warning); }
+.ds-badge--fail { background: var(--bg-error-soft); color: var(--text-error); }
+
+.ds-ramp { margin: 0 0 20px; }
+.ds-ramp__label { font-size: 13px; font-weight: 600; text-transform: capitalize; margin-bottom: 6px; color: var(--text-secondary); }
+.ds-ramp__row { display: flex; border-radius: 8px; overflow: hidden; border: 1px solid var(--border-subtle); }
+.ds-chip { flex: 1; min-width: 0; padding: 28px 6px 8px; display: flex; flex-direction: column; gap: 2px; font-size: 11px; }
+.ds-chip strong { font-size: 12px; }
+.ds-chip--hl { outline: 3px solid var(--text-primary); outline-offset: -3px; position: relative; }
+.ds-chip--hl::before { content: 'Brand'; position: absolute; top: 6px; left: 6px; font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; }
+
+.ds-hero { display: grid; grid-template-columns: 1.2fr 1fr; border: 1px solid var(--border-default); border-radius: 12px; overflow: hidden; margin: 16px 0 32px; }
+.ds-hero__swatch { background: var(--bg-brand); color: var(--text-on-brand); padding: 32px; min-height: 180px; display: flex; flex-direction: column; justify-content: flex-end; gap: 4px; }
+.ds-hero__name { font-size: 14px; opacity: .85; }
+.ds-hero__hex { font-size: 40px; font-weight: 600; letter-spacing: -.01em; }
+.ds-hero__meta { padding: 24px; display: flex; flex-direction: column; gap: 16px; justify-content: center; background: var(--bg-primary); }
+.ds-hero__meta > div { display: flex; flex-direction: column; gap: 6px; align-items: flex-start; font-size: 13px; }
+
+.ds-demo { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; padding: 32px; border: 1px solid var(--border-default); border-radius: 12px; background: var(--bg-subtle); margin: 16px 0 32px; }
+.ds-demo-btn { font: 500 14px/18px 'Inter', sans-serif; height: 40px; padding: 0 16px; border-radius: 8px; border: 0; cursor: pointer; }
+.ds-demo-btn--primary { background: var(--bg-brand); color: var(--text-on-brand); }
+.ds-demo-btn--primary:hover { background: var(--bg-brand-hover); }
+.ds-demo-btn--primary:active { background: var(--bg-brand-pressed); }
+.ds-demo-btn--soft { background: var(--bg-brand-soft); color: var(--text-brand); }
+.ds-demo-btn--soft:hover { background: var(--bg-brand-soft-hover); }
+.ds-demo-btn:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+.ds-demo-link { color: var(--text-brand); font-weight: 500; font-size: 14px; }
+.ds-demo-link:hover { color: var(--text-brand-hover); }
+.ds-demo-chip { font-size: 13px; font-weight: 500; padding: 6px 12px; border-radius: 9999px; background: var(--bg-brand-selected); color: var(--text-brand); border: 1px solid var(--border-brand-selected); }
+.ds-demo-input { height: 40px; width: 240px; padding: 0 12px; border-radius: 8px; border: 1px solid var(--border-input); font: 14px 'Inter', sans-serif; color: var(--text-primary); background: var(--bg-primary); }
+.ds-demo-input::placeholder { color: var(--text-placeholder); }
+.ds-demo-input:focus { outline: none; border-color: var(--border-brand); box-shadow: 0 0 0 4px var(--focus-halo); }
+
+/* Storybook's docs typography overrides plain elements; keep these blocks spaced and sized. */
+.ds-hero, .ds-demo, .ds-table { margin-bottom: 40px !important; }
+.ds-note { font-size: 12px !important; line-height: 16px !important; }
+.ds-badge--neutral { background: var(--bg-tertiary); color: var(--text-tertiary); }

@@ -1,0 +1,36 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { SemanticTable } from '../components/Tokens.jsx';
+
+<Meta title="Foundations/Colours/Semantic tokens" />
+
+# Semantic colour tokens
+
+These are the colours components use. Each one names a **job** (text, background, border, icon, focus, chart) and points at a primitive. Click any variable to copy it.
+
+Contrast is measured against the surface each token sits on: white (`--bg-primary`) by default, brand blue for `on-brand`, and dark for `on-dark`. Disabled states are exempt under WCAG. Body text needs **4.5:1** (AA). Icons, borders and large text need **3:1**.
+
+## Text
+
+<SemanticTable group="text" showContrast />
+
+## Background
+
+<SemanticTable group="bg" />
+
+## Border
+
+<SemanticTable group="border" showContrast />
+
+## Icon
+
+<SemanticTable group="icon" showContrast />
+
+## Focus
+
+<SemanticTable group="focus" />
+
+## Chart
+
+`--chart-1` to `--chart-8` are categorical: use them in order for separate series. `--chart-seq-1` to `--chart-seq-6` are sequential: use them for low-to-high values.
+
+<SemanticTable group="chart" />
