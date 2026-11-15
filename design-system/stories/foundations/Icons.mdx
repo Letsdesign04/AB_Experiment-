@@ -1,0 +1,54 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { IconGallery, IconColours, MdTable } from '../components/Foundations.jsx';
+
+<Meta title="Foundations/Icons" />
+
+# Icons
+
+133 icons from the Figma *Icon set*. They're based on IconPark, outlined and flattened on a 16px frame, so every icon is a filled shape that takes the current text colour.
+
+<IconGallery />
+
+## Use it in code
+
+**Option 1. Inline SVG.** Copy the file from `dist/icons/` into your markup. Best when you only need a few.
+
+```html
+<svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><!-- paths from dist/icons/search.svg --></svg>
+```
+
+**Option 2. Sprite.** Serve `dist/icons/sprite.svg` from your own site, then reference any icon by id. Browsers only allow `<use>` from the same origin, so copy the sprite into your project rather than linking the CDN.
+
+```html
+<svg class="icon icon--md"><use href="/icons/sprite.svg#icon-search" /></svg>
+```
+
+**Option 3. Image.** For static places like emails.
+
+```html
+<img src="https://cdn.jsdelivr.net/gh/Letsdesign04/AB_Experiment-@main/design-system/dist/icons/search.svg" alt="" width="16" height="16" />
+```
+
+## Size
+
+Use the `--size-icon-*` tokens through the modifier classes. 16px is the default.
+
+<MdTable head={["Class", "Token", "Size"]} rows={[["`.icon--xs`", "`--size-icon-xs`", "12px"], ["`.icon` / `.icon--sm`", "`--size-icon-sm`", "16px"], ["`.icon--md`", "`--size-icon-md`", "20px"], ["`.icon--lg`", "`--size-icon-lg`", "24px"]]} />
+
+## Colour
+
+Icons use the `--icon-*` colour tokens. `.icon--inherit` takes the colour of the surrounding text.
+
+<IconColours />
+
+## Accessibility
+
+- A decorative icon next to a text label gets `aria-hidden="true"`.
+- An icon-only button needs a label: `<button aria-label="Search">`.
+- Make the click area at least 24×24 (`--size-target-min`), even when the icon is 16px.
+
+## Known issues from Figma
+
+`align-text-left`, `fork` and `trend` have artwork that sits partly outside the 16px frame in Figma, so they render clipped (marked in orange above). Fix them in Figma and re-sync.
+
+The Figma file also has an expanded set of 2,378 icons. It isn't in code yet. Ask for it when a product needs more than the core set.

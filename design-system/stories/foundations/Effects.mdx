@@ -1,0 +1,55 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { ShadowScale, FocusDemo, GlowBlurDivider, EffectTable, MdTable } from '../components/Foundations.jsx';
+
+<Meta title="Foundations/Effects" />
+
+# Effects
+
+Shadows, focus rings and blur, from the Figma effect styles. Each one is a CSS variable you drop into `box-shadow` or `filter`.
+
+## Shadows
+
+Bigger shadows mean the surface floats higher. Use the smallest one that separates the layer.
+
+<ShadowScale />
+
+<MdTable head={["Token", "Use for (from Figma)"]} rows={[["`--shadow-xs`", "Inputs, secondary buttons"], ["`--shadow-sm`", "Cards, table container"], ["`--shadow-md`", "Dropdowns, select menus"], ["`--shadow-lg`", "Popovers, floating score bar"], ["`--shadow-xl`", "Modals"]]} />
+
+```css
+.card { box-shadow: var(--shadow-sm); }
+```
+
+## Focus
+
+Every interactive control shows a focus ring on keyboard focus: a 2px white gap and a 2px brand-blue ring. It meets WCAG 2.4.7 and 2.4.13 (at least 3:1 against white and against the control).
+
+Inputs, selects and chips use the softer **halo** while someone is typing, paired with a 1px `--border-brand` stroke.
+
+<FocusDemo />
+
+```css
+.button:focus-visible { outline: none; box-shadow: var(--shadow-focus-ring); }
+.button[aria-invalid='true']:focus-visible { box-shadow: var(--shadow-focus-ring-error); }
+
+.input:focus { border-color: var(--border-brand); box-shadow: var(--shadow-focus-halo); }
+.input[aria-invalid='true']:focus { border-color: var(--border-error); box-shadow: var(--shadow-focus-halo-error); }
+```
+
+If a component already has its own shadow, combine them: `box-shadow: var(--shadow-focus-ring), var(--shadow-xs);`
+
+## Glow, blur and divider
+
+<GlowBlurDivider />
+
+- `--shadow-glow-dark-card`: cyan glow on VIP dark-surface cards.
+- `--blur-locked-content`: locked upsell cards, always with an overlay CTA on top. The blur alone doesn't hide the data from screen readers or the page source, so don't render real numbers behind it.
+- `--shadow-divider-bottom`: 1px hairline under top bars and sticky headers.
+
+## All effect tokens
+
+<EffectTable />
+
+## Notes
+
+- **Shadow colour.** The shadows use `rgb(24 39 75)` (`#18274B`), which isn't in the colour palette. It's fine for shadows, but if you want it tokenised, add it to the Primitives collection in Figma.
+- **Blur values.** Figma's layer-blur radius is roughly twice the CSS `blur()` radius, so the 8px Figma blur ships as `4px`.

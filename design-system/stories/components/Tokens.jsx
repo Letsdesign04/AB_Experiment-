@@ -25,7 +25,7 @@ export function contrast(a, b) {
   return (l1 + 0.05) / (l2 + 0.05);
 }
 
-function Copy({ text }) {
+export function Copy({ text }) {
   const [done, setDone] = useState(false);
   return (
     <button

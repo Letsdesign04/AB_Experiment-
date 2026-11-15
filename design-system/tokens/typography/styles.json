@@ -1,0 +1,1180 @@
+{
+  "text-style": {
+    "display-2xl-regular": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.regular}",
+        "fontSize": "{font.size.display-2xl}",
+        "lineHeight": "{font.line-height.display-2xl}",
+        "letterSpacing": "{font.letter-spacing.tighter}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Display 2xl/Regular",
+          "usage": "VIP / marketing hero"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "display-2xl-medium": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.medium}",
+        "fontSize": "{font.size.display-2xl}",
+        "lineHeight": "{font.line-height.display-2xl}",
+        "letterSpacing": "{font.letter-spacing.tighter}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Display 2xl/Medium",
+          "usage": "VIP / marketing hero"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "display-2xl-semibold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.display-2xl}",
+        "lineHeight": "{font.line-height.display-2xl}",
+        "letterSpacing": "{font.letter-spacing.tighter}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Display 2xl/Semibold",
+          "usage": "VIP / marketing hero"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "display-2xl-bold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.bold}",
+        "fontSize": "{font.size.display-2xl}",
+        "lineHeight": "{font.line-height.display-2xl}",
+        "letterSpacing": "{font.letter-spacing.tighter}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Display 2xl/Bold",
+          "usage": "VIP / marketing hero"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "display-xl-regular": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.regular}",
+        "fontSize": "{font.size.display-xl}",
+        "lineHeight": "{font.line-height.display-xl}",
+        "letterSpacing": "{font.letter-spacing.tighter}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Display xl/Regular",
+          "usage": "Marketing section titles"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "display-xl-medium": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.medium}",
+        "fontSize": "{font.size.display-xl}",
+        "lineHeight": "{font.line-height.display-xl}",
+        "letterSpacing": "{font.letter-spacing.tighter}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Display xl/Medium",
+          "usage": "Marketing section titles"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "display-xl-semibold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.display-xl}",
+        "lineHeight": "{font.line-height.display-xl}",
+        "letterSpacing": "{font.letter-spacing.tighter}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Display xl/Semibold",
+          "usage": "Marketing section titles"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "display-xl-bold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.bold}",
+        "fontSize": "{font.size.display-xl}",
+        "lineHeight": "{font.line-height.display-xl}",
+        "letterSpacing": "{font.letter-spacing.tighter}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Display xl/Bold",
+          "usage": "Marketing section titles"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "display-lg-regular": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.regular}",
+        "fontSize": "{font.size.display-lg}",
+        "lineHeight": "{font.line-height.display-lg}",
+        "letterSpacing": "{font.letter-spacing.tighter}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Display lg/Regular",
+          "usage": "Marketing headings, empty-state hero"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "display-lg-medium": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.medium}",
+        "fontSize": "{font.size.display-lg}",
+        "lineHeight": "{font.line-height.display-lg}",
+        "letterSpacing": "{font.letter-spacing.tighter}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Display lg/Medium",
+          "usage": "Marketing headings, empty-state hero"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "display-lg-semibold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.display-lg}",
+        "lineHeight": "{font.line-height.display-lg}",
+        "letterSpacing": "{font.letter-spacing.tighter}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Display lg/Semibold",
+          "usage": "Marketing headings, empty-state hero"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "display-lg-bold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.bold}",
+        "fontSize": "{font.size.display-lg}",
+        "lineHeight": "{font.line-height.display-lg}",
+        "letterSpacing": "{font.letter-spacing.tighter}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Display lg/Bold",
+          "usage": "Marketing headings, empty-state hero"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "display-md-regular": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.regular}",
+        "fontSize": "{font.size.display-md}",
+        "lineHeight": "{font.line-height.display-md}",
+        "letterSpacing": "{font.letter-spacing.tight}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Display md/Regular",
+          "usage": "Onboarding titles, big stats"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "display-md-medium": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.medium}",
+        "fontSize": "{font.size.display-md}",
+        "lineHeight": "{font.line-height.display-md}",
+        "letterSpacing": "{font.letter-spacing.tight}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Display md/Medium",
+          "usage": "Onboarding titles, big stats"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "display-md-semibold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.display-md}",
+        "lineHeight": "{font.line-height.display-md}",
+        "letterSpacing": "{font.letter-spacing.tight}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Display md/Semibold",
+          "usage": "Onboarding titles, big stats"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "display-md-bold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.bold}",
+        "fontSize": "{font.size.display-md}",
+        "lineHeight": "{font.line-height.display-md}",
+        "letterSpacing": "{font.letter-spacing.tight}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Display md/Bold",
+          "usage": "Onboarding titles, big stats"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "display-sm-regular": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.regular}",
+        "fontSize": "{font.size.display-sm}",
+        "lineHeight": "{font.line-height.display-sm}",
+        "letterSpacing": "{font.letter-spacing.tight}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Display sm/Regular",
+          "usage": "Auth titles, modal hero"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "display-sm-medium": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.medium}",
+        "fontSize": "{font.size.display-sm}",
+        "lineHeight": "{font.line-height.display-sm}",
+        "letterSpacing": "{font.letter-spacing.tight}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Display sm/Medium",
+          "usage": "Auth titles, modal hero"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "display-sm-semibold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.display-sm}",
+        "lineHeight": "{font.line-height.display-sm}",
+        "letterSpacing": "{font.letter-spacing.tight}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Display sm/Semibold",
+          "usage": "Auth titles, modal hero"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "display-sm-bold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.bold}",
+        "fontSize": "{font.size.display-sm}",
+        "lineHeight": "{font.line-height.display-sm}",
+        "letterSpacing": "{font.letter-spacing.tight}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Display sm/Bold",
+          "usage": "Auth titles, modal hero"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "display-xs-regular": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.regular}",
+        "fontSize": "{font.size.display-xs}",
+        "lineHeight": "{font.line-height.display-xs}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Display xs/Regular",
+          "usage": "Page titles (Brand Monitor)"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "display-xs-medium": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.medium}",
+        "fontSize": "{font.size.display-xs}",
+        "lineHeight": "{font.line-height.display-xs}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Display xs/Medium",
+          "usage": "Page titles (Brand Monitor)"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "display-xs-semibold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.display-xs}",
+        "lineHeight": "{font.line-height.display-xs}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Display xs/Semibold",
+          "usage": "Page titles (Brand Monitor)"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "display-xs-bold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.bold}",
+        "fontSize": "{font.size.display-xs}",
+        "lineHeight": "{font.line-height.display-xs}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Display xs/Bold",
+          "usage": "Page titles (Brand Monitor)"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "text-xl-regular": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.regular}",
+        "fontSize": "{font.size.text-xl}",
+        "lineHeight": "{font.line-height.text-xl}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Text xl/Regular",
+          "usage": "Modal titles, card hero titles"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "text-xl-medium": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.medium}",
+        "fontSize": "{font.size.text-xl}",
+        "lineHeight": "{font.line-height.text-xl}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Text xl/Medium",
+          "usage": "Modal titles, card hero titles"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "text-xl-semibold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.text-xl}",
+        "lineHeight": "{font.line-height.text-xl}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Text xl/Semibold",
+          "usage": "Modal titles, card hero titles"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "text-xl-bold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.bold}",
+        "fontSize": "{font.size.text-xl}",
+        "lineHeight": "{font.line-height.text-xl}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Text xl/Bold",
+          "usage": "Modal titles, card hero titles"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "text-lg-regular": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.regular}",
+        "fontSize": "{font.size.text-lg}",
+        "lineHeight": "{font.line-height.text-lg}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Text lg/Regular",
+          "usage": "Section and card headers"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "text-lg-medium": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.medium}",
+        "fontSize": "{font.size.text-lg}",
+        "lineHeight": "{font.line-height.text-lg}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Text lg/Medium",
+          "usage": "Section and card headers"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "text-lg-semibold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.text-lg}",
+        "lineHeight": "{font.line-height.text-lg}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Text lg/Semibold",
+          "usage": "Section and card headers"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "text-lg-bold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.bold}",
+        "fontSize": "{font.size.text-lg}",
+        "lineHeight": "{font.line-height.text-lg}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Text lg/Bold",
+          "usage": "Section and card headers"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "text-md-regular": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.regular}",
+        "fontSize": "{font.size.text-md}",
+        "lineHeight": "{font.line-height.text-md}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Text md/Regular",
+          "usage": "Onboarding/auth body, buttons lg"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "text-md-medium": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.medium}",
+        "fontSize": "{font.size.text-md}",
+        "lineHeight": "{font.line-height.text-md}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Text md/Medium",
+          "usage": "Onboarding/auth body, buttons lg"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "text-md-semibold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.text-md}",
+        "lineHeight": "{font.line-height.text-md}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Text md/Semibold",
+          "usage": "Onboarding/auth body, buttons lg"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "text-md-bold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.bold}",
+        "fontSize": "{font.size.text-md}",
+        "lineHeight": "{font.line-height.text-md}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Text md/Bold",
+          "usage": "Onboarding/auth body, buttons lg"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "text-sm-regular": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.regular}",
+        "fontSize": "{font.size.text-sm}",
+        "lineHeight": "{font.line-height.text-sm}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "Figma description says 14/20px, but the line-height variable is 18px. 18px ships.",
+      "$extensions": {
+        "figma": {
+          "style": "Text sm/Regular",
+          "usage": "Default app text, tables, buttons md and sm"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "text-sm-medium": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.medium}",
+        "fontSize": "{font.size.text-sm}",
+        "lineHeight": "{font.line-height.text-sm}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "Figma description says 14/20px, but the line-height variable is 18px. 18px ships.",
+      "$extensions": {
+        "figma": {
+          "style": "Text sm/Medium",
+          "usage": "Default app text, tables, buttons md and sm"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "text-sm-semibold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.text-sm}",
+        "lineHeight": "{font.line-height.text-sm}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "Figma description says 14/20px, but the line-height variable is 18px. 18px ships.",
+      "$extensions": {
+        "figma": {
+          "style": "Text sm/Semibold",
+          "usage": "Default app text, tables, buttons md and sm"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "text-sm-bold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.bold}",
+        "fontSize": "{font.size.text-sm}",
+        "lineHeight": "{font.line-height.text-sm}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "Figma description says 14/20px, but the line-height variable is 18px. 18px ships.",
+      "$extensions": {
+        "figma": {
+          "style": "Text sm/Bold",
+          "usage": "Default app text, tables, buttons md and sm"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "text-xs-regular": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.regular}",
+        "fontSize": "{font.size.text-xs}",
+        "lineHeight": "{font.line-height.text-xs}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Text xs/Regular",
+          "usage": "Helper text, inputs, badges, tags, captions, table headers"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "text-xs-medium": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.medium}",
+        "fontSize": "{font.size.text-xs}",
+        "lineHeight": "{font.line-height.text-xs}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Text xs/Medium",
+          "usage": "Helper text, inputs, badges, tags, captions, table headers"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "text-xs-semibold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.text-xs}",
+        "lineHeight": "{font.line-height.text-xs}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Text xs/Semibold",
+          "usage": "Helper text, inputs, badges, tags, captions, table headers"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "text-xs-bold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.bold}",
+        "fontSize": "{font.size.text-xs}",
+        "lineHeight": "{font.line-height.text-xs}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Text xs/Bold",
+          "usage": "Helper text, inputs, badges, tags, captions, table headers"
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "overline-semibold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.text-xs}",
+        "lineHeight": "{font.line-height.text-xs}",
+        "letterSpacing": "{font.letter-spacing.widest}"
+      },
+      "$description": "Eyebrows (\"HOW IT WORKS\"), nav section labels.",
+      "$extensions": {
+        "figma": {
+          "style": "Overline/Semibold",
+          "usage": null
+        },
+        "css": {
+          "textTransform": "uppercase",
+          "tabularNums": false
+        }
+      }
+    },
+    "numeric-score": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.numeric-score}",
+        "lineHeight": "{font.line-height.numeric-score}",
+        "letterSpacing": "{font.letter-spacing.tighter}"
+      },
+      "$description": "Content score and rank (#12). Tabular figures.",
+      "$extensions": {
+        "figma": {
+          "style": "Numeric/Score",
+          "usage": null
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": true
+        }
+      }
+    },
+    "numeric-stat": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.numeric-stat}",
+        "lineHeight": "{font.line-height.numeric-stat}",
+        "letterSpacing": "{font.letter-spacing.tight}"
+      },
+      "$description": "Stat tiles and big numbers on VIP (500+).",
+      "$extensions": {
+        "figma": {
+          "style": "Numeric/Stat",
+          "usage": null
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": true
+        }
+      }
+    },
+    "numeric-table": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.medium}",
+        "fontSize": "{font.size.text-sm}",
+        "lineHeight": "{font.line-height.text-sm}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "Numbers in tables.",
+      "$extensions": {
+        "figma": {
+          "style": "Numeric/Table",
+          "usage": null
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": true
+        }
+      }
+    },
+    "editor-h1": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.bold}",
+        "fontSize": "{font.size.editor-h1}",
+        "lineHeight": "{font.line-height.editor-h1}",
+        "letterSpacing": "{font.letter-spacing.tight}"
+      },
+      "$description": "Article content only, never UI.",
+      "$extensions": {
+        "figma": {
+          "style": "Editor/H1",
+          "usage": null
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "editor-h2": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.editor-h2}",
+        "lineHeight": "{font.line-height.editor-h2}",
+        "letterSpacing": "{font.letter-spacing.tight}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Editor/H2",
+          "usage": null
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "editor-h3": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.editor-h3}",
+        "lineHeight": "{font.line-height.editor-h3}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Editor/H3",
+          "usage": null
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "editor-h4": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.editor-h4}",
+        "lineHeight": "{font.line-height.editor-h4}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Editor/H4",
+          "usage": null
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "editor-h5": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.text-md}",
+        "lineHeight": "{font.line-height.text-md}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Editor/H5",
+          "usage": null
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "editor-h6": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.text-sm}",
+        "lineHeight": "{font.line-height.text-sm}",
+        "letterSpacing": "{font.letter-spacing.wide}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Editor/H6",
+          "usage": null
+        },
+        "css": {
+          "textTransform": "uppercase",
+          "tabularNums": false
+        }
+      }
+    },
+    "editor-paragraph": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.regular}",
+        "fontSize": "{font.size.editor-paragraph}",
+        "lineHeight": "{font.line-height.editor-paragraph}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "Article body 18/28 (replaces Roboto 18/28).",
+      "$extensions": {
+        "figma": {
+          "style": "Editor/Paragraph",
+          "usage": null
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    },
+    "editor-meta-field": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.regular}",
+        "fontSize": "{font.size.text-sm}",
+        "lineHeight": "{font.line-height.text-sm}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Editor/Meta field",
+          "usage": null
+        },
+        "css": {
+          "textTransform": null,
+          "tabularNums": false
+        }
+      }
+    }
+  }
+}

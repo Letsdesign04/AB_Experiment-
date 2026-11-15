@@ -1,0 +1,62 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { SpacingScale, SizeTable, BorderWidthTable } from '../components/Foundations.jsx';
+
+<Meta title="Foundations/Spacing and sizes" />
+
+# Spacing and sizes
+
+A 4pt spacing scale, fixed control sizes and border widths. All of them are variables in the Figma *Spacing* collection. Never type a raw number into padding, margin or gap.
+
+```css
+.card {
+  padding: var(--spacing-xl);
+  gap: var(--spacing-md);
+  border: var(--border-width-default) solid var(--border-default);
+}
+```
+
+## Spacing scale
+
+Steps 2 to 96 are for components and screens. Steps 128 to 256 are for big page sections and marketing.
+
+<SpacingScale />
+
+## Control heights
+
+`md` (36px) is the app default.
+
+<SizeTable kind="control" />
+
+## Click targets
+
+`--size-target-min` (24px) is the WCAG 2.5.8 minimum click area. A control smaller than 24×24 needs 24px of free space around it. `--size-target-touch` (44px) is for mobile.
+
+<SizeTable kind="target" />
+
+## Icon sizes
+
+<SizeTable kind="icon" />
+
+## Avatar sizes
+
+<SizeTable kind="avatar" />
+
+## Containers
+
+The max width of page content. Put the content in a container, centre it, and let the page background fill the rest. Bars are shown at 1/6 scale.
+
+<SizeTable kind="container" />
+
+```css
+.page { max-width: var(--size-container-xl); margin-inline: auto; }
+```
+
+## Breakpoints
+
+The screen widths we design for. Each one has a layout grid; see [Layout grid](?path=/docs/foundations-layout-grid--docs). CSS can't use variables inside `@media`, so type the number there and keep it in sync with these tokens.
+
+<SizeTable kind="breakpoint" />
+
+## Border widths
+
+<BorderWidthTable />

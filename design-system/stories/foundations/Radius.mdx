@@ -1,0 +1,23 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { RadiusScale, MdTable } from '../components/Foundations.jsx';
+
+<Meta title="Foundations/Radius" />
+
+# Corner radius
+
+Seven steps, from square to fully round. They're variables in the Figma *Spacing* collection.
+
+<RadiusScale />
+
+```css
+.button { border-radius: var(--radius-xs); }
+.tag    { border-radius: var(--radius-full); }
+```
+
+## Which one to use
+
+These are the uses noted on the Figma page.
+
+<MdTable head={["Token", "Value", "Use for (from Figma)"]} rows={[["`--radius-none`", "0", "Tables, dividers"], ["`--radius-xs`", "4px", "Buttons, inputs, cards, tags"], ["`--radius-sm`", "6px", "Filter pills only"], ["`--radius-md`", "8px", "Modals, media cards"], ["`--radius-lg`", "12px", "Not used in the app"], ["`--radius-xl`", "16px", "Marketing only"], ["`--radius-full`", "9999px", "Pills, avatars, toggles"]]} />
+
+The app is mostly square-ish: 4px on everyday controls and cards, rounder only for modals and marketing.

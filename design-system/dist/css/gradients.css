@@ -1,0 +1,21 @@
+/**
+ * Gradient tokens. Generated from Figma, do not edit by hand.
+ * Source: tokens/figma-export/foundations.json → npm run build
+ * Figma has no gradient styles; these are the gradient fills used across the file, named by job.
+ */
+
+:root {
+  --gradient-brand: linear-gradient(90deg, #1f4cbe 0%, var(--color-cyan-500) 100%); /* Used in: Brand loader, logo on auth pages, email templates, error pages (9 layers) */
+  --gradient-premium: linear-gradient(90deg, #1f4cbe 0%, var(--color-purple-700) 100%); /* Used in: Plan badge (selected), marketing button default and focus, VIP sections (7 layers) */
+  --gradient-premium-hover: linear-gradient(90deg, #1641ae 0%, var(--color-purple-800) 100%); /* Used in: Marketing button hover (2 layers) */
+  --gradient-highlight: linear-gradient(90deg, var(--color-cyan-400) 0%, var(--color-purple-400) 100%); /* Used in: VIP stat values, as gradient text (4 layers) */
+  --gradient-dark-hero: linear-gradient(135deg, var(--color-gray-950) 0%, #022177 100%); /* Used in: Dark hero background, VIP hero (2 layers) */
+}
+
+/* Gradient text, as used for VIP stat values. Pair with a solid colour fallback for forced-colours mode. */
+.gradient-text {
+  background: var(--gradient-highlight);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

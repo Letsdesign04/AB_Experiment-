@@ -1,0 +1,135 @@
+{
+  "grid": {
+    "mobile": {
+      "columns": {
+        "$type": "number",
+        "$value": 4
+      },
+      "gutter": {
+        "$type": "dimension",
+        "$value": "16px"
+      },
+      "margin": {
+        "$type": "dimension",
+        "$value": "16px"
+      },
+      "min-width": {
+        "$type": "dimension",
+        "$value": "{size.breakpoint.mobile}"
+      },
+      "$description": "375px screens: 4 columns, 16px gutter, 16px margin."
+    },
+    "tablet": {
+      "columns": {
+        "$type": "number",
+        "$value": 8
+      },
+      "gutter": {
+        "$type": "dimension",
+        "$value": "16px"
+      },
+      "margin": {
+        "$type": "dimension",
+        "$value": "24px"
+      },
+      "min-width": {
+        "$type": "dimension",
+        "$value": "{size.breakpoint.tablet}"
+      },
+      "$description": "768px screens: 8 columns, 16px gutter, 24px margin."
+    },
+    "laptop": {
+      "columns": {
+        "$type": "number",
+        "$value": 12
+      },
+      "gutter": {
+        "$type": "dimension",
+        "$value": "24px"
+      },
+      "margin": {
+        "$type": "dimension",
+        "$value": "32px"
+      },
+      "min-width": {
+        "$type": "dimension",
+        "$value": "{size.breakpoint.laptop}"
+      },
+      "$description": "1280px screens: 12 columns, 24px gutter, 32px margin."
+    },
+    "desktop": {
+      "columns": {
+        "$type": "number",
+        "$value": 12
+      },
+      "gutter": {
+        "$type": "dimension",
+        "$value": "24px"
+      },
+      "margin": {
+        "$type": "dimension",
+        "$value": "32px"
+      },
+      "min-width": {
+        "$type": "dimension",
+        "$value": "{size.breakpoint.desktop}"
+      },
+      "$description": "1440px screens: 12 columns, 24px gutter, 32px margin."
+    },
+    "wide": {
+      "columns": {
+        "$type": "number",
+        "$value": 12
+      },
+      "gutter": {
+        "$type": "dimension",
+        "$value": "24px"
+      },
+      "min-width": {
+        "$type": "dimension",
+        "$value": "{size.breakpoint.wide}"
+      },
+      "max-content": {
+        "$type": "dimension",
+        "$value": "{size.container.2xl}"
+      },
+      "$description": "1728px screens: 12 columns, 1440px max content, centred."
+    },
+    "cols-12": {
+      "gutter": {
+        "$type": "dimension",
+        "$value": "24px"
+      },
+      "$description": "12 columns inside a container, 24px gutter, no margin."
+    },
+    "cols-6": {
+      "gutter": {
+        "$type": "dimension",
+        "$value": "24px"
+      }
+    },
+    "cols-4": {
+      "gutter": {
+        "$type": "dimension",
+        "$value": "24px"
+      }
+    },
+    "cols-3": {
+      "gutter": {
+        "$type": "dimension",
+        "$value": "24px"
+      }
+    },
+    "cols-2": {
+      "gutter": {
+        "$type": "dimension",
+        "$value": "24px"
+      }
+    },
+    "baseline": {
+      "$type": "dimension",
+      "$value": "4px",
+      "$description": "4pt baseline. Turn on to check vertical spacing."
+    }
+  }
+}

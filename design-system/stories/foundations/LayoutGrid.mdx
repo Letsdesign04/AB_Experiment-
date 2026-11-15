@@ -1,0 +1,52 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { GridTable, LayoutGridDemo, ColsDemo, MdTable } from '../components/Foundations.jsx';
+
+<Meta title="Foundations/Layout grid" />
+
+# Layout grid
+
+Layout grids give every screen the same structure. Each breakpoint below matches a grid style in Figma (`Grid/Mobile 375`, `Grid/Tablet 768` and so on).
+
+<GridTable />
+
+## Page grid
+
+Add `.layout-grid` to a full-width page container. It switches from 4 to 8 to 12 columns as the screen widens. Resize the window to watch it change.
+
+<LayoutGridDemo />
+
+```html
+<main class="layout-grid">
+  <section class="col-span-8">Main content</section>
+  <aside class="col-span-4">Side panel</aside>
+</main>
+```
+
+## Screen layouts (from Figma)
+
+<MdTable head={["Screen", "Layout"]} rows={[["App shell", "220px sidebar + flexible content, 32px page margin, 24px gap between cards. The 12-column grid starts after the sidebar."], ["Auth", "Split 40 / 60 (form column / social proof panel)"], ["Onboarding", "Centred column, about 960px"], ["Editor", "Content + 300px side panel (resizable)"], ["Cruise Mode", "Two-pane wizard"], ["Marketing", "12 columns, 24px gutter"]]} />
+
+Screens were designed at 1728px.
+
+**Open question:** the Figma layout note says marketing pages are 1200px max, but the `Grid/Wide 1728` style centres content at 1440px. The code follows the grid style. Decide which is right in Figma and the code will follow on the next sync.
+
+## Columns inside a container
+
+For cards and sections. Columns stretch to fill the container, and the gutter is always 24px.
+
+<ColsDemo n={2} />
+<ColsDemo n={3} />
+<ColsDemo n={4} />
+<ColsDemo n={6} />
+
+```html
+<div class="grid-cols-3">
+  <article class="card">…</article>
+  <article class="card">…</article>
+  <article class="card">…</article>
+</div>
+```
+
+## Baseline
+
+`--grid-baseline` is 4px. Spacing and line heights are all multiples of 4, so text and boxes line up on the same rhythm.

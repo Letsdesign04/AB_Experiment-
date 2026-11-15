@@ -1,0 +1,1059 @@
+{
+ "_source": "Figma file 'Design system Scalenut' (S4wnJAjs70cxh7d6zuSugC): variable collections Typography + Spacing, local text styles, effect styles, grid styles, and gradient fills in use",
+ "_exported": "2026-11-15",
+ "Typography": [
+  {
+   "name": "font/family/sans",
+   "value": "Inter"
+  },
+  {
+   "name": "font/weight/regular",
+   "value": "Regular"
+  },
+  {
+   "name": "font/weight/medium",
+   "value": "Medium"
+  },
+  {
+   "name": "font/weight/semibold",
+   "value": "Semi Bold"
+  },
+  {
+   "name": "font/weight/bold",
+   "value": "Bold"
+  },
+  {
+   "name": "font/size/display-2xl",
+   "value": 56
+  },
+  {
+   "name": "font/line-height/display-2xl",
+   "value": 72
+  },
+  {
+   "name": "font/size/display-xl",
+   "value": 48
+  },
+  {
+   "name": "font/line-height/display-xl",
+   "value": 56
+  },
+  {
+   "name": "font/size/display-lg",
+   "value": 40
+  },
+  {
+   "name": "font/line-height/display-lg",
+   "value": 48
+  },
+  {
+   "name": "font/size/display-md",
+   "value": 32
+  },
+  {
+   "name": "font/line-height/display-md",
+   "value": 40
+  },
+  {
+   "name": "font/size/display-sm",
+   "value": 28
+  },
+  {
+   "name": "font/line-height/display-sm",
+   "value": 36
+  },
+  {
+   "name": "font/size/display-xs",
+   "value": 24
+  },
+  {
+   "name": "font/line-height/display-xs",
+   "value": 32
+  },
+  {
+   "name": "font/size/text-xl",
+   "value": 20
+  },
+  {
+   "name": "font/line-height/text-xl",
+   "value": 28
+  },
+  {
+   "name": "font/size/text-lg",
+   "value": 18
+  },
+  {
+   "name": "font/line-height/text-lg",
+   "value": 24
+  },
+  {
+   "name": "font/size/text-md",
+   "value": 16
+  },
+  {
+   "name": "font/line-height/text-md",
+   "value": 24
+  },
+  {
+   "name": "font/size/text-sm",
+   "value": 14
+  },
+  {
+   "name": "font/line-height/text-sm",
+   "value": 18
+  },
+  {
+   "name": "font/size/text-xs",
+   "value": 12
+  },
+  {
+   "name": "font/line-height/text-xs",
+   "value": 16
+  },
+  {
+   "name": "font/size/numeric-score",
+   "value": 48
+  },
+  {
+   "name": "font/line-height/numeric-score",
+   "value": 56
+  },
+  {
+   "name": "font/size/numeric-stat",
+   "value": 32
+  },
+  {
+   "name": "font/line-height/numeric-stat",
+   "value": 40
+  },
+  {
+   "name": "font/size/editor-h1",
+   "value": 36
+  },
+  {
+   "name": "font/line-height/editor-h1",
+   "value": 44
+  },
+  {
+   "name": "font/size/editor-h2",
+   "value": 28
+  },
+  {
+   "name": "font/line-height/editor-h2",
+   "value": 36
+  },
+  {
+   "name": "font/size/editor-h3",
+   "value": 22
+  },
+  {
+   "name": "font/line-height/editor-h3",
+   "value": 30
+  },
+  {
+   "name": "font/size/editor-h4",
+   "value": 18
+  },
+  {
+   "name": "font/line-height/editor-h4",
+   "value": 28
+  },
+  {
+   "name": "font/size/editor-paragraph",
+   "value": 18
+  },
+  {
+   "name": "font/line-height/editor-paragraph",
+   "value": 28
+  }
+ ],
+ "Spacing": [
+  {
+   "name": "spacing/none",
+   "value": 0
+  },
+  {
+   "name": "spacing/xxs",
+   "value": 2
+  },
+  {
+   "name": "spacing/xs",
+   "value": 4
+  },
+  {
+   "name": "spacing/sm",
+   "value": 6
+  },
+  {
+   "name": "spacing/md",
+   "value": 8
+  },
+  {
+   "name": "spacing/lg",
+   "value": 12
+  },
+  {
+   "name": "spacing/xl",
+   "value": 16
+  },
+  {
+   "name": "spacing/2xl",
+   "value": 20
+  },
+  {
+   "name": "spacing/3xl",
+   "value": 24
+  },
+  {
+   "name": "spacing/4xl",
+   "value": 32
+  },
+  {
+   "name": "spacing/5xl",
+   "value": 40
+  },
+  {
+   "name": "spacing/6xl",
+   "value": 48
+  },
+  {
+   "name": "spacing/7xl",
+   "value": 64
+  },
+  {
+   "name": "spacing/8xl",
+   "value": 80
+  },
+  {
+   "name": "spacing/9xl",
+   "value": 96
+  },
+  {
+   "name": "spacing/10xl",
+   "value": 128
+  },
+  {
+   "name": "spacing/11xl",
+   "value": 160
+  },
+  {
+   "name": "spacing/12xl",
+   "value": 192
+  },
+  {
+   "name": "spacing/13xl",
+   "value": 224
+  },
+  {
+   "name": "spacing/14xl",
+   "value": 256
+  },
+  {
+   "name": "radius/none",
+   "value": 0
+  },
+  {
+   "name": "radius/xs",
+   "value": 4
+  },
+  {
+   "name": "radius/sm",
+   "value": 6
+  },
+  {
+   "name": "radius/md",
+   "value": 8
+  },
+  {
+   "name": "radius/lg",
+   "value": 12
+  },
+  {
+   "name": "radius/xl",
+   "value": 16
+  },
+  {
+   "name": "radius/full",
+   "value": 9999
+  },
+  {
+   "name": "size/control/sm",
+   "value": 32
+  },
+  {
+   "name": "size/control/md",
+   "value": 36
+  },
+  {
+   "name": "size/control/lg",
+   "value": 40
+  },
+  {
+   "name": "size/control/xl",
+   "value": 48
+  },
+  {
+   "name": "size/icon/xs",
+   "value": 12
+  },
+  {
+   "name": "size/icon/sm",
+   "value": 16
+  },
+  {
+   "name": "size/icon/md",
+   "value": 20
+  },
+  {
+   "name": "size/icon/lg",
+   "value": 24
+  },
+  {
+   "name": "size/target/min",
+   "value": 24
+  },
+  {
+   "name": "size/target/touch",
+   "value": 44
+  },
+  {
+   "name": "size/avatar/xs",
+   "value": 24
+  },
+  {
+   "name": "size/avatar/sm",
+   "value": 32
+  },
+  {
+   "name": "size/avatar/md",
+   "value": 40
+  },
+  {
+   "name": "size/avatar/lg",
+   "value": 48
+  },
+  {
+   "name": "size/avatar/xl",
+   "value": 56
+  },
+  {
+   "name": "size/avatar/2xl",
+   "value": 64
+  },
+  {
+   "name": "size/container/sm",
+   "value": 640
+  },
+  {
+   "name": "size/container/md",
+   "value": 768
+  },
+  {
+   "name": "size/container/lg",
+   "value": 1024
+  },
+  {
+   "name": "size/container/xl",
+   "value": 1280
+  },
+  {
+   "name": "size/container/2xl",
+   "value": 1440
+  },
+  {
+   "name": "size/breakpoint/mobile",
+   "value": 375
+  },
+  {
+   "name": "size/breakpoint/tablet",
+   "value": 768
+  },
+  {
+   "name": "size/breakpoint/laptop",
+   "value": 1280
+  },
+  {
+   "name": "size/breakpoint/desktop",
+   "value": 1440
+  },
+  {
+   "name": "size/breakpoint/wide",
+   "value": 1728
+  },
+  {
+   "name": "border-width/default",
+   "value": 1
+  },
+  {
+   "name": "border-width/strong",
+   "value": 1.5
+  },
+  {
+   "name": "border-width/focus",
+   "value": 2
+  }
+ ],
+ "TextStyles": [
+  {
+   "name": "Display 2xl",
+   "usage": "VIP / marketing hero",
+   "weights": [
+    "Regular",
+    "Medium",
+    "Semibold",
+    "Bold"
+   ],
+   "size": "font/size/display-2xl",
+   "lineHeight": "font/line-height/display-2xl",
+   "letterSpacingPct": -2
+  },
+  {
+   "name": "Display xl",
+   "usage": "Marketing section titles",
+   "weights": [
+    "Regular",
+    "Medium",
+    "Semibold",
+    "Bold"
+   ],
+   "size": "font/size/display-xl",
+   "lineHeight": "font/line-height/display-xl",
+   "letterSpacingPct": -2
+  },
+  {
+   "name": "Display lg",
+   "usage": "Marketing headings, empty-state hero",
+   "weights": [
+    "Regular",
+    "Medium",
+    "Semibold",
+    "Bold"
+   ],
+   "size": "font/size/display-lg",
+   "lineHeight": "font/line-height/display-lg",
+   "letterSpacingPct": -2
+  },
+  {
+   "name": "Display md",
+   "usage": "Onboarding titles, big stats",
+   "weights": [
+    "Regular",
+    "Medium",
+    "Semibold",
+    "Bold"
+   ],
+   "size": "font/size/display-md",
+   "lineHeight": "font/line-height/display-md",
+   "letterSpacingPct": -1
+  },
+  {
+   "name": "Display sm",
+   "usage": "Auth titles, modal hero",
+   "weights": [
+    "Regular",
+    "Medium",
+    "Semibold",
+    "Bold"
+   ],
+   "size": "font/size/display-sm",
+   "lineHeight": "font/line-height/display-sm",
+   "letterSpacingPct": -1
+  },
+  {
+   "name": "Display xs",
+   "usage": "Page titles (Brand Monitor)",
+   "weights": [
+    "Regular",
+    "Medium",
+    "Semibold",
+    "Bold"
+   ],
+   "size": "font/size/display-xs",
+   "lineHeight": "font/line-height/display-xs",
+   "letterSpacingPct": 0
+  },
+  {
+   "name": "Text xl",
+   "usage": "Modal titles, card hero titles",
+   "weights": [
+    "Regular",
+    "Medium",
+    "Semibold",
+    "Bold"
+   ],
+   "size": "font/size/text-xl",
+   "lineHeight": "font/line-height/text-xl",
+   "letterSpacingPct": 0
+  },
+  {
+   "name": "Text lg",
+   "usage": "Section and card headers",
+   "weights": [
+    "Regular",
+    "Medium",
+    "Semibold",
+    "Bold"
+   ],
+   "size": "font/size/text-lg",
+   "lineHeight": "font/line-height/text-lg",
+   "letterSpacingPct": 0
+  },
+  {
+   "name": "Text md",
+   "usage": "Onboarding/auth body, buttons lg",
+   "weights": [
+    "Regular",
+    "Medium",
+    "Semibold",
+    "Bold"
+   ],
+   "size": "font/size/text-md",
+   "lineHeight": "font/line-height/text-md",
+   "letterSpacingPct": 0
+  },
+  {
+   "name": "Text sm",
+   "usage": "Default app text, tables, buttons md and sm",
+   "weights": [
+    "Regular",
+    "Medium",
+    "Semibold",
+    "Bold"
+   ],
+   "size": "font/size/text-sm",
+   "lineHeight": "font/line-height/text-sm",
+   "letterSpacingPct": 0,
+   "description": "Figma description says 14/20px, but the line-height variable is 18px. 18px ships."
+  },
+  {
+   "name": "Text xs",
+   "usage": "Helper text, inputs, badges, tags, captions, table headers",
+   "weights": [
+    "Regular",
+    "Medium",
+    "Semibold",
+    "Bold"
+   ],
+   "size": "font/size/text-xs",
+   "lineHeight": "font/line-height/text-xs",
+   "letterSpacingPct": 0
+  },
+  {
+   "name": "Overline/Semibold",
+   "weight": "Semibold",
+   "size": "font/size/text-xs",
+   "lineHeight": "font/line-height/text-xs",
+   "letterSpacingPct": 6,
+   "textCase": "UPPER",
+   "description": "Eyebrows (\"HOW IT WORKS\"), nav section labels."
+  },
+  {
+   "name": "Numeric/Score",
+   "weight": "Semibold",
+   "size": "font/size/numeric-score",
+   "lineHeight": "font/line-height/numeric-score",
+   "letterSpacingPct": -2,
+   "tabular": true,
+   "description": "Content score and rank (#12). Tabular figures."
+  },
+  {
+   "name": "Numeric/Stat",
+   "weight": "Semibold",
+   "size": "font/size/numeric-stat",
+   "lineHeight": "font/line-height/numeric-stat",
+   "letterSpacingPct": -1,
+   "tabular": true,
+   "description": "Stat tiles and big numbers on VIP (500+)."
+  },
+  {
+   "name": "Numeric/Table",
+   "weight": "Medium",
+   "size": "font/size/text-sm",
+   "lineHeight": "font/line-height/text-sm",
+   "letterSpacingPct": 0,
+   "tabular": true,
+   "description": "Numbers in tables."
+  },
+  {
+   "name": "Editor/H1",
+   "weight": "Bold",
+   "size": "font/size/editor-h1",
+   "lineHeight": "font/line-height/editor-h1",
+   "letterSpacingPct": -1,
+   "description": "Article content only, never UI."
+  },
+  {
+   "name": "Editor/H2",
+   "weight": "Semibold",
+   "size": "font/size/editor-h2",
+   "lineHeight": "font/line-height/editor-h2",
+   "letterSpacingPct": -1
+  },
+  {
+   "name": "Editor/H3",
+   "weight": "Semibold",
+   "size": "font/size/editor-h3",
+   "lineHeight": "font/line-height/editor-h3",
+   "letterSpacingPct": 0
+  },
+  {
+   "name": "Editor/H4",
+   "weight": "Semibold",
+   "size": "font/size/editor-h4",
+   "lineHeight": "font/line-height/editor-h4",
+   "letterSpacingPct": 0
+  },
+  {
+   "name": "Editor/H5",
+   "weight": "Semibold",
+   "size": "font/size/text-md",
+   "lineHeight": "font/line-height/text-md",
+   "letterSpacingPct": 0
+  },
+  {
+   "name": "Editor/H6",
+   "weight": "Semibold",
+   "size": "font/size/text-sm",
+   "lineHeight": "font/line-height/text-sm",
+   "letterSpacingPct": 2,
+   "textCase": "UPPER"
+  },
+  {
+   "name": "Editor/Paragraph",
+   "weight": "Regular",
+   "size": "font/size/editor-paragraph",
+   "lineHeight": "font/line-height/editor-paragraph",
+   "letterSpacingPct": 0,
+   "description": "Article body 18/28 (replaces Roboto 18/28)."
+  },
+  {
+   "name": "Editor/Meta field",
+   "weight": "Regular",
+   "size": "font/size/text-sm",
+   "lineHeight": "font/line-height/text-sm",
+   "letterSpacingPct": 0
+  }
+ ],
+ "EffectStyles": [
+  {
+   "name": "Shadow/xs",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "rgba": [
+      24,
+      39,
+      75,
+      0.12
+     ],
+     "x": 0,
+     "y": 1,
+     "blur": 2,
+     "spread": 0
+    }
+   ]
+  },
+  {
+   "name": "Shadow/sm",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "rgba": [
+      24,
+      39,
+      75,
+      0.2
+     ],
+     "x": 0,
+     "y": 1,
+     "blur": 4,
+     "spread": 0
+    }
+   ]
+  },
+  {
+   "name": "Shadow/md",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "rgba": [
+      24,
+      39,
+      75,
+      0.2
+     ],
+     "x": 0,
+     "y": 6,
+     "blur": 8,
+     "spread": -6
+    },
+    {
+     "type": "DROP_SHADOW",
+     "rgba": [
+      24,
+      39,
+      75,
+      0.14
+     ],
+     "x": 0,
+     "y": 8,
+     "blur": 16,
+     "spread": -6
+    }
+   ]
+  },
+  {
+   "name": "Shadow/lg",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "rgba": [
+      24,
+      39,
+      75,
+      0.14
+     ],
+     "x": 0,
+     "y": 12,
+     "blur": 24,
+     "spread": -6
+    },
+    {
+     "type": "DROP_SHADOW",
+     "rgba": [
+      24,
+      39,
+      75,
+      0.1
+     ],
+     "x": 0,
+     "y": 4,
+     "blur": 8,
+     "spread": -2
+    }
+   ]
+  },
+  {
+   "name": "Shadow/xl",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "rgba": [
+      24,
+      39,
+      75,
+      0.16
+     ],
+     "x": 0,
+     "y": 20,
+     "blur": 32,
+     "spread": -8
+    },
+    {
+     "type": "DROP_SHADOW",
+     "rgba": [
+      24,
+      39,
+      75,
+      0.1
+     ],
+     "x": 0,
+     "y": 8,
+     "blur": 12,
+     "spread": -4
+    }
+   ]
+  },
+  {
+   "name": "Focus ring/Brand",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "colorVar": "focus/ring",
+     "x": 0,
+     "y": 0,
+     "blur": 0,
+     "spread": 4,
+     "spreadVar": "spacing/xs"
+    },
+    {
+     "type": "DROP_SHADOW",
+     "colorVar": "focus/offset",
+     "rgba": [
+      255,
+      255,
+      255,
+      1
+     ],
+     "x": 0,
+     "y": 0,
+     "blur": 0,
+     "spread": 2
+    }
+   ]
+  },
+  {
+   "name": "Focus ring/Error",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "colorVar": "focus/ring-error",
+     "x": 0,
+     "y": 0,
+     "blur": 0,
+     "spread": 4,
+     "spreadVar": "spacing/xs"
+    },
+    {
+     "type": "DROP_SHADOW",
+     "colorVar": "focus/offset",
+     "rgba": [
+      255,
+      255,
+      255,
+      1
+     ],
+     "x": 0,
+     "y": 0,
+     "blur": 0,
+     "spread": 2
+    }
+   ]
+  },
+  {
+   "name": "Focus halo/Brand",
+   "description": "Active/typing state for inputs, selects, chips: pair with a 1px border/brand stroke.",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "colorVar": "focus/halo",
+     "x": 0,
+     "y": 0,
+     "blur": 0,
+     "spread": 2,
+     "spreadVar": "spacing/xxs"
+    }
+   ]
+  },
+  {
+   "name": "Focus halo/Error",
+   "description": "Error active state: pair with a 1px border/error stroke.",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "colorVar": "focus/halo-error",
+     "x": 0,
+     "y": 0,
+     "blur": 0,
+     "spread": 2,
+     "spreadVar": "spacing/xxs"
+    }
+   ]
+  },
+  {
+   "name": "Glow/Dark card",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "primitive": "color/cyan/500",
+     "alpha": 0.35,
+     "x": 0,
+     "y": 0,
+     "blur": 32,
+     "spread": 0
+    }
+   ]
+  },
+  {
+   "name": "Divider/Bottom hairline",
+   "description": "1px hairline under top bars and sticky headers.",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "primitive": "color/gray/400",
+     "alpha": 1,
+     "x": 0,
+     "y": 1,
+     "blur": 0,
+     "spread": 0
+    }
+   ]
+  },
+  {
+   "name": "Blur/Locked content",
+   "effects": [
+    {
+     "type": "LAYER_BLUR",
+     "radius": 8
+    }
+   ]
+  }
+ ],
+ "GridStyles": [
+  {
+   "name": "Grid/Mobile 375",
+   "breakpoint": "size/breakpoint/mobile",
+   "columns": 4,
+   "gutter": 16,
+   "margin": 16,
+   "description": "375px screens: 4 columns, 16px gutter, 16px margin."
+  },
+  {
+   "name": "Grid/Tablet 768",
+   "breakpoint": "size/breakpoint/tablet",
+   "columns": 8,
+   "gutter": 16,
+   "margin": 24,
+   "description": "768px screens: 8 columns, 16px gutter, 24px margin."
+  },
+  {
+   "name": "Grid/Laptop 1280",
+   "breakpoint": "size/breakpoint/laptop",
+   "columns": 12,
+   "gutter": 24,
+   "margin": 32,
+   "description": "1280px screens: 12 columns, 24px gutter, 32px margin."
+  },
+  {
+   "name": "Grid/Desktop 1440",
+   "breakpoint": "size/breakpoint/desktop",
+   "columns": 12,
+   "gutter": 24,
+   "margin": 32,
+   "description": "1440px screens: 12 columns, 24px gutter, 32px margin."
+  },
+  {
+   "name": "Grid/Wide 1728",
+   "breakpoint": "size/breakpoint/wide",
+   "columns": 12,
+   "gutter": 24,
+   "maxContent": "size/container/2xl",
+   "description": "1728px screens: 12 columns, 1440px max content, centred."
+  },
+  {
+   "name": "Grid/Columns 12",
+   "columns": 12,
+   "gutter": 24,
+   "description": "12 columns inside a container, 24px gutter, no margin."
+  },
+  {
+   "name": "Grid/Columns 6",
+   "columns": 6,
+   "gutter": 24
+  },
+  {
+   "name": "Grid/Columns 4",
+   "columns": 4,
+   "gutter": 24
+  },
+  {
+   "name": "Grid/Columns 3",
+   "columns": 3,
+   "gutter": 24
+  },
+  {
+   "name": "Grid/Columns 2",
+   "columns": 2,
+   "gutter": 24
+  },
+  {
+   "name": "Grid/Baseline 4",
+   "baseline": 4,
+   "description": "4pt baseline. Turn on to check vertical spacing."
+  }
+ ],
+ "Gradients": [
+  {
+   "name": "brand",
+   "angleDeg": 90,
+   "stops": [
+    {
+     "hex": "#1f4cbe",
+     "pos": 0
+    },
+    {
+     "primitive": "color/cyan/500",
+     "hex": "#0fa5d9",
+     "pos": 1
+    }
+   ],
+   "usedIn": "Brand loader, logo on auth pages, email templates, error pages (9 layers)"
+  },
+  {
+   "name": "premium",
+   "angleDeg": 90,
+   "stops": [
+    {
+     "hex": "#1f4cbe",
+     "pos": 0
+    },
+    {
+     "primitive": "color/purple/700",
+     "hex": "#7416a5",
+     "pos": 1
+    }
+   ],
+   "usedIn": "Plan badge (selected), marketing button default and focus, VIP sections (7 layers)"
+  },
+  {
+   "name": "premium-hover",
+   "angleDeg": 90,
+   "stops": [
+    {
+     "hex": "#1641ae",
+     "pos": 0
+    },
+    {
+     "primitive": "color/purple/800",
+     "hex": "#54007b",
+     "pos": 1
+    }
+   ],
+   "usedIn": "Marketing button hover (2 layers)"
+  },
+  {
+   "name": "highlight",
+   "angleDeg": 90,
+   "stops": [
+    {
+     "primitive": "color/cyan/400",
+     "hex": "#57c2f1",
+     "pos": 0
+    },
+    {
+     "primitive": "color/purple/400",
+     "hex": "#c161f0",
+     "pos": 1
+    }
+   ],
+   "usedIn": "VIP stat values, as gradient text (4 layers)"
+  },
+  {
+   "name": "dark-hero",
+   "angleDeg": 135,
+   "stops": [
+    {
+     "primitive": "color/gray/950",
+     "hex": "#000624",
+     "pos": 0
+    },
+    {
+     "hex": "#022177",
+     "pos": 1
+    }
+   ],
+   "usedIn": "Dark hero background, VIP hero (2 layers)"
+  }
+ ],
+ "TypographyRules": [
+  "Inter only. One scale for product and marketing, and a separate set for article text in the editor.",
+  "Buttons and CTAs are always Medium.",
+  "Dropdown and menu items are always Regular.",
+  "Nothing in the UI is smaller than 12px.",
+  "Regular for anything people read: body, inputs, menu items, table cells.",
+  "Medium for things people act on: buttons, labels, nav items, badges.",
+  "Semibold for titles and headers. One Semibold title per card or section.",
+  "Bold is rare. Only for editor H1 and marketing emphasis.",
+  "Numbers in tables and scores use tabular figures."
+ ]
+}
