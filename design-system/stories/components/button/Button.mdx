@@ -1,0 +1,124 @@
+import { Meta, Canvas, Controls, Stories } from '@storybook/addon-docs/blocks';
+import * as ButtonStories from './Button.stories.js';
+import { MdTable } from '../Foundations.jsx';
+
+<Meta of={ButtonStories} />
+
+# Button
+
+The one button component for Scalenut, built from the Figma component set **Button** (`↳ Buttons`): 7 hierarchies, 4 sizes and 6 states. Every colour, size and effect is a design token, so a change in Figma flows through to here.
+
+<Canvas of={ButtonStories.Playground} />
+<Controls of={ButtonStories.Playground} />
+
+## Use it in code
+
+Load `scalenut.css` (it includes the button), then write a plain `<button>`:
+
+```html
+<button type="button" class="btn btn--primary btn--md">
+  <svg class="btn__icon btn__icon--leading" aria-hidden="true"><!-- dist/icons/magic.svg --></svg>
+  <span class="btn__label">Generate article</span>
+</button>
+```
+
+<MdTable
+  head={['Part', 'Class', 'Notes']}
+  rows={[
+    ['Button', '`.btn`', 'Use `<button type="button">` or `type="submit"`. Use `<a class="btn btn--link">` when it goes to another page.'],
+    ['Hierarchy', '`.btn--primary` `.btn--secondary` `.btn--soft` `.btn--tertiary` `.btn--link` `.btn--destructive` `.btn--destructive-secondary`', 'Primary if you leave it out.'],
+    ['Size', '`.btn--sm` `.btn--md` `.btn--lg` `.btn--xl`', '32 / 36 / 40 / 48px. `md` is the app default and is used if you leave it out.'],
+    ['Label', '`.btn__label`', 'One line. Cut at 240px with an ellipsis; show the full label in a tooltip.'],
+    ['Icons', '`.btn__icon--leading` `.btn__icon--trailing`', 'Any icon from the icon set. 16px at sm, 20px at md and lg, 24px at xl. Always `aria-hidden="true"`.'],
+    ['Spinner', '`.btn__spinner`', 'Put it first. It only shows while `aria-busy="true"`, in place of the leading icon.'],
+    ['Full width', '`.btn--block`', 'Fill container in Figma. Auth forms and mobile.'],
+  ]}
+/>
+
+## When to use which
+
+<Canvas of={ButtonStories.Hierarchies} />
+
+<MdTable
+  head={['Hierarchy', 'Use for']}
+  rows={[
+    ['**Primary**', 'The one main action on a screen: Sign in, Create, Continue, Generate, Publish. **One Primary per screen.**'],
+    ['**Secondary**', 'The other choice next to a Primary: Cancel, Back to Editor, Save draft.'],
+    ['**Soft**', 'Small helpers inside the content: Add Domain, Fix It, Download Guidelines, Auto Optimize.'],
+    ['**Tertiary**', 'Quiet toolbar actions and table row actions.'],
+    ['**Link**', 'Back, Skip, View more, + Add Theme, Explore feature →. Use `<a>` when it goes to another page.'],
+    ['**Destructive**, **Destructive secondary**', 'Delete, Remove, End trial. Always ask to confirm in a modal.'],
+  ]}
+/>
+
+Social sign-in, the gradient CTA and the marketing pill have their own Figma sets (*Button social*, *Button marketing*) and will be separate components.
+
+## Sizes
+
+<Canvas of={ButtonStories.Sizes} />
+
+## Icons
+
+Leading icon for what the action does, trailing icon for where it goes: `arrow-right` (next step), `arrow-right-up` (opens elsewhere), `return`, `down` (opens a menu). For an icon on its own, use *Icon button*, never a Button with an empty label.
+
+<Canvas of={ButtonStories.WithIcons} />
+
+## Pairs
+
+Secondary on the left, Primary on the right, 12px apart (`--spacing-lg`).
+
+<Canvas of={ButtonStories.ButtonPair} />
+
+## Loading
+
+Set `aria-busy="true"`. The spinner takes the place of the leading icon, the label stays (or says "Saving…"), the button stops responding to clicks, and the width doesn't jump. If it takes more than 10 seconds, show progress text somewhere else. Pair it with a polite live region, for example "Generating article…".
+
+<Canvas of={ButtonStories.Loading} />
+
+If the button has no leading icon, the spinner adds 20px (plus the gap) to its width. Give it a `min-width` if the jump matters.
+
+## Disabled
+
+It's usually better to keep the button on and show an error next to the field. If you do disable it, use `aria-disabled="true"` (not the `disabled` attribute) so it stays focusable, and say why next to it. Your click handler must ignore clicks while `aria-disabled="true"`.
+
+<Canvas of={ButtonStories.Disabled} />
+
+## Full width and long labels
+
+<Canvas of={ButtonStories.FullWidth} />
+<Canvas of={ButtonStories.LongLabel} />
+
+## All variants
+
+Every hierarchy in every state, as in Figma. Hover, Pressed and Focus are forced here with `data-state` for preview; in a product the browser handles them.
+
+<Canvas of={ButtonStories.AllVariants} />
+
+## Keyboard and screen readers
+
+- Tab and Shift+Tab reach every button. Enter and Space press it.
+- The focus ring only shows for keyboard focus (`:focus-visible`), not on mouse click. It's red on destructive buttons.
+- Icons inside get `aria-hidden="true"`.
+- Disabled = `aria-disabled="true"`, so the reason can still be read.
+- Loading = `aria-busy="true"` plus a polite live region.
+
+## Accessibility check (WCAG 2.2 AA, from Figma)
+
+- **1.4.3 Label contrast** passes in every active state: white on blue-600 7.3:1, blue-600 on white 7.3:1, red-600 on red-50 4.81:1.
+- **1.4.11 Non-text contrast**: Secondary is told apart by its blue label (7.3:1).
+- **2.4.7 / 2.4.13 Focus**: 2px white gap + 2px blue-600 ring.
+- **2.5.8 Target size**: the smallest button is 32px high, including Link.
+- **1.4.1 Use of colour**: Link hover and pressed add an underline, not just a colour change.
+- Disabled text (1.88:1) doesn't have to pass 1.4.3, but it always comes with a reason.
+
+## Differences from Figma
+
+<MdTable
+  head={['What', 'Figma', 'Code']}
+  rows={[
+    ['Link hover and pressed', 'The notes say these add an underline, but the variants have none', 'Underlined, to meet 1.4.1 as the notes say'],
+    ['Secondary border', 'Bound to `bg/brand-soft`, a background token', 'Ships as-is. Consider a border token in Figma'],
+    ['Link sm padding', '2px each side (`spacing/xxs`); other Link sizes use 12–20px', 'Ships as-is'],
+    ['Destructive secondary border', 'Notes say red-600 (5.5:1); the variable bound is `border/error` (red-700)', 'Follows the variable (red-700)'],
+  ]}
+/>

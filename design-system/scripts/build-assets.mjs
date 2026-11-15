@@ -4,7 +4,7 @@
 //
 // Input:  tokens/figma-export/icons.json, tokens/figma-export/logos.json, dist/css/*.css
 // Output: dist/icons/*.svg, dist/icons/sprite.svg, dist/json/icons.json,
-//         dist/logos/*.svg, dist/css/icons.css, dist/css/scalenut.css
+//         dist/logos/*.svg, dist/css/icons.css, dist/css/scalenut.css (foundations + components)
 
 import { readFileSync, writeFileSync, mkdirSync, rmSync } from 'node:fs';
 
@@ -89,7 +89,7 @@ out('dist/logos/scalenut-logo.svg', svg(logo.width, logo.height, vb, fullLogo(lo
 out('dist/logos/scalenut-logo-on-dark.svg', svg(logo.width, logo.height, vb, fullLogo(logo.wordmark.fillDark), 'Scalenut'));
 
 // ─── Bundle ─────────────────────────────────────────────────────────────────
-const parts = ['colors', 'typography', 'spacing', 'effects', 'gradients', 'icons'];
+const parts = ['colors', 'typography', 'spacing', 'effects', 'gradients', 'icons', 'button'];
 out(
   'dist/css/scalenut.css',
   `/**

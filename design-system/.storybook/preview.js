@@ -12,6 +12,8 @@ const preview = {
           'Introduction',
           'Foundations',
           ['Colours', ['Brand colour', 'Semantic tokens', 'Primitives'], 'Typography', 'Logos', 'Icons', 'Effects', 'Spacing and sizes', 'Radius', 'Layout grid', 'Gradients'],
+          'Components',
+          ['Button'],
           'Changelog',
         ],
       },

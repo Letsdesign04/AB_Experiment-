@@ -24,16 +24,19 @@ design-system/
 │   │   ├── colors.json            ←   colour variables
 │   │   ├── foundations.json       ←   type + spacing variables, text/effect/grid styles, gradients in use
 │   │   ├── icons.json             ←   the 133 icons in "Icon set"
+│   │   ├── components/button.json ←   Button: every variant's tokens
 │   │   └── logos.json             ←   Scalenut mark and logo
 │   ├── color/ typography/ space/ effect/ gradient/ grid/   ← generated W3C token files (don't edit)
 ├── scripts/
 │   ├── figma-to-tokens.mjs        ← figma-export → token files
+│   ├── build-components.mjs       ← component specs → component CSS (button.css)
 │   └── build-assets.mjs           ← icons, logos and the scalenut.css bundle
 ├── style-dictionary.config.mjs        ← colour tokens → CSS
 ├── style-dictionary.foundations.mjs   ← everything else → CSS
 ├── dist/                          ← generated, committed so the CDN links work
 │   ├── css/scalenut.css           ←   THE CSS, everything in one file
 │   ├── css/{colors,typography,spacing,effects,gradients,icons}.css
+│   ├── css/button.css             ←   components
 │   ├── icons/*.svg, icons/sprite.svg
 │   ├── logos/*.svg
 │   └── json/                      ←   token lists the docs read

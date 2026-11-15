@@ -2,6 +2,20 @@
 
 All notable changes to the design system. Newest first.
 
+## 0.3.0 · 2026-11-15
+
+**Added**
+- **Button**, the first component, from the Figma set *Button* (`↳ Buttons`): 7 hierarchies (Primary, Secondary, Soft, Tertiary, Link, Destructive, Destructive secondary), 4 sizes (32/36/40/48px), and Default, Hover, Pressed, Focus, Disabled and Loading states. Leading and trailing icons, spinner, full width, 240px label cut-off.
+- `dist/css/button.css`, generated from `tokens/figma-export/components/button.json`. Also in `scalenut.css`.
+- Storybook: *Components / Button* with a Playground (live controls), examples for each use and the full variant matrix.
+- `DESIGN.md`: Button rules.
+
+**Differences from Figma**
+- Link hover and pressed are underlined in code. The Figma notes say they should be (WCAG 1.4.1), but the variants aren't.
+- Secondary's border uses `bg/brand-soft`, a background token. Shipped as-is; consider a border token.
+- Link `sm` has 2px side padding while other Link sizes use 12–20px. Shipped as-is.
+- Destructive secondary border: notes say red-600, the bound variable is `border/error` (red-700). Code follows the variable.
+
 ## 0.2.0 · 2026-11-15
 
 **Added**
