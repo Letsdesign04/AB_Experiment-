@@ -1,0 +1,162 @@
+/**
+ * Input field. Part of the Scalenut Design System.
+ * Figma: '↳ Inputs'
+ *
+ * <div class="field">
+ *   <label class="field__label" for="kw">Keyword</label>
+ *   <div class="input">
+ *     <svg class="input__icon input__icon--leading" aria-hidden="true">…</svg>
+ *     <input class="input__control" id="kw" type="text" placeholder="Enter keyword">
+ *     <svg class="input__icon input__icon--trailing" aria-hidden="true">…</svg>
+ *   </div>
+ *   <span class="field__hint">We'll use this to build your outline.</span>
+ * </div>
+ *
+ * Error:   add class `input--error` to .input; change .field__hint to .field__error
+ * Success: add class `input--success` to .input
+ * Disabled: add `disabled` attribute to <input>
+ */
+
+/* ── Field wrapper ───────────────────────────────────── */
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.field__label {
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-text-sm);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--font-line-height-text-sm);
+  color: var(--text-primary);
+}
+.field__label--required::after {
+  content: ' *';
+  color: var(--text-error);
+}
+
+.field__hint {
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-text-xs);
+  line-height: var(--font-line-height-text-xs);
+  color: var(--text-tertiary);
+}
+.field__error {
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-text-xs);
+  line-height: var(--font-line-height-text-xs);
+  color: var(--text-error);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+/* ── Input wrapper ───────────────────────────────────── */
+.input {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  height: var(--size-control-md); /* 36px */
+  padding: 0 var(--spacing-lg);
+  border-radius: var(--radius-sm);
+  border: var(--border-width-default) solid var(--border-input);
+  background: var(--bg-primary);
+  transition: border-color 100ms ease, box-shadow 100ms ease;
+}
+
+.input:hover { border-color: var(--border-brand); }
+
+.input:focus-within {
+  border-color: var(--border-brand);
+  box-shadow: var(--shadow-focus-ring);
+  outline: none;
+}
+
+/* ── Control ─────────────────────────────────────────── */
+.input__control {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-text-sm);
+  line-height: var(--font-line-height-text-sm);
+  color: var(--text-primary);
+  caret-color: var(--border-brand);
+}
+.input__control::placeholder { color: var(--text-placeholder); }
+.input__control:disabled { cursor: not-allowed; }
+
+/* ── Icons ───────────────────────────────────────────── */
+.input__icon {
+  flex-shrink: 0;
+  width: var(--size-icon-sm);
+  height: var(--size-icon-sm);
+  fill: var(--text-tertiary);
+}
+.input:focus-within .input__icon { fill: var(--text-brand); }
+
+/* ── Sizes ───────────────────────────────────────────── */
+.input--sm { height: var(--size-control-sm); padding: 0 var(--spacing-md); }
+.input--lg { height: var(--size-control-lg); padding: 0 var(--spacing-xl); }
+.input--lg .input__control {
+  font-size: var(--font-size-text-md);
+  line-height: var(--font-line-height-text-md);
+}
+
+/* ── States ──────────────────────────────────────────── */
+.input--error,
+.input--error:hover {
+  border-color: var(--border-error);
+}
+.input--error:focus-within {
+  border-color: var(--border-error);
+  box-shadow: var(--shadow-focus-ring-error);
+}
+
+.input--success { border-color: var(--border-success); }
+
+.input:has(input:disabled),
+.input--disabled {
+  background: var(--bg-disabled);
+  border-color: var(--border-disabled);
+  cursor: not-allowed;
+}
+.input:has(input:disabled):hover { border-color: var(--border-disabled); }
+.input:has(input:disabled) .input__control { color: var(--text-disabled); }
+
+/* ── Textarea variant ────────────────────────────────── */
+.textarea {
+  box-sizing: border-box;
+  display: flex;
+  padding: var(--spacing-md) var(--spacing-lg);
+  border-radius: var(--radius-sm);
+  border: var(--border-width-default) solid var(--border-input);
+  background: var(--bg-primary);
+  transition: border-color 100ms ease, box-shadow 100ms ease;
+}
+.textarea:hover { border-color: var(--border-brand); }
+.textarea:focus-within {
+  border-color: var(--border-brand);
+  box-shadow: var(--shadow-focus-ring);
+}
+.textarea__control {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-text-sm);
+  line-height: var(--font-line-height-text-sm);
+  color: var(--text-primary);
+  resize: vertical;
+  min-height: 80px;
+}
+.textarea__control::placeholder { color: var(--text-placeholder); }
+.textarea--error,
+.textarea--error:hover { border-color: var(--border-error); }
+.textarea--error:focus-within { box-shadow: var(--shadow-focus-ring-error); }

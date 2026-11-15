@@ -1,0 +1,29 @@
+import { Canvas, Controls, Meta } from '@storybook/blocks';
+import * as TooltipStories from './Tooltip.stories.js';
+
+<Meta of={TooltipStories} />
+
+# Tooltip
+
+Tooltips provide brief contextual information on hover. Keep content short — if it needs more than a sentence, use a popover instead.
+
+<Canvas of={TooltipStories.Playground} />
+<Controls of={TooltipStories.Playground} />
+
+## Positions
+
+<Canvas of={TooltipStories.Positions} />
+
+## Multiline content
+
+<Canvas of={TooltipStories.Multiline} />
+
+## On icon button
+
+<Canvas of={TooltipStories.OnIconButton} />
+
+## Usage guidelines
+
+- **Never put critical information in a tooltip** — it's invisible on touch devices.
+- Use `position: bottom` for elements near the top of the viewport.
+- Keep copy to under 10 words where possible; use `multiline` for longer explanations.

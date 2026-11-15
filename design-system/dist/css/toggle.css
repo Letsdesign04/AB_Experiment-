@@ -1,0 +1,123 @@
+/**
+ * Toggle (Switch). Part of the Scalenut Design System.
+ * Figma: '↳ Toggle'
+ *
+ * <label class="toggle">
+ *   <input class="toggle__input" type="checkbox" role="switch">
+ *   <span class="toggle__track">
+ *     <span class="toggle__thumb"></span>
+ *   </span>
+ *   <span class="toggle__label">Enable feature</span>
+ * </label>
+ */
+
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  cursor: pointer;
+  user-select: none;
+}
+.toggle:has(input:disabled) { cursor: not-allowed; }
+
+/* Hidden native input */
+.toggle__input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Track */
+.toggle__track {
+  flex-shrink: 0;
+  box-sizing: border-box;
+  position: relative;
+  width: 36px;
+  height: 20px;
+  border-radius: var(--radius-full);
+  border: var(--border-width-default) solid var(--border-input);
+  background: var(--bg-secondary);
+  transition: background-color 150ms ease, border-color 150ms ease, box-shadow 150ms ease;
+}
+
+/* Thumb */
+.toggle__thumb {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--text-tertiary);
+  transition: transform 150ms ease, background-color 150ms ease;
+}
+
+/* Hover */
+.toggle:hover .toggle__track,
+.toggle__input[data-state="hover"] + .toggle__track {
+  border-color: var(--border-brand);
+}
+.toggle:hover .toggle__thumb { background: var(--text-brand); }
+
+/* Focus */
+.toggle__input:focus-visible + .toggle__track,
+.toggle__input[data-state="focus"] + .toggle__track {
+  outline: none;
+  box-shadow: var(--shadow-focus-ring);
+  border-color: var(--border-brand);
+}
+
+/* Checked (On) */
+.toggle__input:checked + .toggle__track,
+.toggle__input[data-state="checked"] + .toggle__track {
+  background: var(--bg-brand);
+  border-color: var(--bg-brand);
+}
+.toggle__input:checked + .toggle__track .toggle__thumb,
+.toggle__input[data-state="checked"] + .toggle__track .toggle__thumb {
+  transform: translateX(16px);
+  background: white;
+}
+
+/* Checked hover */
+.toggle:has(input:checked):hover .toggle__track {
+  background: var(--bg-brand-hover);
+  border-color: var(--bg-brand-hover);
+}
+
+/* Checked focus */
+.toggle__input:checked:focus-visible + .toggle__track {
+  box-shadow: var(--shadow-focus-ring);
+}
+
+/* Disabled */
+.toggle__input:disabled + .toggle__track {
+  background: var(--bg-disabled);
+  border-color: var(--border-disabled);
+}
+.toggle__input:disabled + .toggle__track .toggle__thumb {
+  background: var(--text-disabled);
+}
+
+/* Sizes */
+.toggle--sm .toggle__track { width: 28px; height: 16px; }
+.toggle--sm .toggle__thumb { width: 10px; height: 10px; }
+.toggle--sm .toggle__input:checked + .toggle__track .toggle__thumb { transform: translateX(12px); }
+
+.toggle--lg .toggle__track { width: 44px; height: 24px; }
+.toggle--lg .toggle__thumb { width: 18px; height: 18px; }
+.toggle--lg .toggle__input:checked + .toggle__track .toggle__thumb { transform: translateX(20px); }
+
+/* Label */
+.toggle__label {
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-text-sm);
+  line-height: var(--font-line-height-text-sm);
+  color: var(--text-primary);
+}
+.toggle:has(input:disabled) .toggle__label { color: var(--text-disabled); }

@@ -13,7 +13,7 @@ const preview = {
           'Foundations',
           ['Colours', ['Brand colour', 'Semantic tokens', 'Primitives'], 'Typography', 'Logos', 'Icons', 'Effects', 'Spacing and sizes', 'Radius', 'Layout grid', 'Gradients'],
           'Components',
-          ['Button'],
+          ['Button', 'Badge', 'Checkbox', 'Toggle', 'Input', 'Radio', 'Avatar', 'Tag', 'Tooltip', 'Spinner', 'Divider', 'Select'],
           'Changelog',
         ],
       },

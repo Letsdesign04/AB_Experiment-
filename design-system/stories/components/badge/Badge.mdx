@@ -1,0 +1,35 @@
+import { Canvas, Controls, Meta, Story } from '@storybook/blocks';
+import * as BadgeStories from './Badge.stories.js';
+
+<Meta of={BadgeStories} />
+
+# Badge
+
+Badges communicate status, categorisation, or count at a glance. Keep the label short — one or two words maximum.
+
+<Canvas of={BadgeStories.Playground} />
+<Controls of={BadgeStories.Playground} />
+
+## Variants
+
+<Canvas of={BadgeStories.Variants} />
+
+## Sizes
+
+<Canvas of={BadgeStories.Sizes} />
+
+## With dot indicator
+
+Use a dot to reinforce status with colour + shape.
+
+<Canvas of={BadgeStories.WithDot} />
+
+## In context
+
+<Canvas of={BadgeStories.InContext} />
+
+## Usage guidelines
+
+- **Limit to one badge per row item** — multiple badges fight for attention.
+- Use `success` / `warning` / `error` variants for state; `brand` and `ai` for category or feature labels.
+- Avoid wrapping text — if the label needs two lines, use a different element.

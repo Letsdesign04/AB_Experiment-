@@ -1,0 +1,34 @@
+import { Canvas, Controls, Meta } from '@storybook/blocks';
+import * as SpinnerStories from './Spinner.stories.js';
+
+<Meta of={SpinnerStories} />
+
+# Spinner
+
+Spinners indicate an indeterminate loading state. Use skeleton loaders when the layout of the arriving content is known.
+
+<Canvas of={SpinnerStories.Playground} />
+<Controls of={SpinnerStories.Playground} />
+
+## Sizes
+
+<Canvas of={SpinnerStories.Sizes} />
+
+## On dark background
+
+<Canvas of={SpinnerStories.OnDark} />
+
+## Loading button
+
+<Canvas of={SpinnerStories.InButton} />
+
+## Skeleton loaders
+
+<Canvas of={SpinnerStories.Skeleton} />
+
+## Usage guidelines
+
+- **Spinner** — use for single actions (save, upload) or when layout is unknown.
+- **Skeleton** — use for page or section loads where the structure is predictable.
+- Always include a visually-hidden `aria-label` for screen readers.
+- Avoid showing a spinner for operations faster than 300 ms — debounce the display.

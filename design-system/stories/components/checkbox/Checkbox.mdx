@@ -1,0 +1,33 @@
+import { Canvas, Controls, Meta } from '@storybook/blocks';
+import * as CheckboxStories from './Checkbox.stories.js';
+
+<Meta of={CheckboxStories} />
+
+# Checkbox
+
+Checkboxes let users select one or more options from a list. Use them when multiple items can be selected simultaneously.
+
+<Canvas of={CheckboxStories.Playground} />
+<Controls of={CheckboxStories.Playground} />
+
+## States
+
+<Canvas of={CheckboxStories.States} />
+
+## With hint text
+
+<Canvas of={CheckboxStories.WithHint} />
+
+## Sizes
+
+<Canvas of={CheckboxStories.Sizes} />
+
+## Checkbox group
+
+<Canvas of={CheckboxStories.Group} />
+
+## Usage guidelines
+
+- **Label is required** — always describe what the user is selecting.
+- Use the `indeterminate` state for parent checkboxes in a hierarchical list.
+- Stack checkboxes vertically for more than 2 options; horizontal is fine for 2.

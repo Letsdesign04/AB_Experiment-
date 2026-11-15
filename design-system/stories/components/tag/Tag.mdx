@@ -1,0 +1,33 @@
+import { Canvas, Controls, Meta } from '@storybook/blocks';
+import * as TagStories from './Tag.stories.js';
+
+<Meta of={TagStories} />
+
+# Tag
+
+Tags categorise content and provide a quick filter mechanism. They can be static labels or interactive (removable, selectable).
+
+<Canvas of={TagStories.Playground} />
+<Controls of={TagStories.Playground} />
+
+## Variants
+
+<Canvas of={TagStories.Variants} />
+
+## Sizes
+
+<Canvas of={TagStories.Sizes} />
+
+## Removable tags
+
+<Canvas of={TagStories.Removable} />
+
+## Tag input
+
+<Canvas of={TagStories.TagInput} />
+
+## Usage guidelines
+
+- Keep tag labels to 1–2 words.
+- Use `selected` variant to indicate an active filter state.
+- Use `tag-input` pattern for free-form multi-select inputs like keyword or topic fields.

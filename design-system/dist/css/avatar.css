@@ -1,0 +1,89 @@
+/**
+ * Avatar. Part of the Scalenut Design System.
+ * Figma: '↳ Avatars'
+ *
+ * Image:
+ * <div class="avatar avatar--md">
+ *   <img class="avatar__img" src="photo.jpg" alt="Priya Sharma">
+ * </div>
+ *
+ * Initials fallback:
+ * <div class="avatar avatar--md avatar--initials">PS</div>
+ *
+ * Online indicator:
+ * <div class="avatar avatar--md avatar--online">
+ *   <img class="avatar__img" src="photo.jpg" alt="Priya Sharma">
+ * </div>
+ */
+
+.avatar {
+  box-sizing: border-box;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  background: var(--bg-brand-soft);
+  color: var(--text-brand);
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-semibold);
+}
+
+/* Sizes */
+.avatar--xs  { width: var(--size-avatar-xs);  height: var(--size-avatar-xs);  font-size: 10px; }
+.avatar--sm  { width: var(--size-avatar-sm);  height: var(--size-avatar-sm);  font-size: var(--font-size-text-xs); }
+.avatar--md  { width: var(--size-avatar-md);  height: var(--size-avatar-md);  font-size: var(--font-size-text-sm); }
+.avatar--lg  { width: var(--size-avatar-lg);  height: var(--size-avatar-lg);  font-size: var(--font-size-text-md); }
+.avatar--xl  { width: var(--size-avatar-xl);  height: var(--size-avatar-xl);  font-size: 1.125rem; }
+.avatar--2xl { width: var(--size-avatar-2xl); height: var(--size-avatar-2xl); font-size: 1.25rem; }
+
+/* Image */
+.avatar__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Colour variants for initials */
+.avatar--brand   { background: var(--bg-brand-soft);   color: var(--text-brand); }
+.avatar--success { background: var(--bg-success-soft);  color: var(--color-green-700); }
+.avatar--warning { background: var(--bg-warning-soft);  color: var(--color-yellow-800); }
+.avatar--error   { background: var(--bg-error-soft);    color: var(--text-error); }
+.avatar--ai      { background: var(--bg-ai-soft);       color: var(--text-ai); }
+.avatar--neutral { background: var(--bg-secondary);     color: var(--text-secondary); }
+
+/* Rounded (square) variant */
+.avatar--rounded { border-radius: var(--radius-md); }
+.avatar--xs.avatar--rounded  { border-radius: var(--radius-xs); }
+.avatar--sm.avatar--rounded  { border-radius: var(--radius-sm); }
+
+/* Online / offline indicator */
+.avatar--online::after,
+.avatar--offline::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 25%;
+  height: 25%;
+  min-width: 6px;
+  min-height: 6px;
+  border-radius: 50%;
+  border: 2px solid var(--bg-primary);
+}
+.avatar--online::after  { background: var(--bg-success); }
+.avatar--offline::after { background: var(--border-default); }
+
+/* Avatar group: stacked avatars */
+.avatar-group {
+  display: inline-flex;
+  flex-direction: row-reverse;
+}
+.avatar-group .avatar {
+  margin-left: calc(var(--avatar-overlap, -8px));
+  border: 2px solid var(--bg-primary);
+}
+.avatar-group .avatar:last-child { margin-left: 0; }

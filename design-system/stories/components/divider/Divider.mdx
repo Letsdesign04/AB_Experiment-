@@ -1,0 +1,29 @@
+import { Canvas, Controls, Meta } from '@storybook/blocks';
+import * as DividerStories from './Divider.stories.js';
+
+<Meta of={DividerStories} />
+
+# Divider
+
+Dividers separate groups of content to create visual rhythm. Use sparingly — whitespace often communicates separation more cleanly.
+
+<Canvas of={DividerStories.Playground} />
+<Controls of={DividerStories.Playground} />
+
+## Variants
+
+<Canvas of={DividerStories.Variants} />
+
+## With label
+
+<Canvas of={DividerStories.WithLabel} />
+
+## Vertical divider
+
+<Canvas of={DividerStories.Vertical} />
+
+## Usage guidelines
+
+- Use `subtle` to separate closely related items; `default` for section breaks; `strong` for major layout boundaries.
+- Labelled dividers work well in authentication flows ("Or sign in with").
+- Vertical dividers suit inline navigation, breadcrumbs, and toolbar separators.

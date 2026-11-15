@@ -1,0 +1,39 @@
+import { Canvas, Controls, Meta } from '@storybook/blocks';
+import * as AvatarStories from './Avatar.stories.js';
+
+<Meta of={AvatarStories} />
+
+# Avatar
+
+Avatars represent users or entities. Show a photo when available; fall back to initials with a colour.
+
+<Canvas of={AvatarStories.Playground} />
+<Controls of={AvatarStories.Playground} />
+
+## Sizes
+
+<Canvas of={AvatarStories.Sizes} />
+
+## Colour variants
+
+<Canvas of={AvatarStories.Colors} />
+
+## With status indicator
+
+<Canvas of={AvatarStories.WithStatus} />
+
+## Avatar group
+
+<Canvas of={AvatarStories.Group} />
+
+## Rounded (square) variant
+
+Use `rounded` for brand entities, organisations, or integration logos.
+
+<Canvas of={AvatarStories.Rounded} />
+
+## Usage guidelines
+
+- **Limit initials to 2 characters** — use first + last initial.
+- Assign colours consistently per user so they become recognisable over time.
+- Use `avatar-group` with negative margin stacking to show collaborators.

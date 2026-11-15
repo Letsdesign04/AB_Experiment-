@@ -1,0 +1,29 @@
+import { Canvas, Controls, Meta } from '@storybook/blocks';
+import * as SelectStories from './Select.stories.js';
+
+<Meta of={SelectStories} />
+
+# Select
+
+Select lets users choose one option from a dropdown. Use the native `<select>` element for accessibility; use a custom dropdown menu for richer interactions.
+
+<Canvas of={SelectStories.Playground} />
+<Controls of={SelectStories.Playground} />
+
+## States
+
+<Canvas of={SelectStories.States} />
+
+## Sizes
+
+<Canvas of={SelectStories.Sizes} />
+
+## In a form
+
+<Canvas of={SelectStories.InForm} />
+
+## Usage guidelines
+
+- Use Select for 3–10 mutually exclusive options. Fewer than 3 → Radio buttons. More than 10 → consider a searchable combobox.
+- Always include a visible label; never use placeholder text as the only label.
+- Group related options with `<optgroup>` for long lists.

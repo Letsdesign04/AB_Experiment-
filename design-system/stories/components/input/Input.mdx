@@ -1,0 +1,37 @@
+import { Canvas, Controls, Meta } from '@storybook/blocks';
+import * as InputStories from './Input.stories.js';
+
+<Meta of={InputStories} />
+
+# Input
+
+Text inputs capture a single line of data. Use `Textarea` for multi-line content. Wrap with `Field` to add label, hint, and error messaging.
+
+<Canvas of={InputStories.Playground} />
+<Controls of={InputStories.Playground} />
+
+## States
+
+<Canvas of={InputStories.States} />
+
+## With icons
+
+<Canvas of={InputStories.WithIcons} />
+
+## Sizes
+
+<Canvas of={InputStories.Sizes} />
+
+## Textarea
+
+<Canvas of={InputStories.TextareaVariant} />
+
+## Required field
+
+<Canvas of={InputStories.Required} />
+
+## Usage guidelines
+
+- **Always use a visible label** — placeholder text is not a substitute.
+- Pair with a hint to clarify formatting expectations.
+- Show error messages inline, below the field, in the `--error` state — never in a toast.

@@ -1,0 +1,29 @@
+import { Canvas, Controls, Meta } from '@storybook/blocks';
+import * as RadioStories from './Radio.stories.js';
+
+<Meta of={RadioStories} />
+
+# Radio
+
+Radio buttons let users select exactly one option from a group. Use when the options are mutually exclusive.
+
+<Canvas of={RadioStories.Playground} />
+<Controls of={RadioStories.Playground} />
+
+## States
+
+<Canvas of={RadioStories.States} />
+
+## Radio group
+
+<Canvas of={RadioStories.Group} />
+
+## Sizes
+
+<Canvas of={RadioStories.Sizes} />
+
+## Usage guidelines
+
+- **Group radios together** — always wrap in a `<fieldset>` with a `<legend>`.
+- Pre-select the most likely option to reduce decision fatigue.
+- Use a Select component instead when there are more than 5–6 options.

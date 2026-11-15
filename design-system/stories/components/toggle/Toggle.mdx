@@ -1,0 +1,32 @@
+import { Canvas, Controls, Meta } from '@storybook/blocks';
+import * as ToggleStories from './Toggle.stories.js';
+
+<Meta of={ToggleStories} />
+
+# Toggle
+
+Toggles switch a single setting on or off immediately. Use when the action takes effect without a save step.
+
+<Canvas of={ToggleStories.Playground} />
+<Controls of={ToggleStories.Playground} />
+
+## States
+
+<Canvas of={ToggleStories.States} />
+
+## Sizes
+
+<Canvas of={ToggleStories.Sizes} />
+
+## Label on left
+
+<Canvas of={ToggleStories.LabelLeft} />
+
+## Settings list
+
+<Canvas of={ToggleStories.SettingsList} />
+
+## Usage guidelines
+
+- **Toggle ≠ Checkbox** — use a toggle for immediate actions (dark mode, feature flags); use a checkbox when the user must confirm with a submit action.
+- Always label what the toggle controls; avoid "On / Off" as the label.

@@ -1,0 +1,95 @@
+/**
+ * Badge. Part of the Scalenut Design System.
+ * Figma: '↳ Badges' › Badge
+ *
+ * <span class="badge badge--default">Label</span>
+ * <span class="badge badge--success badge--sm">+12%</span>
+ * <span class="badge badge--error">
+ *   <svg class="badge__icon" aria-hidden="true">…</svg>
+ *   Error
+ * </span>
+ */
+
+.badge {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  padding: 0 var(--spacing-sm);
+  height: var(--badge-height, 20px);
+  border-radius: var(--radius-full);
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-text-xs);
+  line-height: var(--font-line-height-text-xs);
+  white-space: nowrap;
+  background: var(--badge-bg, var(--bg-secondary));
+  color: var(--badge-fg, var(--text-secondary));
+  border: var(--border-width-default) solid var(--badge-border, transparent);
+}
+
+/* Sizes */
+.badge--sm {
+  --badge-height: 18px;
+  font-size: 11px;
+  line-height: 1rem;
+  padding: 0 var(--spacing-xs);
+}
+.badge--md { --badge-height: 20px; }
+.badge--lg {
+  --badge-height: 24px;
+  font-size: var(--font-size-text-xs);
+  padding: 0 var(--spacing-md);
+}
+
+/* Variants */
+.badge--default {
+  --badge-bg: var(--bg-secondary);
+  --badge-fg: var(--text-secondary);
+}
+.badge--brand {
+  --badge-bg: var(--bg-brand-soft);
+  --badge-fg: var(--text-brand);
+}
+.badge--success {
+  --badge-bg: var(--bg-success-soft);
+  --badge-fg: var(--color-green-700);
+}
+.badge--warning {
+  --badge-bg: var(--bg-warning-soft);
+  --badge-fg: var(--color-yellow-800);
+}
+.badge--error {
+  --badge-bg: var(--bg-error-soft);
+  --badge-fg: var(--text-error);
+}
+.badge--ai {
+  --badge-bg: var(--bg-ai-soft);
+  --badge-fg: var(--text-ai);
+}
+.badge--outline {
+  --badge-bg: transparent;
+  --badge-fg: var(--text-secondary);
+  --badge-border: var(--border-default);
+}
+.badge--strong {
+  --badge-bg: var(--bg-strong);
+  --badge-fg: var(--text-on-dark);
+}
+
+/* Dot */
+.badge__dot {
+  flex-shrink: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+/* Icon */
+.badge__icon {
+  flex-shrink: 0;
+  width: 12px;
+  height: 12px;
+  fill: currentColor;
+}

@@ -1,0 +1,103 @@
+/**
+ * Tooltip. Part of the Scalenut Design System.
+ * Figma: '↳ Tooltip'
+ *
+ * <div class="tooltip-wrapper">
+ *   <button type="button" aria-describedby="tip1">Hover me</button>
+ *   <div class="tooltip" id="tip1" role="tooltip">Keyboard shortcut: ⌘K</div>
+ * </div>
+ *
+ * Position modifiers: tooltip--top (default), --bottom, --left, --right
+ * In production, use a JS tooltip library (Floating UI, Tippy, Radix) for
+ * proper positioning. These classes define the visual appearance only.
+ */
+
+.tooltip-wrapper {
+  position: relative;
+  display: inline-flex;
+}
+
+.tooltip {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1000;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 220px;
+  padding: var(--spacing-xs) var(--spacing-md);
+  border-radius: var(--radius-sm);
+  background: var(--bg-inverse);
+  color: var(--text-on-dark);
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-text-xs);
+  line-height: var(--font-line-height-text-xs);
+  font-weight: var(--font-weight-medium);
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 150ms ease;
+}
+
+/* Arrow */
+.tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid transparent;
+  border-top-color: var(--bg-inverse);
+}
+
+/* Visible state */
+.tooltip-wrapper:hover .tooltip,
+.tooltip[data-state="visible"] { opacity: 1; }
+
+/* Positions */
+.tooltip--bottom {
+  bottom: auto;
+  top: calc(100% + 6px);
+}
+.tooltip--bottom::after {
+  top: auto;
+  bottom: 100%;
+  border-top-color: transparent;
+  border-bottom-color: var(--bg-inverse);
+}
+
+.tooltip--left {
+  bottom: auto;
+  left: auto;
+  right: calc(100% + 6px);
+  top: 50%;
+  transform: translateY(-50%);
+}
+.tooltip--left::after {
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  border-top-color: transparent;
+  border-left-color: var(--bg-inverse);
+}
+
+.tooltip--right {
+  bottom: auto;
+  left: calc(100% + 6px);
+  top: 50%;
+  transform: translateY(-50%);
+}
+.tooltip--right::after {
+  top: 50%;
+  left: auto;
+  right: 100%;
+  transform: translateY(-50%);
+  border-top-color: transparent;
+  border-right-color: var(--bg-inverse);
+}
+
+/* Multiline variant */
+.tooltip--multiline {
+  white-space: normal;
+  text-align: left;
+}

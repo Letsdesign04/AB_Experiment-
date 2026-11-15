@@ -1,0 +1,117 @@
+/**
+ * Tag. Part of the Scalenut Design System.
+ * Figma: '↳ Tags'
+ *
+ * <span class="tag">SEO</span>
+ * <span class="tag tag--removable">
+ *   <span class="tag__label">Keyword</span>
+ *   <button class="tag__remove" type="button" aria-label="Remove keyword">
+ *     <svg class="tag__remove-icon" aria-hidden="true">…</svg>
+ *   </button>
+ * </span>
+ *
+ * Tag input (input + tags wrapper):
+ * <div class="tag-input">
+ *   <span class="tag">First</span>
+ *   <span class="tag">Second</span>
+ *   <input class="tag-input__control" type="text" placeholder="Add topic…">
+ * </div>
+ */
+
+.tag {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  height: 24px;
+  padding: 0 var(--spacing-md);
+  border-radius: var(--radius-full);
+  border: var(--border-width-default) solid var(--border-default);
+  background: var(--bg-primary);
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-text-xs);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--font-line-height-text-xs);
+  color: var(--text-secondary);
+  white-space: nowrap;
+  transition: border-color 100ms ease, background-color 100ms ease;
+}
+
+.tag:hover { border-color: var(--border-brand); color: var(--text-brand); }
+
+/* Variants */
+.tag--brand {
+  background: var(--bg-brand-soft);
+  border-color: transparent;
+  color: var(--text-brand);
+}
+.tag--filled {
+  background: var(--bg-secondary);
+  border-color: transparent;
+}
+.tag--selected {
+  background: var(--bg-brand-selected);
+  border-color: var(--border-brand-selected);
+  color: var(--text-brand);
+}
+
+/* Size */
+.tag--sm { height: 20px; padding: 0 var(--spacing-sm); font-size: 11px; }
+.tag--lg { height: 28px; padding: 0 var(--spacing-lg); font-size: var(--font-size-text-xs); }
+
+/* Remove button inside tag */
+.tag__label { flex: 1; }
+.tag__remove {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 14px;
+  height: 14px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+  color: inherit;
+  transition: background-color 100ms ease;
+}
+.tag__remove:hover { background: var(--border-default); }
+.tag__remove-icon {
+  width: 10px;
+  height: 10px;
+  fill: currentColor;
+}
+
+/* Tag input wrapper */
+.tag-input {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-xs) var(--spacing-md);
+  min-height: var(--size-control-md);
+  border-radius: var(--radius-sm);
+  border: var(--border-width-default) solid var(--border-input);
+  background: var(--bg-primary);
+  transition: border-color 100ms ease, box-shadow 100ms ease;
+}
+.tag-input:hover { border-color: var(--border-brand); }
+.tag-input:focus-within {
+  border-color: var(--border-brand);
+  box-shadow: var(--shadow-focus-ring);
+}
+.tag-input__control {
+  flex: 1;
+  min-width: 80px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-text-sm);
+  line-height: var(--font-line-height-text-sm);
+  color: var(--text-primary);
+}
+.tag-input__control::placeholder { color: var(--text-placeholder); }
