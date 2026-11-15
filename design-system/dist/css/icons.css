@@ -1,0 +1,28 @@
+/**
+ * Icon sizing and colour. Generated, do not edit by hand.
+ * Markup: <svg class="icon"><use href="/icons/sprite.svg#icon-search"/></svg>, or paste an SVG from dist/icons/.
+ * Icons fill with currentColor, so they take the text colour of their parent unless you set one.
+ */
+
+.icon {
+  display: inline-block;
+  flex-shrink: 0;
+  width: var(--size-icon-sm);
+  height: var(--size-icon-sm);
+  color: var(--icon-primary);
+  fill: currentColor;
+  vertical-align: middle;
+}
+.icon--xs { width: var(--size-icon-xs); height: var(--size-icon-xs); }
+.icon--sm { width: var(--size-icon-sm); height: var(--size-icon-sm); }
+.icon--md { width: var(--size-icon-md); height: var(--size-icon-md); }
+.icon--lg { width: var(--size-icon-lg); height: var(--size-icon-lg); }
+.icon--secondary { color: var(--icon-secondary); }
+.icon--brand { color: var(--icon-brand); }
+.icon--on-brand { color: var(--icon-on-brand); }
+.icon--disabled { color: var(--icon-disabled); }
+.icon--error { color: var(--icon-error); }
+.icon--success { color: var(--icon-success); }
+.icon--warning { color: var(--icon-warning); }
+.icon--ai { color: var(--icon-ai); }
+.icon--inherit { color: inherit; }

@@ -1,0 +1,40 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { LogoShowcase, LogoClearSpace, MdTable } from '../components/Foundations.jsx';
+
+<Meta title="Foundations/Logos" />
+
+# Logos
+
+The Scalenut mark is two shapes: a brand-blue L (`blue-600`) and a cyan square (`cyan-500`). The full logo adds the wordmark, set in Inter Bold and outlined in these files, so it looks right even where Inter isn't installed.
+
+<LogoShowcase />
+
+## Use it in code
+
+Link the SVG straight from the CDN, or download it and serve it yourself.
+
+```html
+<img
+  src="https://cdn.jsdelivr.net/gh/Letsdesign04/AB_Experiment-@main/design-system/dist/logos/scalenut-logo.svg"
+  alt="Scalenut"
+  height="32"
+/>
+
+<link rel="icon" type="image/svg+xml" href="/scalenut-favicon.svg" />
+```
+
+Always set `alt="Scalenut"` on the full logo. If the logo sits next to the word Scalenut already, use `alt=""` so screen readers don't read it twice.
+
+## Clear space
+
+Keep clear space equal to the mark height on every side. At 40px tall, that's 40px all round.
+
+<LogoClearSpace />
+
+## Do and don't
+
+<MdTable head={["Do", "Don't"]} rows={[["Use the light logo on white and light grey", "Put the light logo on navy or on a photo"], ["Use the dark logo on navy", "Recolour the mark or the wordmark"], ["Use the files from this page", "Rebuild the logo with live text or paste a screenshot"], ["Scale it by height and keep the aspect ratio", "Stretch, rotate or add effects"]]} />
+
+## Not in code
+
+The Figma Logos page also holds AI engine, data source, customer, press, flag and placeholder logos. Those are other companies' trademarks, so they stay in Figma and don't go in the public CDN. Take them from each brand's press kit when a product needs one.

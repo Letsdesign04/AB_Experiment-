@@ -1,54 +1,64 @@
 import { Meta } from '@storybook/addon-docs/blocks';
+import { MdTable } from './components/Foundations.jsx';
 
 <Meta title="Introduction" />
 
 # Scalenut Design System
 
-This is the coded version of the Scalenut design system in Figma. Every colour, and in time every component, is written as CSS that any project can use. This site is generated from that same code, so what you see here is what ships.
+This is the coded version of the Scalenut design system in Figma. Every foundation (colour, type, spacing, radius, effects, gradients, icons and logos), and in time every component, is written as CSS that any project can use. This site is generated from that same code, so what you see here is what ships.
 
 ## Use it in a project
 
-Add one line to your HTML:
+Add the font and one stylesheet to your HTML:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Letsdesign04/AB_Experiment-@main/design-system/dist/css/colors.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Letsdesign04/AB_Experiment-@main/design-system/dist/css/scalenut.css" />
 ```
 
+`scalenut.css` has everything. If you only need part of it, each foundation is also its own file: `colors.css`, `typography.css`, `spacing.css`, `effects.css`, `gradients.css`, `icons.css`. Load `colors.css` with any of them, because the others point at colour tokens.
+
 Then style with the tokens:
+
+```html
+<article class="card">
+  <h3 class="text-lg-semibold">Content score</h3>
+  <p class="text-sm-regular">Updated 2 hours ago</p>
+</article>
+```
 
 ```css
 .card {
   background: var(--bg-primary);
-  border: 1px solid var(--border-default);
+  border: var(--border-width-default) solid var(--border-default);
+  border-radius: var(--radius-xs);
+  padding: var(--spacing-xl);
+  box-shadow: var(--shadow-sm);
   color: var(--text-primary);
 }
 ```
 
 ## The rules
 
-1. **Only use semantic tokens in components:** `--text-*`, `--bg-*`, `--border-*`, `--icon-*`, `--focus-*`, `--chart-*`.
-2. **Never type a hex value or use `--color-*` primitives** in component CSS.
-3. **If no token fits, don't invent one in code.** Add it in Figma, then sync.
+1. **Only use semantic colour tokens in components:** `--text-*`, `--bg-*`, `--border-*`, `--icon-*`, `--focus-*`, `--chart-*`.
+2. **Use a text-style class for text**, and `--spacing-*`, `--radius-*`, `--shadow-*` for layout and surfaces.
+3. **Never type a raw value** (hex, px for spacing, font sizes) in component CSS.
+4. **If no token fits, don't invent one in code.** Add it in Figma, then sync.
 
 The full rules for people and AI coding tools are in [`DESIGN.md`](https://github.com/Letsdesign04/AB_Experiment-/blob/main/design-system/DESIGN.md).
 
 ## How a change gets here
 
 ```
-Figma variables  →  tokens/figma-export/colors.json   (sync from Figma)
-                 →  tokens/color/*.json               (npm run tokens)
-                 →  dist/css/colors.css               (npm run build:tokens)
-                 →  this site                         (rebuilt on every push to main)
+Figma variables, styles, icons, logos
+   →  tokens/figma-export/*.json     (sync from Figma)
+   →  tokens/**/*.json               (npm run tokens)
+   →  dist/css, dist/icons, dist/logos (npm run build:tokens + build:assets)
+   →  this site                      (rebuilt on every push to main)
 ```
 
-Change a colour in Figma, sync, push, and the CSS and these docs update together.
+Change something in Figma, sync, push, and the CSS and these docs update together.
 
 ## What's in so far
 
-| Area | Status |
-|---|---|
-| Colours | ✅ Live: 90 primitives, 85 semantic tokens |
-| Typography | Next |
-| Spacing, radius, sizes | Planned |
-| Effects (shadows, focus) | Planned |
-| Components | Planned, starting with Button |
+<MdTable head={["Area", "Status"]} rows={[["Colours", "✅ Live: 90 primitives, 85 semantic tokens"], ["Typography", "✅ Live: 41 variables, 56 text-style classes"], ["Logos", "✅ Live: logo, logo on dark, mark, favicon"], ["Icons", "✅ Live: 133 icons as SVG files and a sprite"], ["Effects", "✅ Live: 5 shadows, focus rings and halos, glow, divider, blur"], ["Spacing and sizes", "✅ Live: 20 spacing steps, control, icon, avatar, target, container and breakpoint sizes"], ["Radius", "✅ Live: 7 steps"], ["Layout grid", "✅ Live: responsive page grid and column grids"], ["Gradients", "✅ Live: 5 gradients"], ["Components", "Next, starting with Button"]]} />

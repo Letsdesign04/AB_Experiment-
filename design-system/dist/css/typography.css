@@ -1,0 +1,564 @@
+/**
+ * Typography tokens and text styles. Generated from Figma, do not edit by hand.
+ * Source: tokens/figma-export/foundations.json → npm run build
+ * Use a text-style class (.text-md-regular, .display-xs-semibold …) for text in components.
+ * Sizes and line heights are rem (16px base) so text follows the reader's browser setting.
+ */
+
+:root {
+  --font-family-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-weight-regular: 400; /* Figma: Regular */
+  --font-weight-medium: 500; /* Figma: Medium */
+  --font-weight-semibold: 600; /* Figma: Semi Bold */
+  --font-weight-bold: 700; /* Figma: Bold */
+  --font-size-display-2xl: 3.5rem; /* 56px */
+  --font-size-display-xl: 3rem; /* 48px */
+  --font-size-display-lg: 2.5rem; /* 40px */
+  --font-size-display-md: 2rem; /* 32px */
+  --font-size-display-sm: 1.75rem; /* 28px */
+  --font-size-display-xs: 1.5rem; /* 24px */
+  --font-size-text-xl: 1.25rem; /* 20px */
+  --font-size-text-lg: 1.125rem; /* 18px */
+  --font-size-text-md: 1rem; /* 16px */
+  --font-size-text-sm: 0.875rem; /* 14px */
+  --font-size-text-xs: 0.75rem; /* 12px */
+  --font-size-numeric-score: 3rem; /* 48px */
+  --font-size-numeric-stat: 2rem; /* 32px */
+  --font-size-editor-h1: 2.25rem; /* 36px */
+  --font-size-editor-h2: 1.75rem; /* 28px */
+  --font-size-editor-h3: 1.375rem; /* 22px */
+  --font-size-editor-h4: 1.125rem; /* 18px */
+  --font-size-editor-paragraph: 1.125rem; /* 18px */
+  --font-line-height-display-2xl: 4.5rem; /* 72px */
+  --font-line-height-display-xl: 3.5rem; /* 56px */
+  --font-line-height-display-lg: 3rem; /* 48px */
+  --font-line-height-display-md: 2.5rem; /* 40px */
+  --font-line-height-display-sm: 2.25rem; /* 36px */
+  --font-line-height-display-xs: 2rem; /* 32px */
+  --font-line-height-text-xl: 1.75rem; /* 28px */
+  --font-line-height-text-lg: 1.5rem; /* 24px */
+  --font-line-height-text-md: 1.5rem; /* 24px */
+  --font-line-height-text-sm: 1.125rem; /* 18px */
+  --font-line-height-text-xs: 1rem; /* 16px */
+  --font-line-height-numeric-score: 3.5rem; /* 56px */
+  --font-line-height-numeric-stat: 2.5rem; /* 40px */
+  --font-line-height-editor-h1: 2.75rem; /* 44px */
+  --font-line-height-editor-h2: 2.25rem; /* 36px */
+  --font-line-height-editor-h3: 1.875rem; /* 30px */
+  --font-line-height-editor-h4: 1.75rem; /* 28px */
+  --font-line-height-editor-paragraph: 1.75rem; /* 28px */
+  --font-letter-spacing-tighter: -0.02em; /* -2% */
+  --font-letter-spacing-tight: -0.01em; /* -1% */
+  --font-letter-spacing-normal: 0; /* 0% */
+  --font-letter-spacing-widest: 0.06em; /* 6% */
+  --font-letter-spacing-wide: 0.02em; /* 2% */
+}
+
+/* Figma: Display 2xl/Regular */
+.display-2xl-regular {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-display-2xl);
+  line-height: var(--font-line-height-display-2xl);
+  letter-spacing: var(--font-letter-spacing-tighter);
+}
+
+/* Figma: Display 2xl/Medium */
+.display-2xl-medium {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-display-2xl);
+  line-height: var(--font-line-height-display-2xl);
+  letter-spacing: var(--font-letter-spacing-tighter);
+}
+
+/* Figma: Display 2xl/Semibold */
+.display-2xl-semibold {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-display-2xl);
+  line-height: var(--font-line-height-display-2xl);
+  letter-spacing: var(--font-letter-spacing-tighter);
+}
+
+/* Figma: Display 2xl/Bold */
+.display-2xl-bold {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-display-2xl);
+  line-height: var(--font-line-height-display-2xl);
+  letter-spacing: var(--font-letter-spacing-tighter);
+}
+
+/* Figma: Display xl/Regular */
+.display-xl-regular {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-display-xl);
+  line-height: var(--font-line-height-display-xl);
+  letter-spacing: var(--font-letter-spacing-tighter);
+}
+
+/* Figma: Display xl/Medium */
+.display-xl-medium {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-display-xl);
+  line-height: var(--font-line-height-display-xl);
+  letter-spacing: var(--font-letter-spacing-tighter);
+}
+
+/* Figma: Display xl/Semibold */
+.display-xl-semibold {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-display-xl);
+  line-height: var(--font-line-height-display-xl);
+  letter-spacing: var(--font-letter-spacing-tighter);
+}
+
+/* Figma: Display xl/Bold */
+.display-xl-bold {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-display-xl);
+  line-height: var(--font-line-height-display-xl);
+  letter-spacing: var(--font-letter-spacing-tighter);
+}
+
+/* Figma: Display lg/Regular */
+.display-lg-regular {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-display-lg);
+  line-height: var(--font-line-height-display-lg);
+  letter-spacing: var(--font-letter-spacing-tighter);
+}
+
+/* Figma: Display lg/Medium */
+.display-lg-medium {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-display-lg);
+  line-height: var(--font-line-height-display-lg);
+  letter-spacing: var(--font-letter-spacing-tighter);
+}
+
+/* Figma: Display lg/Semibold */
+.display-lg-semibold {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-display-lg);
+  line-height: var(--font-line-height-display-lg);
+  letter-spacing: var(--font-letter-spacing-tighter);
+}
+
+/* Figma: Display lg/Bold */
+.display-lg-bold {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-display-lg);
+  line-height: var(--font-line-height-display-lg);
+  letter-spacing: var(--font-letter-spacing-tighter);
+}
+
+/* Figma: Display md/Regular */
+.display-md-regular {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-display-md);
+  line-height: var(--font-line-height-display-md);
+  letter-spacing: var(--font-letter-spacing-tight);
+}
+
+/* Figma: Display md/Medium */
+.display-md-medium {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-display-md);
+  line-height: var(--font-line-height-display-md);
+  letter-spacing: var(--font-letter-spacing-tight);
+}
+
+/* Figma: Display md/Semibold */
+.display-md-semibold {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-display-md);
+  line-height: var(--font-line-height-display-md);
+  letter-spacing: var(--font-letter-spacing-tight);
+}
+
+/* Figma: Display md/Bold */
+.display-md-bold {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-display-md);
+  line-height: var(--font-line-height-display-md);
+  letter-spacing: var(--font-letter-spacing-tight);
+}
+
+/* Figma: Display sm/Regular */
+.display-sm-regular {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-display-sm);
+  line-height: var(--font-line-height-display-sm);
+  letter-spacing: var(--font-letter-spacing-tight);
+}
+
+/* Figma: Display sm/Medium */
+.display-sm-medium {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-display-sm);
+  line-height: var(--font-line-height-display-sm);
+  letter-spacing: var(--font-letter-spacing-tight);
+}
+
+/* Figma: Display sm/Semibold */
+.display-sm-semibold {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-display-sm);
+  line-height: var(--font-line-height-display-sm);
+  letter-spacing: var(--font-letter-spacing-tight);
+}
+
+/* Figma: Display sm/Bold */
+.display-sm-bold {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-display-sm);
+  line-height: var(--font-line-height-display-sm);
+  letter-spacing: var(--font-letter-spacing-tight);
+}
+
+/* Figma: Display xs/Regular */
+.display-xs-regular {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-display-xs);
+  line-height: var(--font-line-height-display-xs);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Display xs/Medium */
+.display-xs-medium {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-display-xs);
+  line-height: var(--font-line-height-display-xs);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Display xs/Semibold */
+.display-xs-semibold {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-display-xs);
+  line-height: var(--font-line-height-display-xs);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Display xs/Bold */
+.display-xs-bold {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-display-xs);
+  line-height: var(--font-line-height-display-xs);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Text xl/Regular */
+.text-xl-regular {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-text-xl);
+  line-height: var(--font-line-height-text-xl);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Text xl/Medium */
+.text-xl-medium {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-text-xl);
+  line-height: var(--font-line-height-text-xl);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Text xl/Semibold */
+.text-xl-semibold {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-text-xl);
+  line-height: var(--font-line-height-text-xl);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Text xl/Bold */
+.text-xl-bold {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-text-xl);
+  line-height: var(--font-line-height-text-xl);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Text lg/Regular */
+.text-lg-regular {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-text-lg);
+  line-height: var(--font-line-height-text-lg);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Text lg/Medium */
+.text-lg-medium {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-text-lg);
+  line-height: var(--font-line-height-text-lg);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Text lg/Semibold */
+.text-lg-semibold {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-text-lg);
+  line-height: var(--font-line-height-text-lg);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Text lg/Bold */
+.text-lg-bold {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-text-lg);
+  line-height: var(--font-line-height-text-lg);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Text md/Regular */
+.text-md-regular {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-text-md);
+  line-height: var(--font-line-height-text-md);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Text md/Medium */
+.text-md-medium {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-text-md);
+  line-height: var(--font-line-height-text-md);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Text md/Semibold */
+.text-md-semibold {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-text-md);
+  line-height: var(--font-line-height-text-md);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Text md/Bold */
+.text-md-bold {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-text-md);
+  line-height: var(--font-line-height-text-md);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Text sm/Regular · Figma description says 14/20px, but the line-height variable is 18px. 18px ships. */
+.text-sm-regular {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-text-sm);
+  line-height: var(--font-line-height-text-sm);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Text sm/Medium · Figma description says 14/20px, but the line-height variable is 18px. 18px ships. */
+.text-sm-medium {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-text-sm);
+  line-height: var(--font-line-height-text-sm);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Text sm/Semibold · Figma description says 14/20px, but the line-height variable is 18px. 18px ships. */
+.text-sm-semibold {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-text-sm);
+  line-height: var(--font-line-height-text-sm);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Text sm/Bold · Figma description says 14/20px, but the line-height variable is 18px. 18px ships. */
+.text-sm-bold {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-text-sm);
+  line-height: var(--font-line-height-text-sm);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Text xs/Regular */
+.text-xs-regular {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-text-xs);
+  line-height: var(--font-line-height-text-xs);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Text xs/Medium */
+.text-xs-medium {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-text-xs);
+  line-height: var(--font-line-height-text-xs);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Text xs/Semibold */
+.text-xs-semibold {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-text-xs);
+  line-height: var(--font-line-height-text-xs);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Text xs/Bold */
+.text-xs-bold {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-text-xs);
+  line-height: var(--font-line-height-text-xs);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Overline/Semibold · Eyebrows ("HOW IT WORKS"), nav section labels. */
+.overline-semibold {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-text-xs);
+  line-height: var(--font-line-height-text-xs);
+  letter-spacing: var(--font-letter-spacing-widest);
+  text-transform: uppercase;
+}
+
+/* Figma: Numeric/Score · Content score and rank (#12). Tabular figures. */
+.numeric-score {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-numeric-score);
+  line-height: var(--font-line-height-numeric-score);
+  letter-spacing: var(--font-letter-spacing-tighter);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Figma: Numeric/Stat · Stat tiles and big numbers on VIP (500+). */
+.numeric-stat {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-numeric-stat);
+  line-height: var(--font-line-height-numeric-stat);
+  letter-spacing: var(--font-letter-spacing-tight);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Figma: Numeric/Table · Numbers in tables. */
+.numeric-table {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-text-sm);
+  line-height: var(--font-line-height-text-sm);
+  letter-spacing: var(--font-letter-spacing-normal);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Figma: Editor/H1 · Article content only, never UI. */
+.editor-h1 {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-editor-h1);
+  line-height: var(--font-line-height-editor-h1);
+  letter-spacing: var(--font-letter-spacing-tight);
+}
+
+/* Figma: Editor/H2 */
+.editor-h2 {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-editor-h2);
+  line-height: var(--font-line-height-editor-h2);
+  letter-spacing: var(--font-letter-spacing-tight);
+}
+
+/* Figma: Editor/H3 */
+.editor-h3 {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-editor-h3);
+  line-height: var(--font-line-height-editor-h3);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Editor/H4 */
+.editor-h4 {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-editor-h4);
+  line-height: var(--font-line-height-editor-h4);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Editor/H5 */
+.editor-h5 {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-text-md);
+  line-height: var(--font-line-height-text-md);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Editor/H6 */
+.editor-h6 {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-text-sm);
+  line-height: var(--font-line-height-text-sm);
+  letter-spacing: var(--font-letter-spacing-wide);
+  text-transform: uppercase;
+}
+
+/* Figma: Editor/Paragraph · Article body 18/28 (replaces Roboto 18/28). */
+.editor-paragraph {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-editor-paragraph);
+  line-height: var(--font-line-height-editor-paragraph);
+  letter-spacing: var(--font-letter-spacing-normal);
+}
+
+/* Figma: Editor/Meta field */
+.editor-meta-field {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-text-sm);
+  line-height: var(--font-line-height-text-sm);
+  letter-spacing: var(--font-letter-spacing-normal);
+}

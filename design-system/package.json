@@ -1,11 +1,12 @@
 {
   "name": "scalenut-design-system",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Scalenut design system: tokens, CSS and Storybook docs",
   "scripts": {
     "tokens": "node scripts/figma-to-tokens.mjs",
-    "build:tokens": "style-dictionary build --config style-dictionary.config.mjs",
-    "build": "npm run tokens && npm run build:tokens",
+    "build:tokens": "style-dictionary build --config style-dictionary.config.mjs && style-dictionary build --config style-dictionary.foundations.mjs",
+    "build:assets": "node scripts/build-assets.mjs",
+    "build": "npm run tokens && npm run build:tokens && npm run build:assets",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "npm run build && storybook build -o storybook-static"
   },

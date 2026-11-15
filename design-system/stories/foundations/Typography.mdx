@@ -1,0 +1,78 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { TypeScale, SpecialStyles, WeightRow, FontTokenTable } from '../components/Foundations.jsx';
+
+<Meta title="Foundations/Typography" />
+
+# Typography
+
+Inter only. One scale covers product and marketing, and a separate set covers article text in the editor. Every text style in Figma is linked to the Typography variables, and every class here is built from the same variables, so a size changes in one place.
+
+## Use it in code
+
+Put a text-style class on the element. Set the colour separately with a `--text-*` token.
+
+```html
+<h2 class="display-xs-semibold" style="color: var(--text-primary)">Brand Monitor</h2>
+<p class="text-sm-regular" style="color: var(--text-secondary)">Last updated 2 hours ago</p>
+```
+
+Need a one-off? Use the variables, never a typed number:
+
+```css
+.score-label {
+  font: var(--font-weight-medium) var(--font-size-text-xs) / var(--font-line-height-text-xs) var(--font-family-sans);
+}
+```
+
+Sizes and line heights ship in `rem` (16px base), so text follows the reader's browser font setting. The pixel values are noted beside each one.
+
+## Rules from the team
+
+- Buttons and CTAs are always **Medium**.
+- Dropdown and menu items are always **Regular**.
+- Nothing in the UI is smaller than **12px**.
+- **Regular** for anything people read: body, inputs, menu items, table cells.
+- **Medium** for things people act on: buttons, labels, nav items, badges.
+- **Semibold** for titles and headers. One Semibold title per card or section.
+- **Bold** is rare. Only for editor H1 and marketing emphasis.
+
+## Weights
+
+<WeightRow size="text-lg" />
+
+## Display
+
+Large headings. Each row shows one size at Semibold, with all four weight classes beside it.
+
+<TypeScale family="display" sampleWeight="semibold" />
+
+## Text
+
+Everything else in the product. `text-sm` is the default app size.
+
+<TypeScale family="text" sampleWeight="regular" />
+
+## Special styles
+
+Each one has a single job. Don't use them for general UI.
+
+<SpecialStyles family="overline" />
+<SpecialStyles family="numeric" />
+
+## Editor content
+
+For article text inside the editor only, never for UI.
+
+<SpecialStyles family="editor" />
+
+## Variables
+
+<FontTokenTable part="family" />
+<FontTokenTable part="weight" />
+<FontTokenTable part="size" />
+<FontTokenTable part="line-height" />
+<FontTokenTable part="letter-spacing" />
+
+## Known issue from Figma
+
+The *Text sm* style descriptions in Figma say 14/20px, but the line-height variable they're linked to is **18px**. The variable is what ships. Update one or the other in Figma so they agree.

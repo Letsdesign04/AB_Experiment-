@@ -1,0 +1,37 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { GradientSwatches, MdTable } from '../components/Foundations.jsx';
+
+<Meta title="Foundations/Gradients" />
+
+# Gradients
+
+Figma has no gradient styles yet, so these five come from the gradient fills actually used across the file. Each one is named by its job.
+
+<GradientSwatches />
+
+## Use it in code
+
+```css
+.loader-bar { background: var(--gradient-brand); }
+.plan-badge { background: var(--gradient-premium); color: var(--text-on-brand); }
+.plan-badge:hover { background: var(--gradient-premium-hover); }
+.hero { background: var(--gradient-dark-hero); color: var(--text-on-dark); }
+```
+
+For gradient text, like the VIP stat values, use the helper class:
+
+```html
+<span class="numeric-stat gradient-text">500+</span>
+```
+
+## Contrast
+
+Text on a gradient has to pass at both ends. White text, measured against each stop:
+
+<MdTable head={["Gradient", "Start", "End", "White text"]} rows={[["`--gradient-brand`", "7.41:1", "**2.84:1**", "Fails at the cyan end. Use it for bars, loaders and the logo, not behind text"], ["`--gradient-premium`", "7.41:1", "8.75:1", "Passes"], ["`--gradient-premium-hover`", "8.74:1", "12.63:1", "Passes"], ["`--gradient-highlight`", "2.02:1", "3.37:1", "Not for text on top. It's used as the text colour itself, on dark surfaces (9.88:1 and 5.93:1 against navy)"], ["`--gradient-dark-hero`", "19.97:1", "14.13:1", "Passes"]]} />
+
+Gradient text (`.gradient-text`) needs a solid fallback colour for forced-colours mode.
+
+## Off-palette colours
+
+Three stop colours aren't in the colour palette: `#1F4CBE` (brand and premium start), `#1641AE` (premium hover start) and `#022177` (dark hero end). They ship as raw hex for now. Either add them to the Primitives collection in Figma or switch the gradients to the nearest blue (`blue-600`, `blue-700`, `blue-900`).

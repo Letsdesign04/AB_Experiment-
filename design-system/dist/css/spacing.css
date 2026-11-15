@@ -1,0 +1,172 @@
+/**
+ * Spacing, radius, size, border-width and grid tokens. Generated from Figma, do not edit by hand.
+ * Source: tokens/figma-export/foundations.json → npm run build
+ * Use --spacing-* for padding, margin and gap; --radius-* for corners; --size-* for fixed dimensions.
+ */
+
+:root {
+  --spacing-none: 0px;
+  --spacing-xxs: 2px;
+  --spacing-xs: 4px;
+  --spacing-sm: 6px;
+  --spacing-md: 8px;
+  --spacing-lg: 12px;
+  --spacing-xl: 16px;
+  --spacing-2xl: 20px;
+  --spacing-3xl: 24px;
+  --spacing-4xl: 32px;
+  --spacing-5xl: 40px;
+  --spacing-6xl: 48px;
+  --spacing-7xl: 64px;
+  --spacing-8xl: 80px;
+  --spacing-9xl: 96px;
+  --spacing-10xl: 128px;
+  --spacing-11xl: 160px;
+  --spacing-12xl: 192px;
+  --spacing-13xl: 224px;
+  --spacing-14xl: 256px;
+  --radius-none: 0px;
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+  --size-control-sm: 32px;
+  --size-control-md: 36px;
+  --size-control-lg: 40px;
+  --size-control-xl: 48px;
+  --size-icon-xs: 12px;
+  --size-icon-sm: 16px;
+  --size-icon-md: 20px;
+  --size-icon-lg: 24px;
+  --size-target-min: 24px;
+  --size-target-touch: 44px;
+  --size-avatar-xs: 24px;
+  --size-avatar-sm: 32px;
+  --size-avatar-md: 40px;
+  --size-avatar-lg: 48px;
+  --size-avatar-xl: 56px;
+  --size-avatar-2xl: 64px;
+  --size-container-sm: 640px;
+  --size-container-md: 768px;
+  --size-container-lg: 1024px;
+  --size-container-xl: 1280px;
+  --size-container-2xl: 1440px;
+  --size-breakpoint-mobile: 375px;
+  --size-breakpoint-tablet: 768px;
+  --size-breakpoint-laptop: 1280px;
+  --size-breakpoint-desktop: 1440px;
+  --size-breakpoint-wide: 1728px;
+  --border-width-default: 1px;
+  --border-width-strong: 1.5px;
+  --border-width-focus: 2px;
+  --grid-mobile-columns: 4;
+  --grid-mobile-gutter: 16px;
+  --grid-mobile-margin: 16px;
+  --grid-mobile-min-width: var(--size-breakpoint-mobile);
+  --grid-tablet-columns: 8;
+  --grid-tablet-gutter: 16px;
+  --grid-tablet-margin: 24px;
+  --grid-tablet-min-width: var(--size-breakpoint-tablet);
+  --grid-laptop-columns: 12;
+  --grid-laptop-gutter: 24px;
+  --grid-laptop-margin: 32px;
+  --grid-laptop-min-width: var(--size-breakpoint-laptop);
+  --grid-desktop-columns: 12;
+  --grid-desktop-gutter: 24px;
+  --grid-desktop-margin: 32px;
+  --grid-desktop-min-width: var(--size-breakpoint-desktop);
+  --grid-wide-columns: 12;
+  --grid-wide-gutter: 24px;
+  --grid-wide-min-width: var(--size-breakpoint-wide);
+  --grid-wide-max-content: var(--size-container-2xl);
+  --grid-cols-12-gutter: 24px;
+  --grid-cols-6-gutter: 24px;
+  --grid-cols-4-gutter: 24px;
+  --grid-cols-3-gutter: 24px;
+  --grid-cols-2-gutter: 24px;
+  --grid-baseline: 4px; /* 4pt baseline. Turn on to check vertical spacing. */
+}
+
+/* Page layout grid from the Figma grid styles. Mobile first: 4 → 8 → 12 columns. */
+.layout-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--grid-mobile-columns), minmax(0, 1fr));
+  column-gap: var(--grid-mobile-gutter);
+  padding-inline: var(--grid-mobile-margin);
+}
+@media (min-width: 768px) {
+  .layout-grid {
+    grid-template-columns: repeat(var(--grid-tablet-columns), minmax(0, 1fr));
+    column-gap: var(--grid-tablet-gutter);
+    padding-inline: var(--grid-tablet-margin);
+  }
+}
+@media (min-width: 1280px) {
+  .layout-grid {
+    grid-template-columns: repeat(var(--grid-laptop-columns), minmax(0, 1fr));
+    column-gap: var(--grid-laptop-gutter);
+    padding-inline: var(--grid-laptop-margin);
+  }
+}
+@media (min-width: 1440px) {
+  .layout-grid {
+    grid-template-columns: repeat(var(--grid-desktop-columns), minmax(0, 1fr));
+    column-gap: var(--grid-desktop-gutter);
+    padding-inline: var(--grid-desktop-margin);
+  }
+}
+@media (min-width: 1728px) {
+  .layout-grid {
+    grid-template-columns: repeat(var(--grid-wide-columns), minmax(0, 1fr));
+    column-gap: var(--grid-wide-gutter);
+    padding-inline: 0;
+    max-width: var(--grid-wide-max-content);
+    margin-inline: auto;
+  }
+}
+
+/* Column grids inside a container (Figma "Grid/Columns N"). */
+.grid-cols-12 {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: var(--grid-cols-12-gutter);
+}
+
+.grid-cols-6 {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: var(--grid-cols-6-gutter);
+}
+
+.grid-cols-4 {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--grid-cols-4-gutter);
+}
+
+.grid-cols-3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--grid-cols-3-gutter);
+}
+
+.grid-cols-2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--grid-cols-2-gutter);
+}
+
+.col-span-1 { grid-column: span 1 / span 1; }
+.col-span-2 { grid-column: span 2 / span 2; }
+.col-span-3 { grid-column: span 3 / span 3; }
+.col-span-4 { grid-column: span 4 / span 4; }
+.col-span-5 { grid-column: span 5 / span 5; }
+.col-span-6 { grid-column: span 6 / span 6; }
+.col-span-7 { grid-column: span 7 / span 7; }
+.col-span-8 { grid-column: span 8 / span 8; }
+.col-span-9 { grid-column: span 9 / span 9; }
+.col-span-10 { grid-column: span 10 / span 10; }
+.col-span-11 { grid-column: span 11 / span 11; }
+.col-span-12 { grid-column: span 12 / span 12; }

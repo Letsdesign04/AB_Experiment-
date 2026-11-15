@@ -1,14 +1,17 @@
 # Scalenut Design System (code)
 
-The coded version of the Figma file **Design system Scalenut**: design tokens, CSS and a Storybook docs site.
+The coded version of the Figma file **Design system Scalenut**: design tokens, CSS, icons, logos and a Storybook docs site.
 
 **Docs site:** https://letsdesign04.github.io/AB_Experiment-/
 
 ## Use the CSS
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Letsdesign04/AB_Experiment-@main/design-system/dist/css/colors.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Letsdesign04/AB_Experiment-@main/design-system/dist/css/scalenut.css" />
 ```
+
+`scalenut.css` bundles every foundation. Each one is also its own file in `dist/css/` if you only need part of it (always include `colors.css`).
 
 Rules for using it, for people and AI tools, are in [DESIGN.md](./DESIGN.md).
 
@@ -17,13 +20,23 @@ Rules for using it, for people and AI tools, are in [DESIGN.md](./DESIGN.md).
 ```
 design-system/
 ├── tokens/
-│   ├── figma-export/colors.json   ← raw export from Figma variables (the only input)
-│   └── color/*.json               ← generated W3C token files (don't edit)
-├── scripts/figma-to-tokens.mjs    ← figma-export → token files
-├── style-dictionary.config.mjs    ← token files → CSS + docs JSON
-├── dist/
-│   ├── css/colors.css             ← THE CSS (generated, committed so the CDN link works)
-│   └── json/colors.json           ← token list the docs read
+│   ├── figma-export/              ← raw exports from Figma (the only inputs)
+│   │   ├── colors.json            ←   colour variables
+│   │   ├── foundations.json       ←   type + spacing variables, text/effect/grid styles, gradients in use
+│   │   ├── icons.json             ←   the 133 icons in "Icon set"
+│   │   └── logos.json             ←   Scalenut mark and logo
+│   ├── color/ typography/ space/ effect/ gradient/ grid/   ← generated W3C token files (don't edit)
+├── scripts/
+│   ├── figma-to-tokens.mjs        ← figma-export → token files
+│   └── build-assets.mjs           ← icons, logos and the scalenut.css bundle
+├── style-dictionary.config.mjs        ← colour tokens → CSS
+├── style-dictionary.foundations.mjs   ← everything else → CSS
+├── dist/                          ← generated, committed so the CDN links work
+│   ├── css/scalenut.css           ←   THE CSS, everything in one file
+│   ├── css/{colors,typography,spacing,effects,gradients,icons}.css
+│   ├── icons/*.svg, icons/sprite.svg
+│   ├── logos/*.svg
+│   └── json/                      ←   token lists the docs read
 ├── stories/                       ← Storybook docs pages
 ├── .storybook/                    ← Storybook config and docs styling
 ├── DESIGN.md                      ← the harness: rules for UI code
@@ -33,8 +46,8 @@ design-system/
 ## When the design changes
 
 1. Change the variable in Figma.
-2. Ask Claude to "sync colours from Figma". It rewrites `tokens/figma-export/colors.json` through the Figma Console MCP.
-3. Run `npm run build` (or let Claude do it). This regenerates `dist/css/colors.css`.
+2. Ask Claude to "sync from Figma" (or name the part: colours, typography, icons…). It rewrites the matching file in `tokens/figma-export/` through the Figma Console MCP.
+3. Run `npm run build` (or let Claude do it). This regenerates everything in `dist/`.
 4. Add a line to `CHANGELOG.md`.
 5. Commit and merge to `main`. GitHub Actions rebuilds the docs site automatically.
 
@@ -42,7 +55,7 @@ design-system/
 
 ```bash
 npm install
-npm run build             # Figma export → tokens → CSS
+npm run build             # Figma exports → tokens → CSS, icons, logos
 npm run storybook         # docs on http://localhost:6006
 npm run build-storybook   # static docs site in storybook-static/
 ```

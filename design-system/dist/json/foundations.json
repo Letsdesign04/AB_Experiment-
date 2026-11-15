@@ -1,0 +1,4364 @@
+[
+  {
+    "name": "font-family-sans",
+    "cssVar": "--font-family-sans",
+    "path": [
+      "font",
+      "family",
+      "sans"
+    ],
+    "type": "fontFamily",
+    "value": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+    "ref": null,
+    "original": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-weight-regular",
+    "cssVar": "--font-weight-regular",
+    "path": [
+      "font",
+      "weight",
+      "regular"
+    ],
+    "type": "fontWeight",
+    "value": 400,
+    "ref": null,
+    "original": 400,
+    "description": "Figma: Regular",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-weight-medium",
+    "cssVar": "--font-weight-medium",
+    "path": [
+      "font",
+      "weight",
+      "medium"
+    ],
+    "type": "fontWeight",
+    "value": 500,
+    "ref": null,
+    "original": 500,
+    "description": "Figma: Medium",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-weight-semibold",
+    "cssVar": "--font-weight-semibold",
+    "path": [
+      "font",
+      "weight",
+      "semibold"
+    ],
+    "type": "fontWeight",
+    "value": 600,
+    "ref": null,
+    "original": 600,
+    "description": "Figma: Semi Bold",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-weight-bold",
+    "cssVar": "--font-weight-bold",
+    "path": [
+      "font",
+      "weight",
+      "bold"
+    ],
+    "type": "fontWeight",
+    "value": 700,
+    "ref": null,
+    "original": 700,
+    "description": "Figma: Bold",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-size-display-2xl",
+    "cssVar": "--font-size-display-2xl",
+    "path": [
+      "font",
+      "size",
+      "display-2xl"
+    ],
+    "type": "dimension",
+    "value": "3.5rem",
+    "ref": null,
+    "original": "3.5rem",
+    "description": "56px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-size-display-xl",
+    "cssVar": "--font-size-display-xl",
+    "path": [
+      "font",
+      "size",
+      "display-xl"
+    ],
+    "type": "dimension",
+    "value": "3rem",
+    "ref": null,
+    "original": "3rem",
+    "description": "48px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-size-display-lg",
+    "cssVar": "--font-size-display-lg",
+    "path": [
+      "font",
+      "size",
+      "display-lg"
+    ],
+    "type": "dimension",
+    "value": "2.5rem",
+    "ref": null,
+    "original": "2.5rem",
+    "description": "40px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-size-display-md",
+    "cssVar": "--font-size-display-md",
+    "path": [
+      "font",
+      "size",
+      "display-md"
+    ],
+    "type": "dimension",
+    "value": "2rem",
+    "ref": null,
+    "original": "2rem",
+    "description": "32px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-size-display-sm",
+    "cssVar": "--font-size-display-sm",
+    "path": [
+      "font",
+      "size",
+      "display-sm"
+    ],
+    "type": "dimension",
+    "value": "1.75rem",
+    "ref": null,
+    "original": "1.75rem",
+    "description": "28px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-size-display-xs",
+    "cssVar": "--font-size-display-xs",
+    "path": [
+      "font",
+      "size",
+      "display-xs"
+    ],
+    "type": "dimension",
+    "value": "1.5rem",
+    "ref": null,
+    "original": "1.5rem",
+    "description": "24px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-size-text-xl",
+    "cssVar": "--font-size-text-xl",
+    "path": [
+      "font",
+      "size",
+      "text-xl"
+    ],
+    "type": "dimension",
+    "value": "1.25rem",
+    "ref": null,
+    "original": "1.25rem",
+    "description": "20px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-size-text-lg",
+    "cssVar": "--font-size-text-lg",
+    "path": [
+      "font",
+      "size",
+      "text-lg"
+    ],
+    "type": "dimension",
+    "value": "1.125rem",
+    "ref": null,
+    "original": "1.125rem",
+    "description": "18px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-size-text-md",
+    "cssVar": "--font-size-text-md",
+    "path": [
+      "font",
+      "size",
+      "text-md"
+    ],
+    "type": "dimension",
+    "value": "1rem",
+    "ref": null,
+    "original": "1rem",
+    "description": "16px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-size-text-sm",
+    "cssVar": "--font-size-text-sm",
+    "path": [
+      "font",
+      "size",
+      "text-sm"
+    ],
+    "type": "dimension",
+    "value": "0.875rem",
+    "ref": null,
+    "original": "0.875rem",
+    "description": "14px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-size-text-xs",
+    "cssVar": "--font-size-text-xs",
+    "path": [
+      "font",
+      "size",
+      "text-xs"
+    ],
+    "type": "dimension",
+    "value": "0.75rem",
+    "ref": null,
+    "original": "0.75rem",
+    "description": "12px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-size-numeric-score",
+    "cssVar": "--font-size-numeric-score",
+    "path": [
+      "font",
+      "size",
+      "numeric-score"
+    ],
+    "type": "dimension",
+    "value": "3rem",
+    "ref": null,
+    "original": "3rem",
+    "description": "48px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-size-numeric-stat",
+    "cssVar": "--font-size-numeric-stat",
+    "path": [
+      "font",
+      "size",
+      "numeric-stat"
+    ],
+    "type": "dimension",
+    "value": "2rem",
+    "ref": null,
+    "original": "2rem",
+    "description": "32px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-size-editor-h1",
+    "cssVar": "--font-size-editor-h1",
+    "path": [
+      "font",
+      "size",
+      "editor-h1"
+    ],
+    "type": "dimension",
+    "value": "2.25rem",
+    "ref": null,
+    "original": "2.25rem",
+    "description": "36px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-size-editor-h2",
+    "cssVar": "--font-size-editor-h2",
+    "path": [
+      "font",
+      "size",
+      "editor-h2"
+    ],
+    "type": "dimension",
+    "value": "1.75rem",
+    "ref": null,
+    "original": "1.75rem",
+    "description": "28px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-size-editor-h3",
+    "cssVar": "--font-size-editor-h3",
+    "path": [
+      "font",
+      "size",
+      "editor-h3"
+    ],
+    "type": "dimension",
+    "value": "1.375rem",
+    "ref": null,
+    "original": "1.375rem",
+    "description": "22px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-size-editor-h4",
+    "cssVar": "--font-size-editor-h4",
+    "path": [
+      "font",
+      "size",
+      "editor-h4"
+    ],
+    "type": "dimension",
+    "value": "1.125rem",
+    "ref": null,
+    "original": "1.125rem",
+    "description": "18px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-size-editor-paragraph",
+    "cssVar": "--font-size-editor-paragraph",
+    "path": [
+      "font",
+      "size",
+      "editor-paragraph"
+    ],
+    "type": "dimension",
+    "value": "1.125rem",
+    "ref": null,
+    "original": "1.125rem",
+    "description": "18px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-line-height-display-2xl",
+    "cssVar": "--font-line-height-display-2xl",
+    "path": [
+      "font",
+      "line-height",
+      "display-2xl"
+    ],
+    "type": "dimension",
+    "value": "4.5rem",
+    "ref": null,
+    "original": "4.5rem",
+    "description": "72px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-line-height-display-xl",
+    "cssVar": "--font-line-height-display-xl",
+    "path": [
+      "font",
+      "line-height",
+      "display-xl"
+    ],
+    "type": "dimension",
+    "value": "3.5rem",
+    "ref": null,
+    "original": "3.5rem",
+    "description": "56px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-line-height-display-lg",
+    "cssVar": "--font-line-height-display-lg",
+    "path": [
+      "font",
+      "line-height",
+      "display-lg"
+    ],
+    "type": "dimension",
+    "value": "3rem",
+    "ref": null,
+    "original": "3rem",
+    "description": "48px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-line-height-display-md",
+    "cssVar": "--font-line-height-display-md",
+    "path": [
+      "font",
+      "line-height",
+      "display-md"
+    ],
+    "type": "dimension",
+    "value": "2.5rem",
+    "ref": null,
+    "original": "2.5rem",
+    "description": "40px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-line-height-display-sm",
+    "cssVar": "--font-line-height-display-sm",
+    "path": [
+      "font",
+      "line-height",
+      "display-sm"
+    ],
+    "type": "dimension",
+    "value": "2.25rem",
+    "ref": null,
+    "original": "2.25rem",
+    "description": "36px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-line-height-display-xs",
+    "cssVar": "--font-line-height-display-xs",
+    "path": [
+      "font",
+      "line-height",
+      "display-xs"
+    ],
+    "type": "dimension",
+    "value": "2rem",
+    "ref": null,
+    "original": "2rem",
+    "description": "32px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-line-height-text-xl",
+    "cssVar": "--font-line-height-text-xl",
+    "path": [
+      "font",
+      "line-height",
+      "text-xl"
+    ],
+    "type": "dimension",
+    "value": "1.75rem",
+    "ref": null,
+    "original": "1.75rem",
+    "description": "28px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-line-height-text-lg",
+    "cssVar": "--font-line-height-text-lg",
+    "path": [
+      "font",
+      "line-height",
+      "text-lg"
+    ],
+    "type": "dimension",
+    "value": "1.5rem",
+    "ref": null,
+    "original": "1.5rem",
+    "description": "24px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-line-height-text-md",
+    "cssVar": "--font-line-height-text-md",
+    "path": [
+      "font",
+      "line-height",
+      "text-md"
+    ],
+    "type": "dimension",
+    "value": "1.5rem",
+    "ref": null,
+    "original": "1.5rem",
+    "description": "24px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-line-height-text-sm",
+    "cssVar": "--font-line-height-text-sm",
+    "path": [
+      "font",
+      "line-height",
+      "text-sm"
+    ],
+    "type": "dimension",
+    "value": "1.125rem",
+    "ref": null,
+    "original": "1.125rem",
+    "description": "18px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-line-height-text-xs",
+    "cssVar": "--font-line-height-text-xs",
+    "path": [
+      "font",
+      "line-height",
+      "text-xs"
+    ],
+    "type": "dimension",
+    "value": "1rem",
+    "ref": null,
+    "original": "1rem",
+    "description": "16px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-line-height-numeric-score",
+    "cssVar": "--font-line-height-numeric-score",
+    "path": [
+      "font",
+      "line-height",
+      "numeric-score"
+    ],
+    "type": "dimension",
+    "value": "3.5rem",
+    "ref": null,
+    "original": "3.5rem",
+    "description": "56px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-line-height-numeric-stat",
+    "cssVar": "--font-line-height-numeric-stat",
+    "path": [
+      "font",
+      "line-height",
+      "numeric-stat"
+    ],
+    "type": "dimension",
+    "value": "2.5rem",
+    "ref": null,
+    "original": "2.5rem",
+    "description": "40px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-line-height-editor-h1",
+    "cssVar": "--font-line-height-editor-h1",
+    "path": [
+      "font",
+      "line-height",
+      "editor-h1"
+    ],
+    "type": "dimension",
+    "value": "2.75rem",
+    "ref": null,
+    "original": "2.75rem",
+    "description": "44px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-line-height-editor-h2",
+    "cssVar": "--font-line-height-editor-h2",
+    "path": [
+      "font",
+      "line-height",
+      "editor-h2"
+    ],
+    "type": "dimension",
+    "value": "2.25rem",
+    "ref": null,
+    "original": "2.25rem",
+    "description": "36px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-line-height-editor-h3",
+    "cssVar": "--font-line-height-editor-h3",
+    "path": [
+      "font",
+      "line-height",
+      "editor-h3"
+    ],
+    "type": "dimension",
+    "value": "1.875rem",
+    "ref": null,
+    "original": "1.875rem",
+    "description": "30px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-line-height-editor-h4",
+    "cssVar": "--font-line-height-editor-h4",
+    "path": [
+      "font",
+      "line-height",
+      "editor-h4"
+    ],
+    "type": "dimension",
+    "value": "1.75rem",
+    "ref": null,
+    "original": "1.75rem",
+    "description": "28px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-line-height-editor-paragraph",
+    "cssVar": "--font-line-height-editor-paragraph",
+    "path": [
+      "font",
+      "line-height",
+      "editor-paragraph"
+    ],
+    "type": "dimension",
+    "value": "1.75rem",
+    "ref": null,
+    "original": "1.75rem",
+    "description": "28px",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-letter-spacing-tighter",
+    "cssVar": "--font-letter-spacing-tighter",
+    "path": [
+      "font",
+      "letter-spacing",
+      "tighter"
+    ],
+    "type": "dimension",
+    "value": "-0.02em",
+    "ref": null,
+    "original": "-0.02em",
+    "description": "-2%",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-letter-spacing-tight",
+    "cssVar": "--font-letter-spacing-tight",
+    "path": [
+      "font",
+      "letter-spacing",
+      "tight"
+    ],
+    "type": "dimension",
+    "value": "-0.01em",
+    "ref": null,
+    "original": "-0.01em",
+    "description": "-1%",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-letter-spacing-normal",
+    "cssVar": "--font-letter-spacing-normal",
+    "path": [
+      "font",
+      "letter-spacing",
+      "normal"
+    ],
+    "type": "dimension",
+    "value": "0",
+    "ref": null,
+    "original": "0",
+    "description": "0%",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-letter-spacing-widest",
+    "cssVar": "--font-letter-spacing-widest",
+    "path": [
+      "font",
+      "letter-spacing",
+      "widest"
+    ],
+    "type": "dimension",
+    "value": "0.06em",
+    "ref": null,
+    "original": "0.06em",
+    "description": "6%",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "font-letter-spacing-wide",
+    "cssVar": "--font-letter-spacing-wide",
+    "path": [
+      "font",
+      "letter-spacing",
+      "wide"
+    ],
+    "type": "dimension",
+    "value": "0.02em",
+    "ref": null,
+    "original": "0.02em",
+    "description": "2%",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "text-style-display-2xl-regular",
+    "cssVar": "--text-style-display-2xl-regular",
+    "path": [
+      "text-style",
+      "display-2xl-regular"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 400,
+      "fontSize": "3.5rem",
+      "lineHeight": "4.5rem",
+      "letterSpacing": "-0.02em"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.regular}",
+      "fontSize": "{font.size.display-2xl}",
+      "lineHeight": "{font.line-height.display-2xl}",
+      "letterSpacing": "{font.letter-spacing.tighter}"
+    },
+    "description": "",
+    "figma": "Display 2xl/Regular",
+    "usage": "VIP / marketing hero",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-display-2xl-medium",
+    "cssVar": "--text-style-display-2xl-medium",
+    "path": [
+      "text-style",
+      "display-2xl-medium"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 500,
+      "fontSize": "3.5rem",
+      "lineHeight": "4.5rem",
+      "letterSpacing": "-0.02em"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.medium}",
+      "fontSize": "{font.size.display-2xl}",
+      "lineHeight": "{font.line-height.display-2xl}",
+      "letterSpacing": "{font.letter-spacing.tighter}"
+    },
+    "description": "",
+    "figma": "Display 2xl/Medium",
+    "usage": "VIP / marketing hero",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-display-2xl-semibold",
+    "cssVar": "--text-style-display-2xl-semibold",
+    "path": [
+      "text-style",
+      "display-2xl-semibold"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 600,
+      "fontSize": "3.5rem",
+      "lineHeight": "4.5rem",
+      "letterSpacing": "-0.02em"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.semibold}",
+      "fontSize": "{font.size.display-2xl}",
+      "lineHeight": "{font.line-height.display-2xl}",
+      "letterSpacing": "{font.letter-spacing.tighter}"
+    },
+    "description": "",
+    "figma": "Display 2xl/Semibold",
+    "usage": "VIP / marketing hero",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-display-2xl-bold",
+    "cssVar": "--text-style-display-2xl-bold",
+    "path": [
+      "text-style",
+      "display-2xl-bold"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 700,
+      "fontSize": "3.5rem",
+      "lineHeight": "4.5rem",
+      "letterSpacing": "-0.02em"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.bold}",
+      "fontSize": "{font.size.display-2xl}",
+      "lineHeight": "{font.line-height.display-2xl}",
+      "letterSpacing": "{font.letter-spacing.tighter}"
+    },
+    "description": "",
+    "figma": "Display 2xl/Bold",
+    "usage": "VIP / marketing hero",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-display-xl-regular",
+    "cssVar": "--text-style-display-xl-regular",
+    "path": [
+      "text-style",
+      "display-xl-regular"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 400,
+      "fontSize": "3rem",
+      "lineHeight": "3.5rem",
+      "letterSpacing": "-0.02em"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.regular}",
+      "fontSize": "{font.size.display-xl}",
+      "lineHeight": "{font.line-height.display-xl}",
+      "letterSpacing": "{font.letter-spacing.tighter}"
+    },
+    "description": "",
+    "figma": "Display xl/Regular",
+    "usage": "Marketing section titles",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-display-xl-medium",
+    "cssVar": "--text-style-display-xl-medium",
+    "path": [
+      "text-style",
+      "display-xl-medium"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 500,
+      "fontSize": "3rem",
+      "lineHeight": "3.5rem",
+      "letterSpacing": "-0.02em"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.medium}",
+      "fontSize": "{font.size.display-xl}",
+      "lineHeight": "{font.line-height.display-xl}",
+      "letterSpacing": "{font.letter-spacing.tighter}"
+    },
+    "description": "",
+    "figma": "Display xl/Medium",
+    "usage": "Marketing section titles",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-display-xl-semibold",
+    "cssVar": "--text-style-display-xl-semibold",
+    "path": [
+      "text-style",
+      "display-xl-semibold"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 600,
+      "fontSize": "3rem",
+      "lineHeight": "3.5rem",
+      "letterSpacing": "-0.02em"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.semibold}",
+      "fontSize": "{font.size.display-xl}",
+      "lineHeight": "{font.line-height.display-xl}",
+      "letterSpacing": "{font.letter-spacing.tighter}"
+    },
+    "description": "",
+    "figma": "Display xl/Semibold",
+    "usage": "Marketing section titles",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-display-xl-bold",
+    "cssVar": "--text-style-display-xl-bold",
+    "path": [
+      "text-style",
+      "display-xl-bold"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 700,
+      "fontSize": "3rem",
+      "lineHeight": "3.5rem",
+      "letterSpacing": "-0.02em"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.bold}",
+      "fontSize": "{font.size.display-xl}",
+      "lineHeight": "{font.line-height.display-xl}",
+      "letterSpacing": "{font.letter-spacing.tighter}"
+    },
+    "description": "",
+    "figma": "Display xl/Bold",
+    "usage": "Marketing section titles",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-display-lg-regular",
+    "cssVar": "--text-style-display-lg-regular",
+    "path": [
+      "text-style",
+      "display-lg-regular"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 400,
+      "fontSize": "2.5rem",
+      "lineHeight": "3rem",
+      "letterSpacing": "-0.02em"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.regular}",
+      "fontSize": "{font.size.display-lg}",
+      "lineHeight": "{font.line-height.display-lg}",
+      "letterSpacing": "{font.letter-spacing.tighter}"
+    },
+    "description": "",
+    "figma": "Display lg/Regular",
+    "usage": "Marketing headings, empty-state hero",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-display-lg-medium",
+    "cssVar": "--text-style-display-lg-medium",
+    "path": [
+      "text-style",
+      "display-lg-medium"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 500,
+      "fontSize": "2.5rem",
+      "lineHeight": "3rem",
+      "letterSpacing": "-0.02em"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.medium}",
+      "fontSize": "{font.size.display-lg}",
+      "lineHeight": "{font.line-height.display-lg}",
+      "letterSpacing": "{font.letter-spacing.tighter}"
+    },
+    "description": "",
+    "figma": "Display lg/Medium",
+    "usage": "Marketing headings, empty-state hero",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-display-lg-semibold",
+    "cssVar": "--text-style-display-lg-semibold",
+    "path": [
+      "text-style",
+      "display-lg-semibold"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 600,
+      "fontSize": "2.5rem",
+      "lineHeight": "3rem",
+      "letterSpacing": "-0.02em"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.semibold}",
+      "fontSize": "{font.size.display-lg}",
+      "lineHeight": "{font.line-height.display-lg}",
+      "letterSpacing": "{font.letter-spacing.tighter}"
+    },
+    "description": "",
+    "figma": "Display lg/Semibold",
+    "usage": "Marketing headings, empty-state hero",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-display-lg-bold",
+    "cssVar": "--text-style-display-lg-bold",
+    "path": [
+      "text-style",
+      "display-lg-bold"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 700,
+      "fontSize": "2.5rem",
+      "lineHeight": "3rem",
+      "letterSpacing": "-0.02em"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.bold}",
+      "fontSize": "{font.size.display-lg}",
+      "lineHeight": "{font.line-height.display-lg}",
+      "letterSpacing": "{font.letter-spacing.tighter}"
+    },
+    "description": "",
+    "figma": "Display lg/Bold",
+    "usage": "Marketing headings, empty-state hero",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-display-md-regular",
+    "cssVar": "--text-style-display-md-regular",
+    "path": [
+      "text-style",
+      "display-md-regular"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 400,
+      "fontSize": "2rem",
+      "lineHeight": "2.5rem",
+      "letterSpacing": "-0.01em"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.regular}",
+      "fontSize": "{font.size.display-md}",
+      "lineHeight": "{font.line-height.display-md}",
+      "letterSpacing": "{font.letter-spacing.tight}"
+    },
+    "description": "",
+    "figma": "Display md/Regular",
+    "usage": "Onboarding titles, big stats",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-display-md-medium",
+    "cssVar": "--text-style-display-md-medium",
+    "path": [
+      "text-style",
+      "display-md-medium"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 500,
+      "fontSize": "2rem",
+      "lineHeight": "2.5rem",
+      "letterSpacing": "-0.01em"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.medium}",
+      "fontSize": "{font.size.display-md}",
+      "lineHeight": "{font.line-height.display-md}",
+      "letterSpacing": "{font.letter-spacing.tight}"
+    },
+    "description": "",
+    "figma": "Display md/Medium",
+    "usage": "Onboarding titles, big stats",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-display-md-semibold",
+    "cssVar": "--text-style-display-md-semibold",
+    "path": [
+      "text-style",
+      "display-md-semibold"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 600,
+      "fontSize": "2rem",
+      "lineHeight": "2.5rem",
+      "letterSpacing": "-0.01em"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.semibold}",
+      "fontSize": "{font.size.display-md}",
+      "lineHeight": "{font.line-height.display-md}",
+      "letterSpacing": "{font.letter-spacing.tight}"
+    },
+    "description": "",
+    "figma": "Display md/Semibold",
+    "usage": "Onboarding titles, big stats",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-display-md-bold",
+    "cssVar": "--text-style-display-md-bold",
+    "path": [
+      "text-style",
+      "display-md-bold"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 700,
+      "fontSize": "2rem",
+      "lineHeight": "2.5rem",
+      "letterSpacing": "-0.01em"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.bold}",
+      "fontSize": "{font.size.display-md}",
+      "lineHeight": "{font.line-height.display-md}",
+      "letterSpacing": "{font.letter-spacing.tight}"
+    },
+    "description": "",
+    "figma": "Display md/Bold",
+    "usage": "Onboarding titles, big stats",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-display-sm-regular",
+    "cssVar": "--text-style-display-sm-regular",
+    "path": [
+      "text-style",
+      "display-sm-regular"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 400,
+      "fontSize": "1.75rem",
+      "lineHeight": "2.25rem",
+      "letterSpacing": "-0.01em"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.regular}",
+      "fontSize": "{font.size.display-sm}",
+      "lineHeight": "{font.line-height.display-sm}",
+      "letterSpacing": "{font.letter-spacing.tight}"
+    },
+    "description": "",
+    "figma": "Display sm/Regular",
+    "usage": "Auth titles, modal hero",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-display-sm-medium",
+    "cssVar": "--text-style-display-sm-medium",
+    "path": [
+      "text-style",
+      "display-sm-medium"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 500,
+      "fontSize": "1.75rem",
+      "lineHeight": "2.25rem",
+      "letterSpacing": "-0.01em"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.medium}",
+      "fontSize": "{font.size.display-sm}",
+      "lineHeight": "{font.line-height.display-sm}",
+      "letterSpacing": "{font.letter-spacing.tight}"
+    },
+    "description": "",
+    "figma": "Display sm/Medium",
+    "usage": "Auth titles, modal hero",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-display-sm-semibold",
+    "cssVar": "--text-style-display-sm-semibold",
+    "path": [
+      "text-style",
+      "display-sm-semibold"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 600,
+      "fontSize": "1.75rem",
+      "lineHeight": "2.25rem",
+      "letterSpacing": "-0.01em"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.semibold}",
+      "fontSize": "{font.size.display-sm}",
+      "lineHeight": "{font.line-height.display-sm}",
+      "letterSpacing": "{font.letter-spacing.tight}"
+    },
+    "description": "",
+    "figma": "Display sm/Semibold",
+    "usage": "Auth titles, modal hero",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-display-sm-bold",
+    "cssVar": "--text-style-display-sm-bold",
+    "path": [
+      "text-style",
+      "display-sm-bold"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 700,
+      "fontSize": "1.75rem",
+      "lineHeight": "2.25rem",
+      "letterSpacing": "-0.01em"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.bold}",
+      "fontSize": "{font.size.display-sm}",
+      "lineHeight": "{font.line-height.display-sm}",
+      "letterSpacing": "{font.letter-spacing.tight}"
+    },
+    "description": "",
+    "figma": "Display sm/Bold",
+    "usage": "Auth titles, modal hero",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-display-xs-regular",
+    "cssVar": "--text-style-display-xs-regular",
+    "path": [
+      "text-style",
+      "display-xs-regular"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 400,
+      "fontSize": "1.5rem",
+      "lineHeight": "2rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.regular}",
+      "fontSize": "{font.size.display-xs}",
+      "lineHeight": "{font.line-height.display-xs}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "",
+    "figma": "Display xs/Regular",
+    "usage": "Page titles (Brand Monitor)",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-display-xs-medium",
+    "cssVar": "--text-style-display-xs-medium",
+    "path": [
+      "text-style",
+      "display-xs-medium"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 500,
+      "fontSize": "1.5rem",
+      "lineHeight": "2rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.medium}",
+      "fontSize": "{font.size.display-xs}",
+      "lineHeight": "{font.line-height.display-xs}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "",
+    "figma": "Display xs/Medium",
+    "usage": "Page titles (Brand Monitor)",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-display-xs-semibold",
+    "cssVar": "--text-style-display-xs-semibold",
+    "path": [
+      "text-style",
+      "display-xs-semibold"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 600,
+      "fontSize": "1.5rem",
+      "lineHeight": "2rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.semibold}",
+      "fontSize": "{font.size.display-xs}",
+      "lineHeight": "{font.line-height.display-xs}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "",
+    "figma": "Display xs/Semibold",
+    "usage": "Page titles (Brand Monitor)",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-display-xs-bold",
+    "cssVar": "--text-style-display-xs-bold",
+    "path": [
+      "text-style",
+      "display-xs-bold"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 700,
+      "fontSize": "1.5rem",
+      "lineHeight": "2rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.bold}",
+      "fontSize": "{font.size.display-xs}",
+      "lineHeight": "{font.line-height.display-xs}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "",
+    "figma": "Display xs/Bold",
+    "usage": "Page titles (Brand Monitor)",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-text-xl-regular",
+    "cssVar": "--text-style-text-xl-regular",
+    "path": [
+      "text-style",
+      "text-xl-regular"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 400,
+      "fontSize": "1.25rem",
+      "lineHeight": "1.75rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.regular}",
+      "fontSize": "{font.size.text-xl}",
+      "lineHeight": "{font.line-height.text-xl}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "",
+    "figma": "Text xl/Regular",
+    "usage": "Modal titles, card hero titles",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-text-xl-medium",
+    "cssVar": "--text-style-text-xl-medium",
+    "path": [
+      "text-style",
+      "text-xl-medium"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 500,
+      "fontSize": "1.25rem",
+      "lineHeight": "1.75rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.medium}",
+      "fontSize": "{font.size.text-xl}",
+      "lineHeight": "{font.line-height.text-xl}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "",
+    "figma": "Text xl/Medium",
+    "usage": "Modal titles, card hero titles",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-text-xl-semibold",
+    "cssVar": "--text-style-text-xl-semibold",
+    "path": [
+      "text-style",
+      "text-xl-semibold"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 600,
+      "fontSize": "1.25rem",
+      "lineHeight": "1.75rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.semibold}",
+      "fontSize": "{font.size.text-xl}",
+      "lineHeight": "{font.line-height.text-xl}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "",
+    "figma": "Text xl/Semibold",
+    "usage": "Modal titles, card hero titles",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-text-xl-bold",
+    "cssVar": "--text-style-text-xl-bold",
+    "path": [
+      "text-style",
+      "text-xl-bold"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 700,
+      "fontSize": "1.25rem",
+      "lineHeight": "1.75rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.bold}",
+      "fontSize": "{font.size.text-xl}",
+      "lineHeight": "{font.line-height.text-xl}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "",
+    "figma": "Text xl/Bold",
+    "usage": "Modal titles, card hero titles",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-text-lg-regular",
+    "cssVar": "--text-style-text-lg-regular",
+    "path": [
+      "text-style",
+      "text-lg-regular"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 400,
+      "fontSize": "1.125rem",
+      "lineHeight": "1.5rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.regular}",
+      "fontSize": "{font.size.text-lg}",
+      "lineHeight": "{font.line-height.text-lg}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "",
+    "figma": "Text lg/Regular",
+    "usage": "Section and card headers",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-text-lg-medium",
+    "cssVar": "--text-style-text-lg-medium",
+    "path": [
+      "text-style",
+      "text-lg-medium"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 500,
+      "fontSize": "1.125rem",
+      "lineHeight": "1.5rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.medium}",
+      "fontSize": "{font.size.text-lg}",
+      "lineHeight": "{font.line-height.text-lg}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "",
+    "figma": "Text lg/Medium",
+    "usage": "Section and card headers",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-text-lg-semibold",
+    "cssVar": "--text-style-text-lg-semibold",
+    "path": [
+      "text-style",
+      "text-lg-semibold"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 600,
+      "fontSize": "1.125rem",
+      "lineHeight": "1.5rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.semibold}",
+      "fontSize": "{font.size.text-lg}",
+      "lineHeight": "{font.line-height.text-lg}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "",
+    "figma": "Text lg/Semibold",
+    "usage": "Section and card headers",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-text-lg-bold",
+    "cssVar": "--text-style-text-lg-bold",
+    "path": [
+      "text-style",
+      "text-lg-bold"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 700,
+      "fontSize": "1.125rem",
+      "lineHeight": "1.5rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.bold}",
+      "fontSize": "{font.size.text-lg}",
+      "lineHeight": "{font.line-height.text-lg}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "",
+    "figma": "Text lg/Bold",
+    "usage": "Section and card headers",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-text-md-regular",
+    "cssVar": "--text-style-text-md-regular",
+    "path": [
+      "text-style",
+      "text-md-regular"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 400,
+      "fontSize": "1rem",
+      "lineHeight": "1.5rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.regular}",
+      "fontSize": "{font.size.text-md}",
+      "lineHeight": "{font.line-height.text-md}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "",
+    "figma": "Text md/Regular",
+    "usage": "Onboarding/auth body, buttons lg",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-text-md-medium",
+    "cssVar": "--text-style-text-md-medium",
+    "path": [
+      "text-style",
+      "text-md-medium"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 500,
+      "fontSize": "1rem",
+      "lineHeight": "1.5rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.medium}",
+      "fontSize": "{font.size.text-md}",
+      "lineHeight": "{font.line-height.text-md}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "",
+    "figma": "Text md/Medium",
+    "usage": "Onboarding/auth body, buttons lg",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-text-md-semibold",
+    "cssVar": "--text-style-text-md-semibold",
+    "path": [
+      "text-style",
+      "text-md-semibold"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 600,
+      "fontSize": "1rem",
+      "lineHeight": "1.5rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.semibold}",
+      "fontSize": "{font.size.text-md}",
+      "lineHeight": "{font.line-height.text-md}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "",
+    "figma": "Text md/Semibold",
+    "usage": "Onboarding/auth body, buttons lg",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-text-md-bold",
+    "cssVar": "--text-style-text-md-bold",
+    "path": [
+      "text-style",
+      "text-md-bold"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 700,
+      "fontSize": "1rem",
+      "lineHeight": "1.5rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.bold}",
+      "fontSize": "{font.size.text-md}",
+      "lineHeight": "{font.line-height.text-md}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "",
+    "figma": "Text md/Bold",
+    "usage": "Onboarding/auth body, buttons lg",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-text-sm-regular",
+    "cssVar": "--text-style-text-sm-regular",
+    "path": [
+      "text-style",
+      "text-sm-regular"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 400,
+      "fontSize": "0.875rem",
+      "lineHeight": "1.125rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.regular}",
+      "fontSize": "{font.size.text-sm}",
+      "lineHeight": "{font.line-height.text-sm}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "Figma description says 14/20px, but the line-height variable is 18px. 18px ships.",
+    "figma": "Text sm/Regular",
+    "usage": "Default app text, tables, buttons md and sm",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-text-sm-medium",
+    "cssVar": "--text-style-text-sm-medium",
+    "path": [
+      "text-style",
+      "text-sm-medium"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 500,
+      "fontSize": "0.875rem",
+      "lineHeight": "1.125rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.medium}",
+      "fontSize": "{font.size.text-sm}",
+      "lineHeight": "{font.line-height.text-sm}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "Figma description says 14/20px, but the line-height variable is 18px. 18px ships.",
+    "figma": "Text sm/Medium",
+    "usage": "Default app text, tables, buttons md and sm",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-text-sm-semibold",
+    "cssVar": "--text-style-text-sm-semibold",
+    "path": [
+      "text-style",
+      "text-sm-semibold"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 600,
+      "fontSize": "0.875rem",
+      "lineHeight": "1.125rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.semibold}",
+      "fontSize": "{font.size.text-sm}",
+      "lineHeight": "{font.line-height.text-sm}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "Figma description says 14/20px, but the line-height variable is 18px. 18px ships.",
+    "figma": "Text sm/Semibold",
+    "usage": "Default app text, tables, buttons md and sm",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-text-sm-bold",
+    "cssVar": "--text-style-text-sm-bold",
+    "path": [
+      "text-style",
+      "text-sm-bold"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 700,
+      "fontSize": "0.875rem",
+      "lineHeight": "1.125rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.bold}",
+      "fontSize": "{font.size.text-sm}",
+      "lineHeight": "{font.line-height.text-sm}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "Figma description says 14/20px, but the line-height variable is 18px. 18px ships.",
+    "figma": "Text sm/Bold",
+    "usage": "Default app text, tables, buttons md and sm",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-text-xs-regular",
+    "cssVar": "--text-style-text-xs-regular",
+    "path": [
+      "text-style",
+      "text-xs-regular"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 400,
+      "fontSize": "0.75rem",
+      "lineHeight": "1rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.regular}",
+      "fontSize": "{font.size.text-xs}",
+      "lineHeight": "{font.line-height.text-xs}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "",
+    "figma": "Text xs/Regular",
+    "usage": "Helper text, inputs, badges, tags, captions, table headers",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-text-xs-medium",
+    "cssVar": "--text-style-text-xs-medium",
+    "path": [
+      "text-style",
+      "text-xs-medium"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 500,
+      "fontSize": "0.75rem",
+      "lineHeight": "1rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.medium}",
+      "fontSize": "{font.size.text-xs}",
+      "lineHeight": "{font.line-height.text-xs}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "",
+    "figma": "Text xs/Medium",
+    "usage": "Helper text, inputs, badges, tags, captions, table headers",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-text-xs-semibold",
+    "cssVar": "--text-style-text-xs-semibold",
+    "path": [
+      "text-style",
+      "text-xs-semibold"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 600,
+      "fontSize": "0.75rem",
+      "lineHeight": "1rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.semibold}",
+      "fontSize": "{font.size.text-xs}",
+      "lineHeight": "{font.line-height.text-xs}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "",
+    "figma": "Text xs/Semibold",
+    "usage": "Helper text, inputs, badges, tags, captions, table headers",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-text-xs-bold",
+    "cssVar": "--text-style-text-xs-bold",
+    "path": [
+      "text-style",
+      "text-xs-bold"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 700,
+      "fontSize": "0.75rem",
+      "lineHeight": "1rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.bold}",
+      "fontSize": "{font.size.text-xs}",
+      "lineHeight": "{font.line-height.text-xs}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "",
+    "figma": "Text xs/Bold",
+    "usage": "Helper text, inputs, badges, tags, captions, table headers",
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-overline-semibold",
+    "cssVar": "--text-style-overline-semibold",
+    "path": [
+      "text-style",
+      "overline-semibold"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 600,
+      "fontSize": "0.75rem",
+      "lineHeight": "1rem",
+      "letterSpacing": "0.06em"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.semibold}",
+      "fontSize": "{font.size.text-xs}",
+      "lineHeight": "{font.line-height.text-xs}",
+      "letterSpacing": "{font.letter-spacing.widest}"
+    },
+    "description": "Eyebrows (\"HOW IT WORKS\"), nav section labels.",
+    "figma": "Overline/Semibold",
+    "usage": null,
+    "css": {
+      "textTransform": "uppercase",
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-numeric-score",
+    "cssVar": "--text-style-numeric-score",
+    "path": [
+      "text-style",
+      "numeric-score"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 600,
+      "fontSize": "3rem",
+      "lineHeight": "3.5rem",
+      "letterSpacing": "-0.02em"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.semibold}",
+      "fontSize": "{font.size.numeric-score}",
+      "lineHeight": "{font.line-height.numeric-score}",
+      "letterSpacing": "{font.letter-spacing.tighter}"
+    },
+    "description": "Content score and rank (#12). Tabular figures.",
+    "figma": "Numeric/Score",
+    "usage": null,
+    "css": {
+      "textTransform": null,
+      "tabularNums": true
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-numeric-stat",
+    "cssVar": "--text-style-numeric-stat",
+    "path": [
+      "text-style",
+      "numeric-stat"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 600,
+      "fontSize": "2rem",
+      "lineHeight": "2.5rem",
+      "letterSpacing": "-0.01em"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.semibold}",
+      "fontSize": "{font.size.numeric-stat}",
+      "lineHeight": "{font.line-height.numeric-stat}",
+      "letterSpacing": "{font.letter-spacing.tight}"
+    },
+    "description": "Stat tiles and big numbers on VIP (500+).",
+    "figma": "Numeric/Stat",
+    "usage": null,
+    "css": {
+      "textTransform": null,
+      "tabularNums": true
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-numeric-table",
+    "cssVar": "--text-style-numeric-table",
+    "path": [
+      "text-style",
+      "numeric-table"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 500,
+      "fontSize": "0.875rem",
+      "lineHeight": "1.125rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.medium}",
+      "fontSize": "{font.size.text-sm}",
+      "lineHeight": "{font.line-height.text-sm}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "Numbers in tables.",
+    "figma": "Numeric/Table",
+    "usage": null,
+    "css": {
+      "textTransform": null,
+      "tabularNums": true
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-editor-h1",
+    "cssVar": "--text-style-editor-h1",
+    "path": [
+      "text-style",
+      "editor-h1"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 700,
+      "fontSize": "2.25rem",
+      "lineHeight": "2.75rem",
+      "letterSpacing": "-0.01em"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.bold}",
+      "fontSize": "{font.size.editor-h1}",
+      "lineHeight": "{font.line-height.editor-h1}",
+      "letterSpacing": "{font.letter-spacing.tight}"
+    },
+    "description": "Article content only, never UI.",
+    "figma": "Editor/H1",
+    "usage": null,
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-editor-h2",
+    "cssVar": "--text-style-editor-h2",
+    "path": [
+      "text-style",
+      "editor-h2"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 600,
+      "fontSize": "1.75rem",
+      "lineHeight": "2.25rem",
+      "letterSpacing": "-0.01em"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.semibold}",
+      "fontSize": "{font.size.editor-h2}",
+      "lineHeight": "{font.line-height.editor-h2}",
+      "letterSpacing": "{font.letter-spacing.tight}"
+    },
+    "description": "",
+    "figma": "Editor/H2",
+    "usage": null,
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-editor-h3",
+    "cssVar": "--text-style-editor-h3",
+    "path": [
+      "text-style",
+      "editor-h3"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 600,
+      "fontSize": "1.375rem",
+      "lineHeight": "1.875rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.semibold}",
+      "fontSize": "{font.size.editor-h3}",
+      "lineHeight": "{font.line-height.editor-h3}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "",
+    "figma": "Editor/H3",
+    "usage": null,
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-editor-h4",
+    "cssVar": "--text-style-editor-h4",
+    "path": [
+      "text-style",
+      "editor-h4"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 600,
+      "fontSize": "1.125rem",
+      "lineHeight": "1.75rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.semibold}",
+      "fontSize": "{font.size.editor-h4}",
+      "lineHeight": "{font.line-height.editor-h4}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "",
+    "figma": "Editor/H4",
+    "usage": null,
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-editor-h5",
+    "cssVar": "--text-style-editor-h5",
+    "path": [
+      "text-style",
+      "editor-h5"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 600,
+      "fontSize": "1rem",
+      "lineHeight": "1.5rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.semibold}",
+      "fontSize": "{font.size.text-md}",
+      "lineHeight": "{font.line-height.text-md}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "",
+    "figma": "Editor/H5",
+    "usage": null,
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-editor-h6",
+    "cssVar": "--text-style-editor-h6",
+    "path": [
+      "text-style",
+      "editor-h6"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 600,
+      "fontSize": "0.875rem",
+      "lineHeight": "1.125rem",
+      "letterSpacing": "0.02em"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.semibold}",
+      "fontSize": "{font.size.text-sm}",
+      "lineHeight": "{font.line-height.text-sm}",
+      "letterSpacing": "{font.letter-spacing.wide}"
+    },
+    "description": "",
+    "figma": "Editor/H6",
+    "usage": null,
+    "css": {
+      "textTransform": "uppercase",
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-editor-paragraph",
+    "cssVar": "--text-style-editor-paragraph",
+    "path": [
+      "text-style",
+      "editor-paragraph"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 400,
+      "fontSize": "1.125rem",
+      "lineHeight": "1.75rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.regular}",
+      "fontSize": "{font.size.editor-paragraph}",
+      "lineHeight": "{font.line-height.editor-paragraph}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "Article body 18/28 (replaces Roboto 18/28).",
+    "figma": "Editor/Paragraph",
+    "usage": null,
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "text-style-editor-meta-field",
+    "cssVar": "--text-style-editor-meta-field",
+    "path": [
+      "text-style",
+      "editor-meta-field"
+    ],
+    "type": "typography",
+    "value": {
+      "fontFamily": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "fontWeight": 400,
+      "fontSize": "0.875rem",
+      "lineHeight": "1.125rem",
+      "letterSpacing": "0"
+    },
+    "ref": null,
+    "original": {
+      "fontFamily": "{font.family.sans}",
+      "fontWeight": "{font.weight.regular}",
+      "fontSize": "{font.size.text-sm}",
+      "lineHeight": "{font.line-height.text-sm}",
+      "letterSpacing": "{font.letter-spacing.normal}"
+    },
+    "description": "",
+    "figma": "Editor/Meta field",
+    "usage": null,
+    "css": {
+      "textTransform": null,
+      "tabularNums": false
+    },
+    "offPalette": null
+  },
+  {
+    "name": "spacing-none",
+    "cssVar": "--spacing-none",
+    "path": [
+      "spacing",
+      "none"
+    ],
+    "type": "dimension",
+    "value": "0px",
+    "ref": null,
+    "original": "0px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "spacing-xxs",
+    "cssVar": "--spacing-xxs",
+    "path": [
+      "spacing",
+      "xxs"
+    ],
+    "type": "dimension",
+    "value": "2px",
+    "ref": null,
+    "original": "2px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "spacing-xs",
+    "cssVar": "--spacing-xs",
+    "path": [
+      "spacing",
+      "xs"
+    ],
+    "type": "dimension",
+    "value": "4px",
+    "ref": null,
+    "original": "4px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "spacing-sm",
+    "cssVar": "--spacing-sm",
+    "path": [
+      "spacing",
+      "sm"
+    ],
+    "type": "dimension",
+    "value": "6px",
+    "ref": null,
+    "original": "6px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "spacing-md",
+    "cssVar": "--spacing-md",
+    "path": [
+      "spacing",
+      "md"
+    ],
+    "type": "dimension",
+    "value": "8px",
+    "ref": null,
+    "original": "8px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "spacing-lg",
+    "cssVar": "--spacing-lg",
+    "path": [
+      "spacing",
+      "lg"
+    ],
+    "type": "dimension",
+    "value": "12px",
+    "ref": null,
+    "original": "12px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "spacing-xl",
+    "cssVar": "--spacing-xl",
+    "path": [
+      "spacing",
+      "xl"
+    ],
+    "type": "dimension",
+    "value": "16px",
+    "ref": null,
+    "original": "16px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "spacing-2xl",
+    "cssVar": "--spacing-2xl",
+    "path": [
+      "spacing",
+      "2xl"
+    ],
+    "type": "dimension",
+    "value": "20px",
+    "ref": null,
+    "original": "20px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "spacing-3xl",
+    "cssVar": "--spacing-3xl",
+    "path": [
+      "spacing",
+      "3xl"
+    ],
+    "type": "dimension",
+    "value": "24px",
+    "ref": null,
+    "original": "24px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "spacing-4xl",
+    "cssVar": "--spacing-4xl",
+    "path": [
+      "spacing",
+      "4xl"
+    ],
+    "type": "dimension",
+    "value": "32px",
+    "ref": null,
+    "original": "32px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "spacing-5xl",
+    "cssVar": "--spacing-5xl",
+    "path": [
+      "spacing",
+      "5xl"
+    ],
+    "type": "dimension",
+    "value": "40px",
+    "ref": null,
+    "original": "40px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "spacing-6xl",
+    "cssVar": "--spacing-6xl",
+    "path": [
+      "spacing",
+      "6xl"
+    ],
+    "type": "dimension",
+    "value": "48px",
+    "ref": null,
+    "original": "48px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "spacing-7xl",
+    "cssVar": "--spacing-7xl",
+    "path": [
+      "spacing",
+      "7xl"
+    ],
+    "type": "dimension",
+    "value": "64px",
+    "ref": null,
+    "original": "64px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "spacing-8xl",
+    "cssVar": "--spacing-8xl",
+    "path": [
+      "spacing",
+      "8xl"
+    ],
+    "type": "dimension",
+    "value": "80px",
+    "ref": null,
+    "original": "80px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "spacing-9xl",
+    "cssVar": "--spacing-9xl",
+    "path": [
+      "spacing",
+      "9xl"
+    ],
+    "type": "dimension",
+    "value": "96px",
+    "ref": null,
+    "original": "96px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "spacing-10xl",
+    "cssVar": "--spacing-10xl",
+    "path": [
+      "spacing",
+      "10xl"
+    ],
+    "type": "dimension",
+    "value": "128px",
+    "ref": null,
+    "original": "128px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "spacing-11xl",
+    "cssVar": "--spacing-11xl",
+    "path": [
+      "spacing",
+      "11xl"
+    ],
+    "type": "dimension",
+    "value": "160px",
+    "ref": null,
+    "original": "160px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "spacing-12xl",
+    "cssVar": "--spacing-12xl",
+    "path": [
+      "spacing",
+      "12xl"
+    ],
+    "type": "dimension",
+    "value": "192px",
+    "ref": null,
+    "original": "192px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "spacing-13xl",
+    "cssVar": "--spacing-13xl",
+    "path": [
+      "spacing",
+      "13xl"
+    ],
+    "type": "dimension",
+    "value": "224px",
+    "ref": null,
+    "original": "224px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "spacing-14xl",
+    "cssVar": "--spacing-14xl",
+    "path": [
+      "spacing",
+      "14xl"
+    ],
+    "type": "dimension",
+    "value": "256px",
+    "ref": null,
+    "original": "256px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "radius-none",
+    "cssVar": "--radius-none",
+    "path": [
+      "radius",
+      "none"
+    ],
+    "type": "dimension",
+    "value": "0px",
+    "ref": null,
+    "original": "0px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "radius-xs",
+    "cssVar": "--radius-xs",
+    "path": [
+      "radius",
+      "xs"
+    ],
+    "type": "dimension",
+    "value": "4px",
+    "ref": null,
+    "original": "4px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "radius-sm",
+    "cssVar": "--radius-sm",
+    "path": [
+      "radius",
+      "sm"
+    ],
+    "type": "dimension",
+    "value": "6px",
+    "ref": null,
+    "original": "6px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "radius-md",
+    "cssVar": "--radius-md",
+    "path": [
+      "radius",
+      "md"
+    ],
+    "type": "dimension",
+    "value": "8px",
+    "ref": null,
+    "original": "8px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "radius-lg",
+    "cssVar": "--radius-lg",
+    "path": [
+      "radius",
+      "lg"
+    ],
+    "type": "dimension",
+    "value": "12px",
+    "ref": null,
+    "original": "12px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "radius-xl",
+    "cssVar": "--radius-xl",
+    "path": [
+      "radius",
+      "xl"
+    ],
+    "type": "dimension",
+    "value": "16px",
+    "ref": null,
+    "original": "16px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "radius-full",
+    "cssVar": "--radius-full",
+    "path": [
+      "radius",
+      "full"
+    ],
+    "type": "dimension",
+    "value": "9999px",
+    "ref": null,
+    "original": "9999px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "size-control-sm",
+    "cssVar": "--size-control-sm",
+    "path": [
+      "size",
+      "control",
+      "sm"
+    ],
+    "type": "dimension",
+    "value": "32px",
+    "ref": null,
+    "original": "32px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "size-control-md",
+    "cssVar": "--size-control-md",
+    "path": [
+      "size",
+      "control",
+      "md"
+    ],
+    "type": "dimension",
+    "value": "36px",
+    "ref": null,
+    "original": "36px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "size-control-lg",
+    "cssVar": "--size-control-lg",
+    "path": [
+      "size",
+      "control",
+      "lg"
+    ],
+    "type": "dimension",
+    "value": "40px",
+    "ref": null,
+    "original": "40px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "size-control-xl",
+    "cssVar": "--size-control-xl",
+    "path": [
+      "size",
+      "control",
+      "xl"
+    ],
+    "type": "dimension",
+    "value": "48px",
+    "ref": null,
+    "original": "48px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "size-icon-xs",
+    "cssVar": "--size-icon-xs",
+    "path": [
+      "size",
+      "icon",
+      "xs"
+    ],
+    "type": "dimension",
+    "value": "12px",
+    "ref": null,
+    "original": "12px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "size-icon-sm",
+    "cssVar": "--size-icon-sm",
+    "path": [
+      "size",
+      "icon",
+      "sm"
+    ],
+    "type": "dimension",
+    "value": "16px",
+    "ref": null,
+    "original": "16px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "size-icon-md",
+    "cssVar": "--size-icon-md",
+    "path": [
+      "size",
+      "icon",
+      "md"
+    ],
+    "type": "dimension",
+    "value": "20px",
+    "ref": null,
+    "original": "20px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "size-icon-lg",
+    "cssVar": "--size-icon-lg",
+    "path": [
+      "size",
+      "icon",
+      "lg"
+    ],
+    "type": "dimension",
+    "value": "24px",
+    "ref": null,
+    "original": "24px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "size-target-min",
+    "cssVar": "--size-target-min",
+    "path": [
+      "size",
+      "target",
+      "min"
+    ],
+    "type": "dimension",
+    "value": "24px",
+    "ref": null,
+    "original": "24px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "size-target-touch",
+    "cssVar": "--size-target-touch",
+    "path": [
+      "size",
+      "target",
+      "touch"
+    ],
+    "type": "dimension",
+    "value": "44px",
+    "ref": null,
+    "original": "44px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "size-avatar-xs",
+    "cssVar": "--size-avatar-xs",
+    "path": [
+      "size",
+      "avatar",
+      "xs"
+    ],
+    "type": "dimension",
+    "value": "24px",
+    "ref": null,
+    "original": "24px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "size-avatar-sm",
+    "cssVar": "--size-avatar-sm",
+    "path": [
+      "size",
+      "avatar",
+      "sm"
+    ],
+    "type": "dimension",
+    "value": "32px",
+    "ref": null,
+    "original": "32px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "size-avatar-md",
+    "cssVar": "--size-avatar-md",
+    "path": [
+      "size",
+      "avatar",
+      "md"
+    ],
+    "type": "dimension",
+    "value": "40px",
+    "ref": null,
+    "original": "40px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "size-avatar-lg",
+    "cssVar": "--size-avatar-lg",
+    "path": [
+      "size",
+      "avatar",
+      "lg"
+    ],
+    "type": "dimension",
+    "value": "48px",
+    "ref": null,
+    "original": "48px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "size-avatar-xl",
+    "cssVar": "--size-avatar-xl",
+    "path": [
+      "size",
+      "avatar",
+      "xl"
+    ],
+    "type": "dimension",
+    "value": "56px",
+    "ref": null,
+    "original": "56px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "size-avatar-2xl",
+    "cssVar": "--size-avatar-2xl",
+    "path": [
+      "size",
+      "avatar",
+      "2xl"
+    ],
+    "type": "dimension",
+    "value": "64px",
+    "ref": null,
+    "original": "64px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "size-container-sm",
+    "cssVar": "--size-container-sm",
+    "path": [
+      "size",
+      "container",
+      "sm"
+    ],
+    "type": "dimension",
+    "value": "640px",
+    "ref": null,
+    "original": "640px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "size-container-md",
+    "cssVar": "--size-container-md",
+    "path": [
+      "size",
+      "container",
+      "md"
+    ],
+    "type": "dimension",
+    "value": "768px",
+    "ref": null,
+    "original": "768px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "size-container-lg",
+    "cssVar": "--size-container-lg",
+    "path": [
+      "size",
+      "container",
+      "lg"
+    ],
+    "type": "dimension",
+    "value": "1024px",
+    "ref": null,
+    "original": "1024px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "size-container-xl",
+    "cssVar": "--size-container-xl",
+    "path": [
+      "size",
+      "container",
+      "xl"
+    ],
+    "type": "dimension",
+    "value": "1280px",
+    "ref": null,
+    "original": "1280px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "size-container-2xl",
+    "cssVar": "--size-container-2xl",
+    "path": [
+      "size",
+      "container",
+      "2xl"
+    ],
+    "type": "dimension",
+    "value": "1440px",
+    "ref": null,
+    "original": "1440px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "size-breakpoint-mobile",
+    "cssVar": "--size-breakpoint-mobile",
+    "path": [
+      "size",
+      "breakpoint",
+      "mobile"
+    ],
+    "type": "dimension",
+    "value": "375px",
+    "ref": null,
+    "original": "375px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "size-breakpoint-tablet",
+    "cssVar": "--size-breakpoint-tablet",
+    "path": [
+      "size",
+      "breakpoint",
+      "tablet"
+    ],
+    "type": "dimension",
+    "value": "768px",
+    "ref": null,
+    "original": "768px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "size-breakpoint-laptop",
+    "cssVar": "--size-breakpoint-laptop",
+    "path": [
+      "size",
+      "breakpoint",
+      "laptop"
+    ],
+    "type": "dimension",
+    "value": "1280px",
+    "ref": null,
+    "original": "1280px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "size-breakpoint-desktop",
+    "cssVar": "--size-breakpoint-desktop",
+    "path": [
+      "size",
+      "breakpoint",
+      "desktop"
+    ],
+    "type": "dimension",
+    "value": "1440px",
+    "ref": null,
+    "original": "1440px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "size-breakpoint-wide",
+    "cssVar": "--size-breakpoint-wide",
+    "path": [
+      "size",
+      "breakpoint",
+      "wide"
+    ],
+    "type": "dimension",
+    "value": "1728px",
+    "ref": null,
+    "original": "1728px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "border-width-default",
+    "cssVar": "--border-width-default",
+    "path": [
+      "border-width",
+      "default"
+    ],
+    "type": "dimension",
+    "value": "1px",
+    "ref": null,
+    "original": "1px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "border-width-strong",
+    "cssVar": "--border-width-strong",
+    "path": [
+      "border-width",
+      "strong"
+    ],
+    "type": "dimension",
+    "value": "1.5px",
+    "ref": null,
+    "original": "1.5px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "border-width-focus",
+    "cssVar": "--border-width-focus",
+    "path": [
+      "border-width",
+      "focus"
+    ],
+    "type": "dimension",
+    "value": "2px",
+    "ref": null,
+    "original": "2px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "shadow-xs",
+    "cssVar": "--shadow-xs",
+    "path": [
+      "shadow",
+      "xs"
+    ],
+    "type": "shadow",
+    "value": "0 1px 2px 0 rgb(24 39 75 / 0.12)",
+    "ref": null,
+    "original": "0 1px 2px 0 rgb(24 39 75 / 0.12)",
+    "description": "",
+    "figma": "Shadow/xs",
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "shadow-sm",
+    "cssVar": "--shadow-sm",
+    "path": [
+      "shadow",
+      "sm"
+    ],
+    "type": "shadow",
+    "value": "0 1px 4px 0 rgb(24 39 75 / 0.2)",
+    "ref": null,
+    "original": "0 1px 4px 0 rgb(24 39 75 / 0.2)",
+    "description": "",
+    "figma": "Shadow/sm",
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "shadow-md",
+    "cssVar": "--shadow-md",
+    "path": [
+      "shadow",
+      "md"
+    ],
+    "type": "shadow",
+    "value": "0 8px 16px -6px rgb(24 39 75 / 0.14), 0 6px 8px -6px rgb(24 39 75 / 0.2)",
+    "ref": null,
+    "original": "0 8px 16px -6px rgb(24 39 75 / 0.14), 0 6px 8px -6px rgb(24 39 75 / 0.2)",
+    "description": "",
+    "figma": "Shadow/md",
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "shadow-lg",
+    "cssVar": "--shadow-lg",
+    "path": [
+      "shadow",
+      "lg"
+    ],
+    "type": "shadow",
+    "value": "0 4px 8px -2px rgb(24 39 75 / 0.1), 0 12px 24px -6px rgb(24 39 75 / 0.14)",
+    "ref": null,
+    "original": "0 4px 8px -2px rgb(24 39 75 / 0.1), 0 12px 24px -6px rgb(24 39 75 / 0.14)",
+    "description": "",
+    "figma": "Shadow/lg",
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "shadow-xl",
+    "cssVar": "--shadow-xl",
+    "path": [
+      "shadow",
+      "xl"
+    ],
+    "type": "shadow",
+    "value": "0 8px 12px -4px rgb(24 39 75 / 0.1), 0 20px 32px -8px rgb(24 39 75 / 0.16)",
+    "ref": null,
+    "original": "0 8px 12px -4px rgb(24 39 75 / 0.1), 0 20px 32px -8px rgb(24 39 75 / 0.16)",
+    "description": "",
+    "figma": "Shadow/xl",
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "shadow-focus-ring",
+    "cssVar": "--shadow-focus-ring",
+    "path": [
+      "shadow",
+      "focus-ring"
+    ],
+    "type": "shadow",
+    "value": "0 0 0 2px var(--focus-offset), 0 0 0 4px var(--focus-ring)",
+    "ref": null,
+    "original": "0 0 0 2px var(--focus-offset), 0 0 0 4px var(--focus-ring)",
+    "description": "",
+    "figma": "Focus ring/Brand",
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "shadow-focus-ring-error",
+    "cssVar": "--shadow-focus-ring-error",
+    "path": [
+      "shadow",
+      "focus-ring-error"
+    ],
+    "type": "shadow",
+    "value": "0 0 0 2px var(--focus-offset), 0 0 0 4px var(--focus-ring-error)",
+    "ref": null,
+    "original": "0 0 0 2px var(--focus-offset), 0 0 0 4px var(--focus-ring-error)",
+    "description": "",
+    "figma": "Focus ring/Error",
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "shadow-focus-halo",
+    "cssVar": "--shadow-focus-halo",
+    "path": [
+      "shadow",
+      "focus-halo"
+    ],
+    "type": "shadow",
+    "value": "0 0 0 2px var(--focus-halo)",
+    "ref": null,
+    "original": "0 0 0 2px var(--focus-halo)",
+    "description": "Active/typing state for inputs, selects, chips: pair with a 1px border/brand stroke.",
+    "figma": "Focus halo/Brand",
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "shadow-focus-halo-error",
+    "cssVar": "--shadow-focus-halo-error",
+    "path": [
+      "shadow",
+      "focus-halo-error"
+    ],
+    "type": "shadow",
+    "value": "0 0 0 2px var(--focus-halo-error)",
+    "ref": null,
+    "original": "0 0 0 2px var(--focus-halo-error)",
+    "description": "Error active state: pair with a 1px border/error stroke.",
+    "figma": "Focus halo/Error",
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "shadow-glow-dark-card",
+    "cssVar": "--shadow-glow-dark-card",
+    "path": [
+      "shadow",
+      "glow-dark-card"
+    ],
+    "type": "shadow",
+    "value": "0 0 32px 0 color-mix(in srgb, var(--color-cyan-500) 35%, transparent)",
+    "ref": null,
+    "original": "0 0 32px 0 color-mix(in srgb, var(--color-cyan-500) 35%, transparent)",
+    "description": "",
+    "figma": "Glow/Dark card",
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "shadow-divider-bottom",
+    "cssVar": "--shadow-divider-bottom",
+    "path": [
+      "shadow",
+      "divider-bottom"
+    ],
+    "type": "shadow",
+    "value": "0 1px 0 0 var(--color-gray-400)",
+    "ref": null,
+    "original": "0 1px 0 0 var(--color-gray-400)",
+    "description": "1px hairline under top bars and sticky headers.",
+    "figma": "Divider/Bottom hairline",
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "blur-locked-content",
+    "cssVar": "--blur-locked-content",
+    "path": [
+      "blur",
+      "locked-content"
+    ],
+    "type": "dimension",
+    "value": "4px",
+    "ref": null,
+    "original": "4px",
+    "description": "Figma \"Blur/Locked content\": 8px layer blur. Use with filter: blur().",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "gradient-brand",
+    "cssVar": "--gradient-brand",
+    "path": [
+      "gradient",
+      "brand"
+    ],
+    "type": "gradient",
+    "value": "linear-gradient(90deg, #1f4cbe 0%, var(--color-cyan-500) 100%)",
+    "ref": null,
+    "original": "linear-gradient(90deg, #1f4cbe 0%, var(--color-cyan-500) 100%)",
+    "description": "Used in: Brand loader, logo on auth pages, email templates, error pages (9 layers)",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": [
+      "#1f4cbe"
+    ]
+  },
+  {
+    "name": "gradient-premium",
+    "cssVar": "--gradient-premium",
+    "path": [
+      "gradient",
+      "premium"
+    ],
+    "type": "gradient",
+    "value": "linear-gradient(90deg, #1f4cbe 0%, var(--color-purple-700) 100%)",
+    "ref": null,
+    "original": "linear-gradient(90deg, #1f4cbe 0%, var(--color-purple-700) 100%)",
+    "description": "Used in: Plan badge (selected), marketing button default and focus, VIP sections (7 layers)",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": [
+      "#1f4cbe"
+    ]
+  },
+  {
+    "name": "gradient-premium-hover",
+    "cssVar": "--gradient-premium-hover",
+    "path": [
+      "gradient",
+      "premium-hover"
+    ],
+    "type": "gradient",
+    "value": "linear-gradient(90deg, #1641ae 0%, var(--color-purple-800) 100%)",
+    "ref": null,
+    "original": "linear-gradient(90deg, #1641ae 0%, var(--color-purple-800) 100%)",
+    "description": "Used in: Marketing button hover (2 layers)",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": [
+      "#1641ae"
+    ]
+  },
+  {
+    "name": "gradient-highlight",
+    "cssVar": "--gradient-highlight",
+    "path": [
+      "gradient",
+      "highlight"
+    ],
+    "type": "gradient",
+    "value": "linear-gradient(90deg, var(--color-cyan-400) 0%, var(--color-purple-400) 100%)",
+    "ref": null,
+    "original": "linear-gradient(90deg, var(--color-cyan-400) 0%, var(--color-purple-400) 100%)",
+    "description": "Used in: VIP stat values, as gradient text (4 layers)",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": []
+  },
+  {
+    "name": "gradient-dark-hero",
+    "cssVar": "--gradient-dark-hero",
+    "path": [
+      "gradient",
+      "dark-hero"
+    ],
+    "type": "gradient",
+    "value": "linear-gradient(135deg, var(--color-gray-950) 0%, #022177 100%)",
+    "ref": null,
+    "original": "linear-gradient(135deg, var(--color-gray-950) 0%, #022177 100%)",
+    "description": "Used in: Dark hero background, VIP hero (2 layers)",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": [
+      "#022177"
+    ]
+  },
+  {
+    "name": "grid-mobile-columns",
+    "cssVar": "--grid-mobile-columns",
+    "path": [
+      "grid",
+      "mobile",
+      "columns"
+    ],
+    "type": "number",
+    "value": 4,
+    "ref": null,
+    "original": 4,
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "grid-mobile-gutter",
+    "cssVar": "--grid-mobile-gutter",
+    "path": [
+      "grid",
+      "mobile",
+      "gutter"
+    ],
+    "type": "dimension",
+    "value": "16px",
+    "ref": null,
+    "original": "16px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "grid-mobile-margin",
+    "cssVar": "--grid-mobile-margin",
+    "path": [
+      "grid",
+      "mobile",
+      "margin"
+    ],
+    "type": "dimension",
+    "value": "16px",
+    "ref": null,
+    "original": "16px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "grid-mobile-min-width",
+    "cssVar": "--grid-mobile-min-width",
+    "path": [
+      "grid",
+      "mobile",
+      "min-width"
+    ],
+    "type": "dimension",
+    "value": "375px",
+    "ref": "--size-breakpoint-mobile",
+    "original": "{size.breakpoint.mobile}",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "grid-tablet-columns",
+    "cssVar": "--grid-tablet-columns",
+    "path": [
+      "grid",
+      "tablet",
+      "columns"
+    ],
+    "type": "number",
+    "value": 8,
+    "ref": null,
+    "original": 8,
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "grid-tablet-gutter",
+    "cssVar": "--grid-tablet-gutter",
+    "path": [
+      "grid",
+      "tablet",
+      "gutter"
+    ],
+    "type": "dimension",
+    "value": "16px",
+    "ref": null,
+    "original": "16px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "grid-tablet-margin",
+    "cssVar": "--grid-tablet-margin",
+    "path": [
+      "grid",
+      "tablet",
+      "margin"
+    ],
+    "type": "dimension",
+    "value": "24px",
+    "ref": null,
+    "original": "24px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "grid-tablet-min-width",
+    "cssVar": "--grid-tablet-min-width",
+    "path": [
+      "grid",
+      "tablet",
+      "min-width"
+    ],
+    "type": "dimension",
+    "value": "768px",
+    "ref": "--size-breakpoint-tablet",
+    "original": "{size.breakpoint.tablet}",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "grid-laptop-columns",
+    "cssVar": "--grid-laptop-columns",
+    "path": [
+      "grid",
+      "laptop",
+      "columns"
+    ],
+    "type": "number",
+    "value": 12,
+    "ref": null,
+    "original": 12,
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "grid-laptop-gutter",
+    "cssVar": "--grid-laptop-gutter",
+    "path": [
+      "grid",
+      "laptop",
+      "gutter"
+    ],
+    "type": "dimension",
+    "value": "24px",
+    "ref": null,
+    "original": "24px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "grid-laptop-margin",
+    "cssVar": "--grid-laptop-margin",
+    "path": [
+      "grid",
+      "laptop",
+      "margin"
+    ],
+    "type": "dimension",
+    "value": "32px",
+    "ref": null,
+    "original": "32px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "grid-laptop-min-width",
+    "cssVar": "--grid-laptop-min-width",
+    "path": [
+      "grid",
+      "laptop",
+      "min-width"
+    ],
+    "type": "dimension",
+    "value": "1280px",
+    "ref": "--size-breakpoint-laptop",
+    "original": "{size.breakpoint.laptop}",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "grid-desktop-columns",
+    "cssVar": "--grid-desktop-columns",
+    "path": [
+      "grid",
+      "desktop",
+      "columns"
+    ],
+    "type": "number",
+    "value": 12,
+    "ref": null,
+    "original": 12,
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "grid-desktop-gutter",
+    "cssVar": "--grid-desktop-gutter",
+    "path": [
+      "grid",
+      "desktop",
+      "gutter"
+    ],
+    "type": "dimension",
+    "value": "24px",
+    "ref": null,
+    "original": "24px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "grid-desktop-margin",
+    "cssVar": "--grid-desktop-margin",
+    "path": [
+      "grid",
+      "desktop",
+      "margin"
+    ],
+    "type": "dimension",
+    "value": "32px",
+    "ref": null,
+    "original": "32px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "grid-desktop-min-width",
+    "cssVar": "--grid-desktop-min-width",
+    "path": [
+      "grid",
+      "desktop",
+      "min-width"
+    ],
+    "type": "dimension",
+    "value": "1440px",
+    "ref": "--size-breakpoint-desktop",
+    "original": "{size.breakpoint.desktop}",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "grid-wide-columns",
+    "cssVar": "--grid-wide-columns",
+    "path": [
+      "grid",
+      "wide",
+      "columns"
+    ],
+    "type": "number",
+    "value": 12,
+    "ref": null,
+    "original": 12,
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "grid-wide-gutter",
+    "cssVar": "--grid-wide-gutter",
+    "path": [
+      "grid",
+      "wide",
+      "gutter"
+    ],
+    "type": "dimension",
+    "value": "24px",
+    "ref": null,
+    "original": "24px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "grid-wide-min-width",
+    "cssVar": "--grid-wide-min-width",
+    "path": [
+      "grid",
+      "wide",
+      "min-width"
+    ],
+    "type": "dimension",
+    "value": "1728px",
+    "ref": "--size-breakpoint-wide",
+    "original": "{size.breakpoint.wide}",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "grid-wide-max-content",
+    "cssVar": "--grid-wide-max-content",
+    "path": [
+      "grid",
+      "wide",
+      "max-content"
+    ],
+    "type": "dimension",
+    "value": "1440px",
+    "ref": "--size-container-2xl",
+    "original": "{size.container.2xl}",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "grid-cols-12-gutter",
+    "cssVar": "--grid-cols-12-gutter",
+    "path": [
+      "grid",
+      "cols-12",
+      "gutter"
+    ],
+    "type": "dimension",
+    "value": "24px",
+    "ref": null,
+    "original": "24px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "grid-cols-6-gutter",
+    "cssVar": "--grid-cols-6-gutter",
+    "path": [
+      "grid",
+      "cols-6",
+      "gutter"
+    ],
+    "type": "dimension",
+    "value": "24px",
+    "ref": null,
+    "original": "24px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "grid-cols-4-gutter",
+    "cssVar": "--grid-cols-4-gutter",
+    "path": [
+      "grid",
+      "cols-4",
+      "gutter"
+    ],
+    "type": "dimension",
+    "value": "24px",
+    "ref": null,
+    "original": "24px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "grid-cols-3-gutter",
+    "cssVar": "--grid-cols-3-gutter",
+    "path": [
+      "grid",
+      "cols-3",
+      "gutter"
+    ],
+    "type": "dimension",
+    "value": "24px",
+    "ref": null,
+    "original": "24px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "grid-cols-2-gutter",
+    "cssVar": "--grid-cols-2-gutter",
+    "path": [
+      "grid",
+      "cols-2",
+      "gutter"
+    ],
+    "type": "dimension",
+    "value": "24px",
+    "ref": null,
+    "original": "24px",
+    "description": "",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  },
+  {
+    "name": "grid-baseline",
+    "cssVar": "--grid-baseline",
+    "path": [
+      "grid",
+      "baseline"
+    ],
+    "type": "dimension",
+    "value": "4px",
+    "ref": null,
+    "original": "4px",
+    "description": "4pt baseline. Turn on to check vertical spacing.",
+    "figma": null,
+    "usage": null,
+    "css": null,
+    "offPalette": null
+  }
+]

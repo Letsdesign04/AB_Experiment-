@@ -1,0 +1,243 @@
+{
+  "font": {
+    "family": {
+      "sans": {
+        "$type": "fontFamily",
+        "$value": "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif"
+      }
+    },
+    "weight": {
+      "regular": {
+        "$type": "fontWeight",
+        "$value": 400,
+        "$description": "Figma: Regular"
+      },
+      "medium": {
+        "$type": "fontWeight",
+        "$value": 500,
+        "$description": "Figma: Medium"
+      },
+      "semibold": {
+        "$type": "fontWeight",
+        "$value": 600,
+        "$description": "Figma: Semi Bold"
+      },
+      "bold": {
+        "$type": "fontWeight",
+        "$value": 700,
+        "$description": "Figma: Bold"
+      }
+    },
+    "size": {
+      "display-2xl": {
+        "$type": "dimension",
+        "$value": "3.5rem",
+        "$description": "56px"
+      },
+      "display-xl": {
+        "$type": "dimension",
+        "$value": "3rem",
+        "$description": "48px"
+      },
+      "display-lg": {
+        "$type": "dimension",
+        "$value": "2.5rem",
+        "$description": "40px"
+      },
+      "display-md": {
+        "$type": "dimension",
+        "$value": "2rem",
+        "$description": "32px"
+      },
+      "display-sm": {
+        "$type": "dimension",
+        "$value": "1.75rem",
+        "$description": "28px"
+      },
+      "display-xs": {
+        "$type": "dimension",
+        "$value": "1.5rem",
+        "$description": "24px"
+      },
+      "text-xl": {
+        "$type": "dimension",
+        "$value": "1.25rem",
+        "$description": "20px"
+      },
+      "text-lg": {
+        "$type": "dimension",
+        "$value": "1.125rem",
+        "$description": "18px"
+      },
+      "text-md": {
+        "$type": "dimension",
+        "$value": "1rem",
+        "$description": "16px"
+      },
+      "text-sm": {
+        "$type": "dimension",
+        "$value": "0.875rem",
+        "$description": "14px"
+      },
+      "text-xs": {
+        "$type": "dimension",
+        "$value": "0.75rem",
+        "$description": "12px"
+      },
+      "numeric-score": {
+        "$type": "dimension",
+        "$value": "3rem",
+        "$description": "48px"
+      },
+      "numeric-stat": {
+        "$type": "dimension",
+        "$value": "2rem",
+        "$description": "32px"
+      },
+      "editor-h1": {
+        "$type": "dimension",
+        "$value": "2.25rem",
+        "$description": "36px"
+      },
+      "editor-h2": {
+        "$type": "dimension",
+        "$value": "1.75rem",
+        "$description": "28px"
+      },
+      "editor-h3": {
+        "$type": "dimension",
+        "$value": "1.375rem",
+        "$description": "22px"
+      },
+      "editor-h4": {
+        "$type": "dimension",
+        "$value": "1.125rem",
+        "$description": "18px"
+      },
+      "editor-paragraph": {
+        "$type": "dimension",
+        "$value": "1.125rem",
+        "$description": "18px"
+      }
+    },
+    "line-height": {
+      "display-2xl": {
+        "$type": "dimension",
+        "$value": "4.5rem",
+        "$description": "72px"
+      },
+      "display-xl": {
+        "$type": "dimension",
+        "$value": "3.5rem",
+        "$description": "56px"
+      },
+      "display-lg": {
+        "$type": "dimension",
+        "$value": "3rem",
+        "$description": "48px"
+      },
+      "display-md": {
+        "$type": "dimension",
+        "$value": "2.5rem",
+        "$description": "40px"
+      },
+      "display-sm": {
+        "$type": "dimension",
+        "$value": "2.25rem",
+        "$description": "36px"
+      },
+      "display-xs": {
+        "$type": "dimension",
+        "$value": "2rem",
+        "$description": "32px"
+      },
+      "text-xl": {
+        "$type": "dimension",
+        "$value": "1.75rem",
+        "$description": "28px"
+      },
+      "text-lg": {
+        "$type": "dimension",
+        "$value": "1.5rem",
+        "$description": "24px"
+      },
+      "text-md": {
+        "$type": "dimension",
+        "$value": "1.5rem",
+        "$description": "24px"
+      },
+      "text-sm": {
+        "$type": "dimension",
+        "$value": "1.125rem",
+        "$description": "18px"
+      },
+      "text-xs": {
+        "$type": "dimension",
+        "$value": "1rem",
+        "$description": "16px"
+      },
+      "numeric-score": {
+        "$type": "dimension",
+        "$value": "3.5rem",
+        "$description": "56px"
+      },
+      "numeric-stat": {
+        "$type": "dimension",
+        "$value": "2.5rem",
+        "$description": "40px"
+      },
+      "editor-h1": {
+        "$type": "dimension",
+        "$value": "2.75rem",
+        "$description": "44px"
+      },
+      "editor-h2": {
+        "$type": "dimension",
+        "$value": "2.25rem",
+        "$description": "36px"
+      },
+      "editor-h3": {
+        "$type": "dimension",
+        "$value": "1.875rem",
+        "$description": "30px"
+      },
+      "editor-h4": {
+        "$type": "dimension",
+        "$value": "1.75rem",
+        "$description": "28px"
+      },
+      "editor-paragraph": {
+        "$type": "dimension",
+        "$value": "1.75rem",
+        "$description": "28px"
+      }
+    },
+    "letter-spacing": {
+      "tighter": {
+        "$type": "dimension",
+        "$value": "-0.02em",
+        "$description": "-2%"
+      },
+      "tight": {
+        "$type": "dimension",
+        "$value": "-0.01em",
+        "$description": "-1%"
+      },
+      "normal": {
+        "$type": "dimension",
+        "$value": "0",
+        "$description": "0%"
+      },
+      "widest": {
+        "$type": "dimension",
+        "$value": "0.06em",
+        "$description": "6%"
+      },
+      "wide": {
+        "$type": "dimension",
+        "$value": "0.02em",
+        "$description": "2%"
+      }
+    }
+  }
+}

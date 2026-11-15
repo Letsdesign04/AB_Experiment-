@@ -1,0 +1,52 @@
+{
+  "gradient": {
+    "brand": {
+      "$type": "gradient",
+      "$value": "linear-gradient(90deg, #1f4cbe 0%, var(--color-cyan-500) 100%)",
+      "$description": "Used in: Brand loader, logo on auth pages, email templates, error pages (9 layers)",
+      "$extensions": {
+        "offPalette": [
+          "#1f4cbe"
+        ]
+      }
+    },
+    "premium": {
+      "$type": "gradient",
+      "$value": "linear-gradient(90deg, #1f4cbe 0%, var(--color-purple-700) 100%)",
+      "$description": "Used in: Plan badge (selected), marketing button default and focus, VIP sections (7 layers)",
+      "$extensions": {
+        "offPalette": [
+          "#1f4cbe"
+        ]
+      }
+    },
+    "premium-hover": {
+      "$type": "gradient",
+      "$value": "linear-gradient(90deg, #1641ae 0%, var(--color-purple-800) 100%)",
+      "$description": "Used in: Marketing button hover (2 layers)",
+      "$extensions": {
+        "offPalette": [
+          "#1641ae"
+        ]
+      }
+    },
+    "highlight": {
+      "$type": "gradient",
+      "$value": "linear-gradient(90deg, var(--color-cyan-400) 0%, var(--color-purple-400) 100%)",
+      "$description": "Used in: VIP stat values, as gradient text (4 layers)",
+      "$extensions": {
+        "offPalette": []
+      }
+    },
+    "dark-hero": {
+      "$type": "gradient",
+      "$value": "linear-gradient(135deg, var(--color-gray-950) 0%, #022177 100%)",
+      "$description": "Used in: Dark hero background, VIP hero (2 layers)",
+      "$extensions": {
+        "offPalette": [
+          "#022177"
+        ]
+      }
+    }
+  }
+}

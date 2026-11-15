@@ -1,0 +1,121 @@
+{
+  "shadow": {
+    "xs": {
+      "$type": "shadow",
+      "$value": "0 1px 2px 0 rgb(24 39 75 / 0.12)",
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Shadow/xs"
+        }
+      }
+    },
+    "sm": {
+      "$type": "shadow",
+      "$value": "0 1px 4px 0 rgb(24 39 75 / 0.2)",
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Shadow/sm"
+        }
+      }
+    },
+    "md": {
+      "$type": "shadow",
+      "$value": "0 8px 16px -6px rgb(24 39 75 / 0.14), 0 6px 8px -6px rgb(24 39 75 / 0.2)",
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Shadow/md"
+        }
+      }
+    },
+    "lg": {
+      "$type": "shadow",
+      "$value": "0 4px 8px -2px rgb(24 39 75 / 0.1), 0 12px 24px -6px rgb(24 39 75 / 0.14)",
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Shadow/lg"
+        }
+      }
+    },
+    "xl": {
+      "$type": "shadow",
+      "$value": "0 8px 12px -4px rgb(24 39 75 / 0.1), 0 20px 32px -8px rgb(24 39 75 / 0.16)",
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Shadow/xl"
+        }
+      }
+    },
+    "focus-ring": {
+      "$type": "shadow",
+      "$value": "0 0 0 2px var(--focus-offset), 0 0 0 4px var(--focus-ring)",
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Focus ring/Brand"
+        }
+      }
+    },
+    "focus-ring-error": {
+      "$type": "shadow",
+      "$value": "0 0 0 2px var(--focus-offset), 0 0 0 4px var(--focus-ring-error)",
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Focus ring/Error"
+        }
+      }
+    },
+    "focus-halo": {
+      "$type": "shadow",
+      "$value": "0 0 0 2px var(--focus-halo)",
+      "$description": "Active/typing state for inputs, selects, chips: pair with a 1px border/brand stroke.",
+      "$extensions": {
+        "figma": {
+          "style": "Focus halo/Brand"
+        }
+      }
+    },
+    "focus-halo-error": {
+      "$type": "shadow",
+      "$value": "0 0 0 2px var(--focus-halo-error)",
+      "$description": "Error active state: pair with a 1px border/error stroke.",
+      "$extensions": {
+        "figma": {
+          "style": "Focus halo/Error"
+        }
+      }
+    },
+    "glow-dark-card": {
+      "$type": "shadow",
+      "$value": "0 0 32px 0 color-mix(in srgb, var(--color-cyan-500) 35%, transparent)",
+      "$description": "",
+      "$extensions": {
+        "figma": {
+          "style": "Glow/Dark card"
+        }
+      }
+    },
+    "divider-bottom": {
+      "$type": "shadow",
+      "$value": "0 1px 0 0 var(--color-gray-400)",
+      "$description": "1px hairline under top bars and sticky headers.",
+      "$extensions": {
+        "figma": {
+          "style": "Divider/Bottom hairline"
+        }
+      }
+    }
+  },
+  "blur": {
+    "locked-content": {
+      "$type": "dimension",
+      "$value": "4px",
+      "$description": "Figma \"Blur/Locked content\": 8px layer blur. Use with filter: blur()."
+    }
+  }
+}

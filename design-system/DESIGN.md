@@ -5,14 +5,15 @@ This file is the harness. Paste it, or link it, into `CLAUDE.md`, `.cursorrules`
 ## Source of truth
 
 - Design lives in the Figma file **Design system Scalenut**.
-- Code is generated from it: `design-system/dist/css/colors.css`.
+- Code is generated from it: `design-system/dist/css/scalenut.css` (all foundations), plus `dist/icons/` and `dist/logos/`.
 - Docs: the Storybook site built from this folder.
 - If Figma and code disagree, **Figma wins**. Re-sync rather than patching the CSS.
 
 ## Load the tokens
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Letsdesign04/AB_Experiment-@main/design-system/dist/css/colors.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Letsdesign04/AB_Experiment-@main/design-system/dist/css/scalenut.css" />
 ```
 
 ## Colour rules (MUST)
@@ -39,6 +40,53 @@ This file is the harness. Paste it, or link it, into `CLAUDE.md`, `.cursorrules`
 - Never rely on colour alone. Pair error, success and warning colours with an icon or text.
 - Every interactive element shows a visible `:focus-visible` state.
 
+## Typography rules (MUST)
+
+1. Inter only. Load it from Google Fonts or self-host it; the fallback is `system-ui, -apple-system, 'Segoe UI', sans-serif`.
+2. Style text with a **text-style class**: `.display-{2xl|xl|lg|md|sm|xs}-{regular|medium|semibold|bold}`, `.text-{xl|lg|md|sm|xs}-{regular|medium|semibold|bold}`, `.overline-semibold`, `.numeric-{score|stat|table}`, `.editor-{h1…h6|paragraph|meta-field}`. If a class can't be used, use the `--font-*` variables. Never type a font size, weight, line height or letter spacing.
+3. `.text-sm-regular` is the default app text. Buttons and CTAs are always Medium. Dropdown and menu items are always Regular. Semibold for titles and headers, one per card or section. Bold only for editor H1 and marketing emphasis.
+4. Nothing in the UI is smaller than 12px (`text-xs`).
+5. `editor-*` classes are for article content inside the editor only, never for UI.
+6. `numeric-*` classes for scores, stats and numbers in tables (tabular figures).
+7. Set text colour separately with a `--text-*` token.
+
+## Spacing, size and radius rules (MUST)
+
+1. Padding, margin and gap use `--spacing-*` (`none` 0, `xxs` 2, `xs` 4, `sm` 6, `md` 8, `lg` 12, `xl` 16, `2xl` 20, `3xl` 24, `4xl` 32, `5xl` 40, `6xl` 48, `7xl` 64, `8xl` 80, `9xl` 96, then `10xl`–`14xl` 128–256 for page sections and marketing only).
+2. Control heights use `--size-control-{sm|md|lg|xl}` (32/36/40/48). `md` is the app default.
+3. Every click target is at least `--size-target-min` (24px), or has 24px of free space around it. Touch targets on mobile use `--size-target-touch` (44px).
+4. Corners use `--radius-*`: `xs` (4px) for buttons, inputs, cards and tags; `none` for tables and dividers; `sm` for filter pills only; `md` for modals and media cards; `full` for pills, avatars and toggles; `xl` for marketing only. `lg` is not used in the app.
+5. Borders use `--border-width-{default|strong|focus}`.
+6. Page content sits in a container capped with `--size-container-*` and centred.
+7. Page layouts use `.layout-grid` (4 → 8 → 12 columns at 768 and 1280px). Inside cards and sections use `.grid-cols-{2|3|4|6|12}` and `.col-span-{1…12}`.
+
+## Effect rules (MUST)
+
+1. Elevation uses `--shadow-{xs|sm|md|lg|xl}`: xs for inputs and secondary buttons, sm for cards and table containers, md for dropdowns and select menus, lg for popovers and the floating score bar, xl for modals. Never write a custom box-shadow.
+2. Keyboard focus on every interactive control: `box-shadow: var(--shadow-focus-ring)` on `:focus-visible` (`--shadow-focus-ring-error` for controls in an error state). If a component already has a shadow, list both.
+3. Inputs, selects and chips while active/typing: 1px `--border-brand` + `--shadow-focus-halo` (`--border-error` + `--shadow-focus-halo-error` in error).
+4. `--shadow-glow-dark-card` only on VIP dark-surface cards. `--shadow-divider-bottom` only under top bars and sticky headers.
+5. `filter: blur(var(--blur-locked-content))` only on locked upsell cards, always with an overlay CTA. Don't render real data behind the blur.
+
+## Gradient rules (MUST)
+
+1. Use only `--gradient-{brand|premium|premium-hover|highlight|dark-hero}`. Never write a custom gradient.
+2. No text on `--gradient-brand` (its cyan end fails contrast with white). White text is fine on `premium`, `premium-hover` and `dark-hero`.
+3. `--gradient-highlight` is for gradient text on dark surfaces (`.gradient-text`), not for backgrounds behind text.
+
+## Icon rules (MUST)
+
+1. Use icons from `dist/icons/` (inline SVG or the sprite). Never draw an icon or pull one from another set. If one is missing, add it in Figma first.
+2. Add the `.icon` class. Size with `.icon--{xs|sm|md|lg}` (12/16/20/24). Colour with `.icon--{secondary|brand|on-brand|disabled|error|success|warning|ai}` or `.icon--inherit`.
+3. Decorative icons get `aria-hidden="true"`. Icon-only buttons need `aria-label`, and a click area of at least 24×24.
+
+## Logo rules (MUST)
+
+1. Use the files in `dist/logos/`: `scalenut-logo.svg` on white and light grey, `scalenut-logo-on-dark.svg` on navy, `scalenut-mark.svg` for the mark alone, `scalenut-favicon.svg` for the favicon.
+2. Keep clear space equal to the mark height on every side.
+3. Never recolour, stretch, rotate, rebuild with live text, or add effects to the logo.
+4. Third-party logos (AI engines, customers, press) are not in this package. Take them from each brand's press kit, and only show a company as a customer or press outlet if that's true.
+
 ## Coming next
 
-Typography, spacing, radius, effects and components will be added to this file as they ship. Until then, use Inter and the 4px spacing scale from Figma.
+Components, starting with Button.
