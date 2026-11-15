@@ -1,0 +1,79 @@
+{
+  "_source": "Figma file 'Design system Scalenut', page '↳ Buttons', component set 'Button' (10:24511), 168 variants. Values are the variables and styles bound in Figma.",
+  "_exported": "2026-11-15",
+  "name": "Button",
+  "description": "The one button component for Scalenut.",
+  "defaults": { "size": "md", "hierarchy": "Primary" },
+  "anatomy": {
+    "radius": "radius/xs",
+    "label": { "maxWidthPx": 240, "wrap": false },
+    "icons": { "leading": "Icon/plus", "trailing": "Icon/arrow-right", "spinner": "Icon/loading-four" }
+  },
+  "sizes": {
+    "sm": { "height": "size/control/sm", "paddingX": "spacing/lg", "gap": "spacing/sm", "textStyle": "Text sm/Medium", "icon": "size/icon/sm" },
+    "md": { "height": "size/control/md", "paddingX": "spacing/lg", "gap": "spacing/md", "textStyle": "Text sm/Medium", "icon": "size/icon/md" },
+    "lg": { "height": "size/control/lg", "paddingX": "spacing/lg", "gap": "spacing/md", "textStyle": "Text md/Medium", "icon": "size/icon/md" },
+    "xl": { "height": "size/control/xl", "paddingX": "spacing/2xl", "gap": "spacing/lg", "textStyle": "Text md/Medium", "icon": "size/icon/lg" }
+  },
+  "sizeOverrides": {
+    "Link": { "sm": { "paddingX": "spacing/xxs" } }
+  },
+  "hierarchies": {
+    "Primary": {
+      "Default":  { "fill": "bg/brand",         "text": "text/on-brand" },
+      "Hover":    { "fill": "bg/brand-hover",   "text": "text/on-brand" },
+      "Pressed":  { "fill": "bg/brand-pressed", "text": "text/on-brand" },
+      "Focus":    { "fill": "bg/brand",         "text": "text/on-brand", "effect": "Focus ring/Brand" },
+      "Disabled": { "fill": "bg/disabled", "border": "border/disabled", "text": "text/disabled" }
+    },
+    "Secondary": {
+      "Default":  { "fill": "bg/primary", "border": "bg/brand-soft", "text": "text/brand", "effect": "Shadow/xs" },
+      "Hover":    { "fill": "bg/brand",       "text": "text/on-brand", "effect": "Shadow/xs" },
+      "Pressed":  { "fill": "bg/brand-hover", "text": "text/on-brand", "effect": "Shadow/xs" },
+      "Focus":    { "fill": "bg/primary", "border": "bg/brand-soft", "text": "text/brand", "effect": "Focus ring/Brand" },
+      "Disabled": { "fill": "bg/primary", "border": "border/disabled", "text": "text/disabled" }
+    },
+    "Soft": {
+      "Default":  { "fill": "bg/brand-soft",         "text": "text/brand" },
+      "Hover":    { "fill": "bg/brand-soft-hover",   "text": "text/brand-hover" },
+      "Pressed":  { "fill": "bg/brand-soft-pressed", "text": "text/brand-pressed" },
+      "Focus":    { "fill": "bg/brand-soft",         "text": "text/brand", "effect": "Focus ring/Brand" },
+      "Disabled": { "fill": "bg/disabled",           "text": "text/disabled" }
+    },
+    "Tertiary": {
+      "Default":  { "fill": null,          "text": "text/secondary" },
+      "Hover":    { "fill": "bg/tertiary", "text": "text/primary" },
+      "Pressed":  { "fill": "bg/hover",    "text": "text/brand" },
+      "Focus":    { "fill": "bg/primary",  "text": "text/secondary", "effect": "Focus ring/Brand" },
+      "Disabled": { "fill": null,          "text": "text/disabled" }
+    },
+    "Link": {
+      "Default":  { "fill": null,         "text": "text/brand" },
+      "Hover":    { "fill": null,         "text": "text/brand-hover",   "underline": true },
+      "Pressed":  { "fill": null,         "text": "text/brand-pressed", "underline": true },
+      "Focus":    { "fill": "bg/primary", "text": "text/brand", "effect": "Focus ring/Brand" },
+      "Disabled": { "fill": null,         "text": "text/disabled" }
+    },
+    "Destructive": {
+      "Default":  { "fill": "bg/error",         "text": "text/on-brand" },
+      "Hover":    { "fill": "bg/error-hover",   "text": "text/on-brand" },
+      "Pressed":  { "fill": "bg/error-pressed", "text": "text/on-brand" },
+      "Focus":    { "fill": "bg/error",         "text": "text/on-brand", "effect": "Focus ring/Error" },
+      "Disabled": { "fill": "bg/disabled", "border": "border/disabled", "text": "text/disabled" }
+    },
+    "Destructive secondary": {
+      "Default":  { "fill": "bg/primary",  "border": "border/error", "text": "text/error", "effect": "Shadow/xs" },
+      "Hover":    { "fill": "bg/error-soft", "border": "border/error", "text": "text/error", "effect": "Shadow/xs" },
+      "Pressed":  { "fill": "bg/error-soft", "border": "border/error", "text": "text/error", "effect": "Shadow/xs" },
+      "Focus":    { "fill": "bg/primary",  "border": "border/error", "text": "text/error", "effect": "Focus ring/Error" },
+      "Disabled": { "fill": "bg/primary",  "border": "border/disabled", "text": "text/disabled" }
+    }
+  },
+  "loading": "Same colours as Default. The spinner replaces the leading icon; width doesn't change.",
+  "notesFromFigma": {
+    "linkUnderline": "Figma notes say Link hover and pressed add an underline (WCAG 1.4.1), but the Hover and Pressed variants have no underline. Code follows the note.",
+    "secondaryBorder": "Secondary uses the background token bg/brand-soft for its border. Code ships it as-is; consider a border token in Figma.",
+    "linkSmPadding": "Link sm uses spacing/xxs (2px) side padding; every other Link size uses the normal scale.",
+    "destructiveSecondaryBorder": "Notes quote the Destructive secondary border as red-600 (5.5:1); the variable bound is border/error (red-700)."
+  }
+}

@@ -131,3 +131,8 @@ div.sb-unstyled, table.sb-unstyled { font-family: var(--font-family-sans); color
 div.sb-unstyled code, table.sb-unstyled code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; }
 div.sb-unstyled strong, table.sb-unstyled strong { font-weight: 600; }
 div.sb-unstyled a { color: var(--text-brand); }
+
+/* ── Components ──────────────────────────────────────────────────── */
+.ds-matrix { border-collapse: separate; border-spacing: 0; font-size: 12px; }
+.ds-matrix th { font-weight: 600; color: var(--text-secondary); padding: 8px 12px; white-space: nowrap; }
+.ds-matrix td { padding: 10px 12px; border-top: 1px solid var(--border-subtle); }

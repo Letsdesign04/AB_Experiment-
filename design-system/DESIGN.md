@@ -87,6 +87,18 @@ This file is the harness. Paste it, or link it, into `CLAUDE.md`, `.cursorrules`
 3. Never recolour, stretch, rotate, rebuild with live text, or add effects to the logo.
 4. Third-party logos (AI engines, customers, press) are not in this package. Take them from each brand's press kit, and only show a company as a customer or press outlet if that's true.
 
+## Component: Button (MUST)
+
+1. Every button is `<button type="button|submit" class="btn btn--{hierarchy} btn--{size}">`. Never style a `<div>` or `<span>` as a button, and never write custom button CSS.
+2. Hierarchy: `primary` (the one main action, **one per screen**), `secondary` (the other choice next to a Primary), `soft` (small helpers inside content), `tertiary` (quiet toolbar and table-row actions), `link` (Back, Skip, View more; use `<a class="btn btn--link">` when it navigates), `destructive` / `destructive-secondary` (Delete, Remove, End trial; always confirm in a modal).
+3. Size: `sm` 32 · `md` 36 (app default) · `lg` 40 · `xl` 48.
+4. Label in `<span class="btn__label">`, one line, never empty. For icon-only actions use Icon button (coming next), not Button.
+5. Icons: `<svg class="btn__icon btn__icon--leading|--trailing" aria-hidden="true">` with an icon from `dist/icons/`.
+6. Pairs: Secondary on the left, Primary on the right, `gap: var(--spacing-lg)`.
+7. Disabled: `aria-disabled="true"` (not the `disabled` attribute), a reason shown next to it, and the click handler ignores clicks. Prefer keeping the button on and showing a field error.
+8. Loading: put `<svg class="btn__spinner" aria-hidden="true">` (icon `loading-four`) first, set `aria-busy="true"`, ignore further clicks, and announce progress in a polite live region.
+9. Full width: add `.btn--block`.
+
 ## Coming next
 
-Components, starting with Button.
+Icon button, Button social and Button marketing.

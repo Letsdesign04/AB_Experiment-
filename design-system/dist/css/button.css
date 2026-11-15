@@ -1,0 +1,428 @@
+/**
+ * Button. Generated from Figma, do not edit by hand.
+ * Source: tokens/figma-export/components/button.json → npm run build
+ * Figma: '↳ Buttons' › Button (7 hierarchies × 4 sizes × 6 states)
+ *
+ * <button type="button" class="btn btn--primary btn--md">
+ *   <svg class="btn__icon" aria-hidden="true">…</svg>
+ *   <span class="btn__label">Generate</span>
+ * </button>
+ *
+ * Disabled: aria-disabled="true" (keeps it focusable so the reason can be read).
+ * Loading:  aria-busy="true" plus a .btn__spinner as the first child.
+ */
+
+.btn {
+  box-sizing: border-box;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--btn-gap, var(--spacing-md));
+  height: var(--btn-height, var(--size-control-md));
+  padding: 0 var(--btn-padding-x, var(--spacing-lg));
+  margin: 0;
+  border: 0;
+  border-radius: var(--radius-xs);
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  /* Figma strokes sit inside the box, so the border is an inset shadow: no layout shift between variants. */
+  box-shadow: inset 0 0 0 var(--border-width-default) var(--btn-border, transparent), var(--btn-ring, 0 0 #0000), var(--btn-effect, 0 0 #0000);
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--btn-font-size, var(--font-size-text-sm));
+  line-height: var(--btn-line-height, var(--font-line-height-text-sm));
+  letter-spacing: var(--font-letter-spacing-normal);
+  text-decoration: var(--btn-decoration, none);
+  text-underline-offset: 2px;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 120ms ease, color 120ms ease, box-shadow 120ms ease;
+}
+
+.btn:focus-visible {
+  outline: none;
+}
+
+/* Sizes */
+.btn--sm {
+  --btn-height: var(--size-control-sm);
+  --btn-padding-x: var(--spacing-lg);
+  --btn-gap: var(--spacing-sm);
+  --btn-icon: var(--size-icon-sm);
+  --btn-font-size: var(--font-size-text-sm);
+  --btn-line-height: var(--font-line-height-text-sm);
+}
+.btn--md {
+  --btn-height: var(--size-control-md);
+  --btn-padding-x: var(--spacing-lg);
+  --btn-gap: var(--spacing-md);
+  --btn-icon: var(--size-icon-md);
+  --btn-font-size: var(--font-size-text-sm);
+  --btn-line-height: var(--font-line-height-text-sm);
+}
+.btn--lg {
+  --btn-height: var(--size-control-lg);
+  --btn-padding-x: var(--spacing-lg);
+  --btn-gap: var(--spacing-md);
+  --btn-icon: var(--size-icon-md);
+  --btn-font-size: var(--font-size-text-md);
+  --btn-line-height: var(--font-line-height-text-md);
+}
+.btn--xl {
+  --btn-height: var(--size-control-xl);
+  --btn-padding-x: var(--spacing-2xl);
+  --btn-gap: var(--spacing-lg);
+  --btn-icon: var(--size-icon-lg);
+  --btn-font-size: var(--font-size-text-md);
+  --btn-line-height: var(--font-line-height-text-md);
+}
+
+/* Primary */
+.btn,
+.btn--primary {
+  --btn-bg: var(--bg-brand);
+  --btn-fg: var(--text-on-brand);
+  --btn-border: transparent;
+  --btn-effect: 0 0 #0000;
+  --btn-decoration: none;
+}
+.btn:focus-visible,
+.btn[data-state="focus"],
+.btn--primary:focus-visible,
+.btn--primary[data-state="focus"] {
+  --btn-bg: var(--bg-brand);
+  --btn-fg: var(--text-on-brand);
+  --btn-border: transparent;
+  --btn-ring: var(--shadow-focus-ring);
+  --btn-effect: 0 0 #0000;
+}
+.btn:hover:not(:disabled):not([aria-disabled="true"]):not([aria-busy="true"]),
+.btn[data-state="hover"],
+.btn--primary:hover:not(:disabled):not([aria-disabled="true"]):not([aria-busy="true"]),
+.btn--primary[data-state="hover"] {
+  --btn-bg: var(--bg-brand-hover);
+  --btn-fg: var(--text-on-brand);
+  --btn-border: transparent;
+  --btn-effect: 0 0 #0000;
+  --btn-decoration: none;
+}
+.btn:active:not(:disabled):not([aria-disabled="true"]):not([aria-busy="true"]),
+.btn[data-state="pressed"],
+.btn--primary:active:not(:disabled):not([aria-disabled="true"]):not([aria-busy="true"]),
+.btn--primary[data-state="pressed"] {
+  --btn-bg: var(--bg-brand-pressed);
+  --btn-fg: var(--text-on-brand);
+  --btn-border: transparent;
+  --btn-effect: 0 0 #0000;
+  --btn-decoration: none;
+}
+.btn:disabled,
+.btn[aria-disabled="true"],
+.btn[data-state="disabled"],
+.btn--primary:disabled,
+.btn--primary[aria-disabled="true"],
+.btn--primary[data-state="disabled"] {
+  --btn-bg: var(--bg-disabled);
+  --btn-fg: var(--text-disabled);
+  --btn-border: var(--border-disabled);
+  --btn-effect: 0 0 #0000;
+  --btn-decoration: none;
+}
+
+/* Secondary */
+.btn--secondary {
+  --btn-bg: var(--bg-primary);
+  --btn-fg: var(--text-brand);
+  --btn-border: var(--bg-brand-soft);
+  --btn-effect: var(--shadow-xs);
+  --btn-decoration: none;
+}
+.btn--secondary:focus-visible,
+.btn--secondary[data-state="focus"] {
+  --btn-bg: var(--bg-primary);
+  --btn-fg: var(--text-brand);
+  --btn-border: var(--bg-brand-soft);
+  --btn-ring: var(--shadow-focus-ring);
+  --btn-effect: 0 0 #0000;
+}
+.btn--secondary:hover:not(:disabled):not([aria-disabled="true"]):not([aria-busy="true"]),
+.btn--secondary[data-state="hover"] {
+  --btn-bg: var(--bg-brand);
+  --btn-fg: var(--text-on-brand);
+  --btn-border: transparent;
+  --btn-effect: var(--shadow-xs);
+  --btn-decoration: none;
+}
+.btn--secondary:active:not(:disabled):not([aria-disabled="true"]):not([aria-busy="true"]),
+.btn--secondary[data-state="pressed"] {
+  --btn-bg: var(--bg-brand-hover);
+  --btn-fg: var(--text-on-brand);
+  --btn-border: transparent;
+  --btn-effect: var(--shadow-xs);
+  --btn-decoration: none;
+}
+.btn--secondary:disabled,
+.btn--secondary[aria-disabled="true"],
+.btn--secondary[data-state="disabled"] {
+  --btn-bg: var(--bg-primary);
+  --btn-fg: var(--text-disabled);
+  --btn-border: var(--border-disabled);
+  --btn-effect: 0 0 #0000;
+  --btn-decoration: none;
+}
+
+/* Soft */
+.btn--soft {
+  --btn-bg: var(--bg-brand-soft);
+  --btn-fg: var(--text-brand);
+  --btn-border: transparent;
+  --btn-effect: 0 0 #0000;
+  --btn-decoration: none;
+}
+.btn--soft:focus-visible,
+.btn--soft[data-state="focus"] {
+  --btn-bg: var(--bg-brand-soft);
+  --btn-fg: var(--text-brand);
+  --btn-border: transparent;
+  --btn-ring: var(--shadow-focus-ring);
+  --btn-effect: 0 0 #0000;
+}
+.btn--soft:hover:not(:disabled):not([aria-disabled="true"]):not([aria-busy="true"]),
+.btn--soft[data-state="hover"] {
+  --btn-bg: var(--bg-brand-soft-hover);
+  --btn-fg: var(--text-brand-hover);
+  --btn-border: transparent;
+  --btn-effect: 0 0 #0000;
+  --btn-decoration: none;
+}
+.btn--soft:active:not(:disabled):not([aria-disabled="true"]):not([aria-busy="true"]),
+.btn--soft[data-state="pressed"] {
+  --btn-bg: var(--bg-brand-soft-pressed);
+  --btn-fg: var(--text-brand-pressed);
+  --btn-border: transparent;
+  --btn-effect: 0 0 #0000;
+  --btn-decoration: none;
+}
+.btn--soft:disabled,
+.btn--soft[aria-disabled="true"],
+.btn--soft[data-state="disabled"] {
+  --btn-bg: var(--bg-disabled);
+  --btn-fg: var(--text-disabled);
+  --btn-border: transparent;
+  --btn-effect: 0 0 #0000;
+  --btn-decoration: none;
+}
+
+/* Tertiary */
+.btn--tertiary {
+  --btn-bg: transparent;
+  --btn-fg: var(--text-secondary);
+  --btn-border: transparent;
+  --btn-effect: 0 0 #0000;
+  --btn-decoration: none;
+}
+.btn--tertiary:focus-visible,
+.btn--tertiary[data-state="focus"] {
+  --btn-bg: var(--bg-primary);
+  --btn-fg: var(--text-secondary);
+  --btn-border: transparent;
+  --btn-ring: var(--shadow-focus-ring);
+  --btn-effect: 0 0 #0000;
+}
+.btn--tertiary:hover:not(:disabled):not([aria-disabled="true"]):not([aria-busy="true"]),
+.btn--tertiary[data-state="hover"] {
+  --btn-bg: var(--bg-tertiary);
+  --btn-fg: var(--text-primary);
+  --btn-border: transparent;
+  --btn-effect: 0 0 #0000;
+  --btn-decoration: none;
+}
+.btn--tertiary:active:not(:disabled):not([aria-disabled="true"]):not([aria-busy="true"]),
+.btn--tertiary[data-state="pressed"] {
+  --btn-bg: var(--bg-hover);
+  --btn-fg: var(--text-brand);
+  --btn-border: transparent;
+  --btn-effect: 0 0 #0000;
+  --btn-decoration: none;
+}
+.btn--tertiary:disabled,
+.btn--tertiary[aria-disabled="true"],
+.btn--tertiary[data-state="disabled"] {
+  --btn-bg: transparent;
+  --btn-fg: var(--text-disabled);
+  --btn-border: transparent;
+  --btn-effect: 0 0 #0000;
+  --btn-decoration: none;
+}
+
+/* Link */
+.btn--link {
+  --btn-bg: transparent;
+  --btn-fg: var(--text-brand);
+  --btn-border: transparent;
+  --btn-effect: 0 0 #0000;
+  --btn-decoration: none;
+}
+.btn--link:focus-visible,
+.btn--link[data-state="focus"] {
+  --btn-bg: var(--bg-primary);
+  --btn-fg: var(--text-brand);
+  --btn-border: transparent;
+  --btn-ring: var(--shadow-focus-ring);
+  --btn-effect: 0 0 #0000;
+}
+.btn--link:hover:not(:disabled):not([aria-disabled="true"]):not([aria-busy="true"]),
+.btn--link[data-state="hover"] {
+  --btn-bg: transparent;
+  --btn-fg: var(--text-brand-hover);
+  --btn-border: transparent;
+  --btn-effect: 0 0 #0000;
+  --btn-decoration: underline;
+}
+.btn--link:active:not(:disabled):not([aria-disabled="true"]):not([aria-busy="true"]),
+.btn--link[data-state="pressed"] {
+  --btn-bg: transparent;
+  --btn-fg: var(--text-brand-pressed);
+  --btn-border: transparent;
+  --btn-effect: 0 0 #0000;
+  --btn-decoration: underline;
+}
+.btn--link:disabled,
+.btn--link[aria-disabled="true"],
+.btn--link[data-state="disabled"] {
+  --btn-bg: transparent;
+  --btn-fg: var(--text-disabled);
+  --btn-border: transparent;
+  --btn-effect: 0 0 #0000;
+  --btn-decoration: none;
+}
+.btn--link.btn--sm {
+  --btn-padding-x: var(--spacing-xxs);
+}
+
+/* Destructive */
+.btn--destructive {
+  --btn-bg: var(--bg-error);
+  --btn-fg: var(--text-on-brand);
+  --btn-border: transparent;
+  --btn-effect: 0 0 #0000;
+  --btn-decoration: none;
+}
+.btn--destructive:focus-visible,
+.btn--destructive[data-state="focus"] {
+  --btn-bg: var(--bg-error);
+  --btn-fg: var(--text-on-brand);
+  --btn-border: transparent;
+  --btn-ring: var(--shadow-focus-ring-error);
+  --btn-effect: 0 0 #0000;
+}
+.btn--destructive:hover:not(:disabled):not([aria-disabled="true"]):not([aria-busy="true"]),
+.btn--destructive[data-state="hover"] {
+  --btn-bg: var(--bg-error-hover);
+  --btn-fg: var(--text-on-brand);
+  --btn-border: transparent;
+  --btn-effect: 0 0 #0000;
+  --btn-decoration: none;
+}
+.btn--destructive:active:not(:disabled):not([aria-disabled="true"]):not([aria-busy="true"]),
+.btn--destructive[data-state="pressed"] {
+  --btn-bg: var(--bg-error-pressed);
+  --btn-fg: var(--text-on-brand);
+  --btn-border: transparent;
+  --btn-effect: 0 0 #0000;
+  --btn-decoration: none;
+}
+.btn--destructive:disabled,
+.btn--destructive[aria-disabled="true"],
+.btn--destructive[data-state="disabled"] {
+  --btn-bg: var(--bg-disabled);
+  --btn-fg: var(--text-disabled);
+  --btn-border: var(--border-disabled);
+  --btn-effect: 0 0 #0000;
+  --btn-decoration: none;
+}
+
+/* Destructive secondary */
+.btn--destructive-secondary {
+  --btn-bg: var(--bg-primary);
+  --btn-fg: var(--text-error);
+  --btn-border: var(--border-error);
+  --btn-effect: var(--shadow-xs);
+  --btn-decoration: none;
+}
+.btn--destructive-secondary:focus-visible,
+.btn--destructive-secondary[data-state="focus"] {
+  --btn-bg: var(--bg-primary);
+  --btn-fg: var(--text-error);
+  --btn-border: var(--border-error);
+  --btn-ring: var(--shadow-focus-ring-error);
+  --btn-effect: 0 0 #0000;
+}
+.btn--destructive-secondary:hover:not(:disabled):not([aria-disabled="true"]):not([aria-busy="true"]),
+.btn--destructive-secondary[data-state="hover"] {
+  --btn-bg: var(--bg-error-soft);
+  --btn-fg: var(--text-error);
+  --btn-border: var(--border-error);
+  --btn-effect: var(--shadow-xs);
+  --btn-decoration: none;
+}
+.btn--destructive-secondary:active:not(:disabled):not([aria-disabled="true"]):not([aria-busy="true"]),
+.btn--destructive-secondary[data-state="pressed"] {
+  --btn-bg: var(--bg-error-soft);
+  --btn-fg: var(--text-error);
+  --btn-border: var(--border-error);
+  --btn-effect: var(--shadow-xs);
+  --btn-decoration: none;
+}
+.btn--destructive-secondary:disabled,
+.btn--destructive-secondary[aria-disabled="true"],
+.btn--destructive-secondary[data-state="disabled"] {
+  --btn-bg: var(--bg-primary);
+  --btn-fg: var(--text-disabled);
+  --btn-border: var(--border-disabled);
+  --btn-effect: 0 0 #0000;
+  --btn-decoration: none;
+}
+
+/* Parts */
+.btn__label {
+  max-width: 240px; /* labels never wrap: cut at 240px, show the full label in a tooltip */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.btn__icon,
+.btn__spinner {
+  flex-shrink: 0;
+  width: var(--btn-icon, var(--size-icon-md));
+  height: var(--btn-icon, var(--size-icon-md));
+  fill: currentColor;
+}
+.btn__spinner { display: none; }
+
+/* Loading: the spinner takes the place of the leading icon. Same colours as Default, no hover, no double clicks. */
+.btn[aria-busy="true"] { cursor: progress; }
+.btn[aria-busy="true"] .btn__spinner {
+  display: block;
+  animation: btn-spin 0.8s linear infinite;
+}
+.btn[aria-busy="true"] .btn__spinner ~ .btn__icon--leading { display: none; }
+@keyframes btn-spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) {
+  .btn[aria-busy="true"] .btn__spinner { animation-duration: 2.4s; }
+  .btn { transition: none; }
+}
+
+.btn:disabled,
+.btn[aria-disabled="true"] { cursor: not-allowed; }
+
+/* Full width (Fill container in Figma): auth forms, mobile. */
+.btn--block { display: flex; width: 100%; }
+
+/* Windows high contrast: keep the button outline visible. */
+@media (forced-colors: active) {
+  .btn { border: 1px solid ButtonText; }
+  .btn:focus-visible { outline: 2px solid Highlight; outline-offset: 2px; }
+}
